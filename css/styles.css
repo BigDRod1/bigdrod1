@@ -1,0 +1,1167 @@
+/* --------------------------------------------------------------------------
+   Theme — warm editorial: brown-black base, caramel accent, soft sepia light.
+   Still minimal — no neon; richness comes from umber / bronze undertones.
+   -------------------------------------------------------------------------- */
+:root {
+  /* Brown-black surfaces (coffee / walnut, not blue-gray) */
+  --bg-deep: #0f0d0a;
+  --bg-raised: #1a1611;
+  --bg-card: rgba(210, 185, 150, 0.05);
+  --border-subtle: rgba(218, 198, 175, 0.1);
+  --border-strong: rgba(224, 205, 180, 0.17);
+
+  /* Cream-to-tan text stack */
+  --text-primary: #f2ebe3;
+  --text-muted: #b8aa99;
+  --text-faint: #7d7266;
+
+  /* Caramel / light bronze — links, markers, subtle glows */
+  --accent: #c9a86e;
+  --accent-highlight: #dfc59a;
+  --accent-soft: rgba(201, 168, 110, 0.16);
+  --accent-faint: rgba(201, 168, 110, 0.09);
+  --accent-underline: rgba(201, 168, 110, 0.62);
+
+  /* Typography: serif headlines feel editorial; Inter stays invisible in a good way */
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --container: min(1040px, calc(100% - 2.5rem));
+  --header-h: 4.25rem;
+  --radius: 8px;
+  --radius-lg: 12px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Shared motion timings — slow = editorial, not flashy */
+  --anim-rise: 0.85s;
+}
+
+/* Core motion primitives */
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.15rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes header-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.65rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Very slow “breathing” wash behind hero — stays on-brand, not sci-fi */
+@keyframes hero-wash {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    opacity: 0.72;
+    transform: scale(1.12) translate(-2%, 2%);
+  }
+}
+
+@keyframes scroll-nudge {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scaleY(0.88);
+    transform-origin: top;
+  }
+  50% {
+    opacity: 0.75;
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+}
+
+/* About cards only: a touch more travel + faint scale — still calm, not bouncy */
+@keyframes about-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.45rem) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Chips & bullets: quick pop-in after their parent block lands */
+@keyframes chip-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.45rem) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Monogram: barely-there idle motion (distinguished from hover tilt) */
+@keyframes logo-idle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Ensure one-shot entrance animations don’t leave content invisible */
+  .site-header,
+  .hero-bg,
+  .hero-inner > *,
+  .scroll-line {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  html.js main > section.section.is-visible .skill-tags li,
+  html.js main > section.section.is-visible .experience-bullets li {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .section-title::after {
+    opacity: 1 !important;
+    transform: scaleX(1) !important;
+    transition: none !important;
+  }
+
+  html.js .site-footer .footer-inner {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .logo-mark {
+    animation: none !important;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  color: var(--text-primary);
+  background-color: var(--bg-deep);
+  /* Layered sepia washes — top glow + bottom umber pool */
+  background-image: radial-gradient(
+      ellipse 115% 65% at 50% -12%,
+      rgba(201, 168, 110, 0.11),
+      transparent 52%
+    ),
+    radial-gradient(
+      ellipse 70% 45% at 100% 105%,
+      rgba(95, 65, 45, 0.14),
+      transparent 48%
+    );
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*
+ * Default links: obvious without relying on hover — accent + underline.
+ * Opt out on logo, icon buttons, and CTA-style controls (see overrides below).
+ */
+a {
+  color: var(--accent);
+  text-decoration: underline solid;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--accent-underline);
+  text-underline-offset: 0.22em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-highlight);
+  text-decoration-color: var(--accent-highlight);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* New tab / off-site hints — kept out of the underline via no text-decoration on pseudo */
+a[target="_blank"]:not(.btn):not(.logo):not(.footer-top)::after {
+  content: "\00a0↗";
+  font-size: 0.72em;
+  opacity: 0.72;
+  text-decoration: none;
+}
+
+a.logo {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+a.logo:hover {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+a.footer-top {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+a.footer-top:hover {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.container {
+  width: var(--container);
+  margin-inline: auto;
+}
+
+/* --------------------------------------------------------------------------
+   Header — thin bar, little blur; feels like a magazine site
+   -------------------------------------------------------------------------- */
+.site-header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 100;
+  height: var(--header-h);
+  background: rgba(15, 13, 10, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+  animation: header-in 1s var(--ease-out) forwards;
+}
+
+.header-inner {
+  width: var(--container);
+  height: 100%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  border: 1px solid var(--border-strong);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: transparent;
+  transition: transform 0.45s var(--ease-out), border-color 0.25s ease;
+  animation: logo-idle 7s ease-in-out infinite;
+}
+
+.logo:hover .logo-mark {
+  animation: none;
+  transform: rotate(-8deg) scale(1.04);
+  border-color: var(--accent);
+}
+
+.logo-text {
+  opacity: 0.92;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-toggle-bar {
+  display: block;
+  width: 1.25rem;
+  height: 1px;
+  margin-inline: auto;
+  background: var(--text-primary);
+  transition: transform 0.25s var(--ease-out), opacity 0.2s;
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:first-child {
+  transform: translateY(4px) rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-bar:last-child {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem 2rem;
+}
+
+.nav-list a {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Inherits sitewide link color + underline from `a` */
+  transition: color 0.25s ease, text-decoration-color 0.25s ease;
+}
+
+.nav-cta {
+  padding: 0.4rem 0.9rem;
+  border-radius: 2px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary) !important;
+}
+
+.nav-cta:hover {
+  border-color: var(--accent);
+  background: var(--accent-faint);
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: var(--header-h);
+    left: 0;
+    right: 0;
+    padding: 1.25rem 1.5rem 1.5rem;
+    background: rgba(15, 13, 10, 0.97);
+    border-bottom: 1px solid var(--border-subtle);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    pointer-events: none;
+    transition: opacity 0.3s var(--ease-out), transform 0.3s var(--ease-out),
+      visibility 0.3s;
+  }
+
+  .site-nav.is-open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+
+  .nav-list a {
+    display: block;
+    padding: 0.75rem 0.5rem;
+    border-radius: 2px;
+  }
+
+  .nav-list a:hover {
+    background: var(--accent-faint);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Hero — slow ambient motion + staggered copy
+   -------------------------------------------------------------------------- */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--header-h);
+  overflow: clip;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: -15%;
+  background: radial-gradient(
+      circle at 72% 38%,
+      rgba(201, 168, 110, 0.1),
+      transparent 54%
+    ),
+    radial-gradient(
+      circle at 18% 72%,
+      rgba(120, 78, 52, 0.09),
+      transparent 48%
+    );
+  pointer-events: none;
+  will-change: transform, opacity;
+  animation: hero-wash 22s ease-in-out infinite;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  padding-block: 5rem 6rem;
+  max-width: 40rem;
+}
+
+/* Staggered entrance: each direct child fades up after load */
+.hero-inner > * {
+  opacity: 0;
+  animation: fade-rise 1.05s var(--ease-out) forwards;
+}
+
+.hero-inner > *:nth-child(1) {
+  animation-delay: 0.12s;
+}
+
+.hero-inner > *:nth-child(2) {
+  animation-delay: 0.26s;
+}
+
+.hero-inner > *:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.hero-inner > *:nth-child(4) {
+  animation-delay: 0.52s;
+}
+
+.hero-eyebrow {
+  margin: 0 0 1rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.hero-title {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(3.25rem, 8vw, 5rem);
+  font-weight: 500;
+  line-height: 1.05;
+  /* Hint of warm ivory so the name picks up the brown ambience */
+  color: #faf3ea;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hero-tagline {
+  max-width: 36rem;
+  margin: 0 0 2.25rem;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.25s var(--ease-out), border-color 0.25s,
+    color 0.25s, transform 0.25s var(--ease-out), box-shadow 0.25s ease;
+}
+
+.btn:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Light button on dark: confident, not flashy */
+.btn-primary {
+  background: var(--accent-highlight);
+  color: var(--bg-deep);
+  border-color: var(--accent-highlight);
+}
+
+.btn-primary:hover {
+  background: #f0e5d4;
+  border-color: #f0e5d4;
+  box-shadow: 0 10px 36px rgba(40, 28, 18, 0.45);
+}
+
+.btn-ghost {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  border-color: var(--accent);
+  background: var(--accent-faint);
+  color: var(--text-primary);
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.scroll-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    var(--accent),
+    transparent
+  );
+  opacity: 0.55;
+  animation: scroll-nudge 3s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@media (max-width: 768px) {
+  .scroll-hint {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Sections
+   -------------------------------------------------------------------------- */
+.section {
+  padding-block: 6rem;
+}
+
+.section-alt {
+  background: linear-gradient(
+    185deg,
+    rgba(201, 168, 110, 0.07) 0%,
+    rgba(55, 42, 32, 0.25) 42%,
+    rgba(201, 168, 110, 0.05) 100%
+  );
+  border-block: 1px solid var(--border-subtle);
+}
+
+.section-title {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+}
+
+/* Accent rule grows in once the section is revealed (see scroll-reveal + .is-visible) */
+.section-title::after {
+  content: "";
+  display: block;
+  width: 3.25rem;
+  height: 2px;
+  margin-top: 0.65rem;
+  border-radius: 1px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-highlight), transparent);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: opacity 0.55s var(--ease-out), transform 0.75s var(--ease-out);
+}
+
+.cta-inner .section-title::after {
+  margin-left: auto;
+  margin-right: auto;
+  transform-origin: center;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--accent-highlight), transparent);
+}
+
+.section-lead {
+  max-width: 38rem;
+  margin: 0 0 2.75rem;
+  color: var(--text-muted);
+  font-size: 1.0625rem;
+}
+
+.experience-list-tight {
+  margin-bottom: 0.75rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* Bethel + USI + athletics: one row of three on wide screens */
+@media (min-width: 900px) {
+  .about-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+/* About only: ~10% roomier cards (padding + type) while section width matches the rest of the site */
+#about .about-grid {
+  gap: 1.65rem;
+}
+
+@media (min-width: 900px) {
+  #about .about-grid {
+    gap: 1.925rem;
+  }
+}
+
+#about .about-card {
+  padding: 2.2rem 2.475rem;
+  border-radius: calc(var(--radius-lg) * 1.1);
+}
+
+#about .about-card h3 {
+  font-size: 0.825rem;
+}
+
+#about .about-card p {
+  font-size: calc(0.9875rem * 1.1);
+}
+
+/* Strengths: 2×2 grid on wide screens (reuses .about-card look) */
+.strengths-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .strengths-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+.about-card {
+  padding: 2rem 2.25rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  /* Slightly longer hover so the lift feels relaxed, not snappy */
+  transition: border-color 0.35s ease, transform 0.45s var(--ease-out),
+    box-shadow 0.45s ease;
+}
+
+.about-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+.about-card h3 {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.about-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9875rem;
+  line-height: 1.7;
+}
+
+/* Emphasized phrases in running copy (matches “important” in sentence case source) */
+main strong {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Small skill / topic chips under card copy (About, Strengths, experience blocks) */
+.skill-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.15rem 0 0;
+  padding: 0;
+}
+
+.skill-tags li {
+  padding: 0.3rem 0.65rem;
+  border-radius: 2px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  transition: border-color 0.25s ease, color 0.25s ease, transform 0.25s var(--ease-out),
+    box-shadow 0.25s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.skill-tags li:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item .skill-tags {
+  margin-top: 1.25rem;
+}
+
+/* Slightly larger tags inside the scaled About cards */
+#about .about-card .skill-tags li {
+  font-size: 0.825rem;
+}
+
+.experience-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-item {
+  margin: 0;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  transition: border-color 0.35s var(--ease-out), transform 0.35s var(--ease-out),
+    box-shadow 0.35s ease;
+}
+
+.experience-item:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-3px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.28);
+}
+
+.experience-meta h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.experience-role {
+  margin: 0 0 0.35rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.experience-dates {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.experience-dates a {
+  font-weight: 500;
+}
+
+.experience-bullets {
+  margin: 1.25rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--text-muted);
+  font-size: 0.9875rem;
+}
+
+.experience-bullets li {
+  margin: 0.45rem 0;
+}
+
+.experience-bullets li::marker {
+  color: var(--accent);
+}
+
+.section-cta {
+  padding-block: 7rem;
+  background: radial-gradient(
+    ellipse 85% 70% at 50% 110%,
+    rgba(160, 105, 68, 0.12),
+    transparent 58%
+  );
+}
+
+.cta-inner {
+  text-align: center;
+}
+
+.cta-inner .section-title,
+.cta-text {
+  margin-inline: auto;
+}
+
+.cta-text {
+  margin-bottom: 2.25rem;
+}
+
+.contact-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.contact-pill {
+  display: inline-flex;
+  padding: 0.65rem 1.25rem;
+  border-radius: 2px;
+  border: 1px solid var(--border-strong);
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: transparent;
+  /* Pill + underline — reads clearly as a link */
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.35em;
+  transition: border-color 0.25s ease, background 0.25s ease,
+    transform 0.25s var(--ease-out), color 0.25s ease,
+    text-decoration-color 0.25s ease;
+}
+
+.contact-pill:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+}
+
+.site-footer {
+  padding-block: 2.25rem;
+  border-top: 1px solid var(--border-subtle);
+  color: var(--text-faint);
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-inner p {
+  margin: 0;
+}
+
+.site-footer a {
+  text-transform: uppercase;
+}
+
+.footer-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2px;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: border-color 0.25s ease, color 0.25s ease,
+    transform 0.25s var(--ease-out);
+}
+
+.footer-top:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+/* Footer fades up once it enters view (see main.js) */
+html.js .site-footer:not(.is-visible) .footer-inner {
+  opacity: 0;
+  transform: translateY(0.85rem);
+}
+
+html.js .site-footer.is-visible .footer-inner {
+  animation: fade-rise 0.9s var(--ease-out) forwards;
+}
+
+/* --------------------------------------------------------------------------
+   Scroll-triggered section reveals (see main.js: adds .is-visible)
+   -------------------------------------------------------------------------- */
+html.js main > section.section:not(.is-visible) .section-title,
+html.js main > section.section:not(.is-visible) .section-lead,
+html.js main > section.section:not(.is-visible) .about-card,
+html.js main > section.section:not(.is-visible) .experience-item,
+html.js main > section.section:not(.is-visible) .contact-links > li {
+  opacity: 0;
+  transform: translateY(1.1rem);
+}
+
+/* Match the starting pose of @keyframes about-card-in so there’s no snap when the section reveals */
+html.js main > section.section#about:not(.is-visible) .about-card {
+  transform: translateY(1.45rem) scale(0.985);
+}
+
+html.js main > section.section#strengths:not(.is-visible) .about-card {
+  transform: translateY(1.45rem) scale(0.985);
+}
+
+html.js main > section.section.is-visible .section-title {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.06s forwards;
+}
+
+html.js main > section.section.is-visible .section-title::after {
+  opacity: 1;
+  transform: scaleX(1);
+  transition-delay: 0.42s;
+}
+
+html.js main > section.section.is-visible .section-lead {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.12s forwards;
+}
+
+/* About: longer ease, wider stagger — reads as one unhurried sequence */
+html.js main > section.section#about.is-visible .about-grid .about-card:nth-child(1) {
+  animation: about-card-in 1.05s var(--ease-out) 0.12s forwards;
+}
+
+html.js main > section.section#about.is-visible .about-grid .about-card:nth-child(2) {
+  animation: about-card-in 1.05s var(--ease-out) 0.26s forwards;
+}
+
+html.js main > section.section#about.is-visible .about-grid .about-card:nth-child(3) {
+  animation: about-card-in 1.05s var(--ease-out) 0.4s forwards;
+}
+
+html.js main > section.section#strengths.is-visible .strengths-grid .about-card:nth-child(1) {
+  animation: about-card-in 1.05s var(--ease-out) 0.12s forwards;
+}
+
+html.js main > section.section#strengths.is-visible .strengths-grid .about-card:nth-child(2) {
+  animation: about-card-in 1.05s var(--ease-out) 0.22s forwards;
+}
+
+html.js main > section.section#strengths.is-visible .strengths-grid .about-card:nth-child(3) {
+  animation: about-card-in 1.05s var(--ease-out) 0.32s forwards;
+}
+
+html.js main > section.section#strengths.is-visible .strengths-grid .about-card:nth-child(4) {
+  animation: about-card-in 1.05s var(--ease-out) 0.42s forwards;
+}
+
+html.js main > section.section.is-visible .experience-list .experience-item:nth-child(1) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.16s forwards;
+}
+
+html.js main > section.section.is-visible .experience-list .experience-item:nth-child(2) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.22s forwards;
+}
+
+html.js main > section.section.is-visible .experience-list .experience-item:nth-child(3) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.28s forwards;
+}
+
+/* Contact: stagger list items (each pill) */
+html.js main > section.section.is-visible .contact-links > li:nth-child(1) {
+  animation: fade-rise 0.75s var(--ease-out) 0.18s forwards;
+}
+
+html.js main > section.section.is-visible .contact-links > li:nth-child(2) {
+  animation: fade-rise 0.75s var(--ease-out) 0.24s forwards;
+}
+
+html.js main > section.section.is-visible .contact-links > li:nth-child(3) {
+  animation: fade-rise 0.75s var(--ease-out) 0.3s forwards;
+}
+
+html.js main > section.section.is-visible .contact-links > li:nth-child(4) {
+  animation: fade-rise 0.75s var(--ease-out) 0.36s forwards;
+}
+
+/* Skill chips: cascade in after the parent card or experience block */
+html.js main > section.section.is-visible .skill-tags li {
+  animation: chip-in 0.52s var(--ease-out) backwards;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(1) {
+  animation-delay: 0.52s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(2) {
+  animation-delay: 0.59s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(3) {
+  animation-delay: 0.66s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(4) {
+  animation-delay: 0.73s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(6) {
+  animation-delay: 0.87s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(7) {
+  animation-delay: 0.94s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(8) {
+  animation-delay: 1.01s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(9) {
+  animation-delay: 1.08s;
+}
+
+html.js main > section.section.is-visible .skill-tags li:nth-child(10) {
+  animation-delay: 1.15s;
+}
+
+/* Experience bullets: quick stagger per list */
+html.js main > section.section.is-visible .experience-bullets li {
+  animation: chip-in 0.48s var(--ease-out) backwards;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(2) {
+  animation-delay: 0.38s;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(3) {
+  animation-delay: 0.46s;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(4) {
+  animation-delay: 0.54s;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(5) {
+  animation-delay: 0.62s;
+}
+
+html.js main > section.section.is-visible .experience-bullets li:nth-child(6) {
+  animation-delay: 0.7s;
+}
