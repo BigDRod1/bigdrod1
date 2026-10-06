@@ -1,0 +1,14 @@
+{
+  "n_assets": 50,
+  "n_days": 2955,
+  "n_wf_dates": 126,
+  "n_train_dates": 75,
+  "n_test_dates": 51,
+  "is_days": 252,
+  "oos_days": 63,
+  "step_days": 21,
+  "l_ref": 5.0,
+  "formula": "R = downside_std * (1 + N_neg/N_pos) * (1 + L/5)",
+  "null": "Spearman(custom, OOS_risk) <= Spearman(benchmark, OOS_risk)",
+  "alternative": "custom has higher Spearman correlation with OOS risk"
+}
