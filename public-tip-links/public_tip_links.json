@@ -1,0 +1,2406 @@
+{
+  "generated_at": "2026-10-25",
+  "caveat": "Payment handles change; imposters are common. Always verify against the person's official website, verified social bio, or Linktree before sending money. This list aggregates openly published tip links and is not an endorsement.",
+  "apify_status": "Apify MCP Actor runs blocked by monthly usage hard limit (platform-feature-disabled). Collection used Cursor WebSearch/WebFetch of public pages + merge of parallel open-web scrape under public-payment-links/.",
+  "total_rows": 263,
+  "unique_names": 133,
+  "rows_with_usable_handles": 261,
+  "flagged_unverified_or_incomplete": 45,
+  "platform_counts": {
+    "Venmo": 76,
+    "PayPal": 52,
+    "Cash App": 65,
+    "Zelle": 8,
+    "busk.co": 1,
+    "Ko-fi": 14,
+    "Buy Me a Coffee": 10,
+    "Furipay": 32,
+    "Patreon": 4,
+    "Streamlabs": 1
+  },
+  "sources_summary": [
+    "Official musician/creator tip & donate pages",
+    "Jadein Black entertainer tip roster",
+    "Ko-fi and Buy Me a Coffee journalist/creator pages",
+    "Linktree / AllMyLinks bio pages",
+    "Furipay creator directory",
+    "Mutual aid Carrd directories",
+    "Merged parallel scrape: /workspace/public-payment-links/"
+  ],
+  "limitations": [
+    "Apify rag-web-browser / web-fetch / google-search-scraper blocked by usage limit",
+    "X/Twitter and Instagram often require login; bios largely inaccessible",
+    "Many tip pages use QR images without text handles (e.g. Luke Acker tip jar)",
+    "Directory listings (Carrd, Furipay, venue tip pages) are reputable aggregators but still require user verification",
+    "Handles change frequently; secondary-source rows flagged"
+  ],
+  "rows": [
+    {
+      "name": "Django Soulo",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/DjangoSoulo",
+      "source_url": "https://djangosoulo.com/donate",
+      "notes": "Official donate page virtual tip jar",
+      "verification": "self-published"
+    },
+    {
+      "name": "Django Soulo",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/djangosoulo",
+      "source_url": "https://djangosoulo.com/donate",
+      "notes": "Official donate page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kenna Rose",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/KennaRoseMusic",
+      "source_url": "https://www.kennarosemusic.com/tips",
+      "notes": "Official tips page with QR codes",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kenna Rose",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/KennaRoseMusic",
+      "source_url": "https://www.kennarosemusic.com/tips",
+      "notes": "Official tips page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Alex Meixner Band",
+      "category": "Musician / band",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/alexmeixnerband",
+      "source_url": "https://alexmeixner.com/shop/support-the-band/show-your-support/",
+      "notes": "Official band support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Alex Meixner Band",
+      "category": "Musician / band",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/meixnermusic",
+      "source_url": "https://alexmeixner.com/shop/support-the-band/show-your-support/",
+      "notes": "Official band support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Karen Drucker",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/karendrucker",
+      "source_url": "https://www.karendrucker.com/donate/",
+      "notes": "Official donate page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Karen Drucker",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/karen-drucker-3",
+      "source_url": "https://www.karendrucker.com/donate/",
+      "notes": "Official donate page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Seth Freeman",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Seth-Freeman-21",
+      "source_url": "https://sethfreemanmusic.com/tips",
+      "notes": "Official tip jar page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Seth Freeman",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/sethfreemanmusic",
+      "source_url": "https://sethfreemanmusic.com/tips",
+      "notes": "Official tip jar; PayPal handle as listed",
+      "verification": "self-published"
+    },
+    {
+      "name": "Seth Freeman",
+      "category": "Musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$manfreeseth",
+      "source_url": "https://sethfreemanmusic.com/tips",
+      "notes": "Official tip jar page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jason LaPorte",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/jasonlaportemusic",
+      "source_url": "https://www.jasonlaporte.com/support",
+      "notes": "Official support page; Venmo last4 1189 listed",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jason LaPorte",
+      "category": "Musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$jasonlaportemusic",
+      "source_url": "https://www.jasonlaporte.com/support",
+      "notes": "Username listed for Cash App/Venmo/PayPal as @jasonlaportemusic",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jason LaPorte",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/jasonlaportemusic",
+      "source_url": "https://www.jasonlaporte.com/support",
+      "notes": "Username listed on support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jeremy Arndt",
+      "category": "Musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/jeremyarndt",
+      "source_url": "https://www.jeremyarndt.com/donate",
+      "notes": "Listed on official donate page (search snippet; page later 401)",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Jeremy Arndt",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Heavenly3lues",
+      "source_url": "https://www.jeremyarndt.com/donate",
+      "notes": "Listed on official donate page (search snippet)",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Jeremy Arndt",
+      "category": "Musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$Heavenly3lues",
+      "source_url": "https://www.jeremyarndt.com/donate",
+      "notes": "Listed on official donate page (search snippet)",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Gilberto Capistran",
+      "category": "Musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Gilberto-Capistran",
+      "source_url": "https://gilbertocapistrantips.carrd.co/",
+      "notes": "Self Carrd tipping page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Gilberto Capistran",
+      "category": "Musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$alexcap95",
+      "source_url": "https://gilbertocapistrantips.carrd.co/",
+      "notes": "Self Carrd tipping page",
+      "verification": "self-published"
+    },
+    {
+      "name": "DJ Alejandro Conde",
+      "category": "DJ / musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/DJAlejandroConde",
+      "source_url": "https://djalejandroconde.com.ar/donate/",
+      "notes": "Official donate page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Tom Webster",
+      "category": "Comedian / content creator",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Tom-Webster-22",
+      "source_url": "https://tomwebster.com/support-tom/",
+      "notes": "Listed in search/snippet for support page; live page was under construction at fetch time",
+      "verification": "unverified-page-changed"
+    },
+    {
+      "name": "Tom Webster",
+      "category": "Comedian / content creator",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/tomwebster1246",
+      "source_url": "https://tomwebster.com/support-tom/",
+      "notes": "Search snippet; live page under construction at fetch",
+      "verification": "unverified-page-changed"
+    },
+    {
+      "name": "John Sturk",
+      "category": "Magician / musician / comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/johnsturk",
+      "source_url": "https://www.johnsturk.com/tips.html",
+      "notes": "Official tips page; Venmo digits 9219 listed",
+      "verification": "self-published"
+    },
+    {
+      "name": "John Sturk",
+      "category": "Magician / musician / comedian",
+      "platform": "Zelle",
+      "handle_or_url": "via email on tips page",
+      "source_url": "https://www.johnsturk.com/tips.html",
+      "notes": "Zelle email listed on tips page (redacted in fetch)",
+      "verification": "self-published"
+    },
+    {
+      "name": "John Sturk",
+      "category": "Magician / musician / comedian",
+      "platform": "busk.co",
+      "handle_or_url": "https://busk.co/johnsturk/tip",
+      "source_url": "https://www.johnsturk.com/tips.html",
+      "notes": "Apple Pay / card via busk.co",
+      "verification": "self-published"
+    },
+    {
+      "name": "Charli Deter",
+      "category": "Content creator",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/CharliDeter",
+      "source_url": "https://charlideter.com/support",
+      "notes": "Official support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Charli Deter",
+      "category": "Content creator",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$charlideter",
+      "source_url": "https://charlideter.com/support",
+      "notes": "Listed in search snippet; Cash App section may be image-linked",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Natalia Paruz (Saw Lady)",
+      "category": "Street performer / musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/QR displayed at performances (handle not published in NBC article)",
+      "source_url": "https://www.nbcnews.com/business/consumer/street-performers-rely-apps-venmo-cash-fades-rcna223138",
+      "notes": "NBC reports she displays Venmo/PayPal QR codes; exact handle not in article",
+      "verification": "mentioned-no-handle"
+    },
+    {
+      "name": "Chadd Deitz (Wacky Chad)",
+      "category": "Stunt comedian / street performer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/uses digital tipping (handle not in article)",
+      "source_url": "https://www.nbcnews.com/business/consumer/street-performers-rely-apps-venmo-cash-fades-rcna223138",
+      "notes": "NBC interview; no public handle in article",
+      "verification": "mentioned-no-handle"
+    },
+    {
+      "name": "Jadein Black",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/jadeinblack",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Jadein Black",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$jadeinblack",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Jadein Black",
+      "category": "Entertainer / drag",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/JadeinBlack",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Maxi Chanel",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/maxichanel",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Maxi Chanel",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$maxichanel",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Maxi Chanel",
+      "category": "Entertainer / drag",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/Maxi2c",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Natalie Cole",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Nataliecole69",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Natalie Cole",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cole2468",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Anibriated",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$anibriated",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Anibriated",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Michael-Donnelly-84",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Miss Faguette",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/missfaguette",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Miss Faguette",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$alexkfrench",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Miss Faguette",
+      "category": "Entertainer / drag",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/lilykfrench",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Avalisa Davenport",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$avalisaellicott",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Avalisa Davenport",
+      "category": "Entertainer / drag",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/avalisagallo",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "DJ KB",
+      "category": "DJ",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$KyleBPay",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "DJ KB",
+      "category": "DJ",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/DJKBPAY",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "DJ Amber",
+      "category": "DJ",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/AmberShawn",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "DJ Amber",
+      "category": "DJ",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$DariaGoo",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "King Teddy",
+      "category": "Entertainer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$Imtheteddy",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "King Teddy",
+      "category": "Entertainer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Teddy-Aguilar",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Vivian Aphrodisia",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/thebitchviv",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Sabin",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$sabindetroit",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Sabin",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/sabindetroit",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Lana Sevol",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$BeejisLana",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Baddie Brooks",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$vociferousdom",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Baddie Brooks",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/vociferous_dom",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Baddie Brooks",
+      "category": "Entertainer / drag",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/dombrooks1",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Deja Van Cartier",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/DejaVanCartier",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "KJ Karen",
+      "category": "Entertainer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/kjkarenobrien",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Erika Norell",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ErikaNorell",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Erika Norell",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/erika-norell",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Emma Sapphire",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/emmanuel-arcos-1",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Remington Rose",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Remington_rose",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Remington Rose",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$evanstehlik",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Cory Shorter",
+      "category": "Entertainer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/cory-shorter-1",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Cory Shorter",
+      "category": "Entertainer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$coryshorter",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "DJ Ayinde",
+      "category": "DJ",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ayindezuri",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Crystal Harding",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Mark-Beshow",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Crystal Harding",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$Markbeshow",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Redness Everdank",
+      "category": "Entertainer / drag",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Diviniakat",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Redness Everdank",
+      "category": "Entertainer / drag",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$diviniakat",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/entertainer tip page (Jadein Black)",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Troy Farah",
+      "category": "Journalist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/troyfarah",
+      "source_url": "https://ko-fi.com/troyfarah",
+      "notes": "Independent journalist; National Geographic, Guardian, VICE, WIRED",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kirsten Han",
+      "category": "Journalist / activist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/kirstenhan",
+      "source_url": "https://ko-fi.com/kirstenhan",
+      "notes": "Singaporean independent journalist; We, The Citizens",
+      "verification": "self-published"
+    },
+    {
+      "name": "Deanna Fry",
+      "category": "Journalist / author",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/deannafry",
+      "source_url": "https://ko-fi.com/deannafry",
+      "notes": "Emmy and Peabody Award-winning journalist",
+      "verification": "self-published"
+    },
+    {
+      "name": "David Jesudason",
+      "category": "Journalist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/davidjesudason",
+      "source_url": "https://ko-fi.com/davidjesudason",
+      "notes": "British Asian journalist; BBC Culture, Guardian",
+      "verification": "self-published"
+    },
+    {
+      "name": "Juno Rylee Schultz",
+      "category": "Journalist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/junostump",
+      "source_url": "https://ko-fi.com/junostump",
+      "notes": "Independent journalist; Polygon, IGN, etc.",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mary Anne Butler (Mab)",
+      "category": "Journalist / event producer",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/mabtheprofessional",
+      "source_url": "https://ko-fi.com/mabtheprofessional",
+      "notes": "Journalist; UGO, Geek Magazine, Bleeding Cool",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kaan Goktas",
+      "category": "Journalist / activist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/kgoktas",
+      "source_url": "https://buymeacoffee.com/kgoktas",
+      "notes": "Journalist, cypherpunk, blogger, activist",
+      "verification": "self-published"
+    },
+    {
+      "name": "Johnny Vedmore",
+      "category": "Investigative journalist",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/johnnyvedmore",
+      "source_url": "https://newspaste.com/home/support-newspaste/",
+      "notes": "NEWSPASTE founder support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Johnny Vedmore",
+      "category": "Investigative journalist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/johnnyvedmore",
+      "source_url": "https://newspaste.com/home/support-newspaste/",
+      "notes": "Official support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Johnny Vedmore",
+      "category": "Investigative journalist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/johnnyvedmore",
+      "source_url": "https://newspaste.com/home/support-newspaste/",
+      "notes": "Official support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jeffrey Brodsky",
+      "category": "Journalist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/jeffreybrodsky",
+      "source_url": "https://buymeacoffee.com/jeffreybrodsky",
+      "notes": "Journalist covering Nord Stream investigation",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jill Cohen (Beach Report)",
+      "category": "Journalist / filmmaker",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/jillbeach",
+      "source_url": "https://buymeacoffee.com/jillbeach",
+      "notes": "Journalist, writer, editor, photographer, filmmaker",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kolja De Vitis",
+      "category": "Freelance journalist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/kodv",
+      "source_url": "https://buymeacoffee.com/kodv",
+      "notes": "Freelance journalist BMC page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Andrew Mercado",
+      "category": "Streamer / indie journalist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/andrewmercado",
+      "source_url": "https://buymeacoffee.com/andrewmercado",
+      "notes": "Mercado Media; Army veteran content creator",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mona Wik\u00f8ren (I AM Piqpi)",
+      "category": "Independent journalist",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/monasr",
+      "source_url": "https://buymeacoffee.com/monasr",
+      "notes": "Independent journalist / online newspaper",
+      "verification": "self-published"
+    },
+    {
+      "name": "Joe Hills",
+      "category": "YouTuber",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/joehills",
+      "source_url": "https://www.paypal.me/joehills",
+      "notes": "Longstanding public PayPal.me; also referenced on Reddit tip discussions",
+      "verification": "self-published"
+    },
+    {
+      "name": "nuancehoe (Carah Burrell)",
+      "category": "YouTuber / comedian / activist",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/CarahB",
+      "source_url": "https://linktr.ee/nuancehoe",
+      "notes": "Official Linktree Tip Jar; also YouTube about/donorbox",
+      "verification": "self-published"
+    },
+    {
+      "name": "SacredAlmighty",
+      "category": "YouTuber / Twitch streamer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$nick2almighty",
+      "source_url": "https://allmylinks.com/sacredalmighty",
+      "notes": "AllMyLinks bio tip link + Streamlabs",
+      "verification": "self-published"
+    },
+    {
+      "name": "NightmareRH",
+      "category": "Streamer / creator",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/NightmareRH",
+      "source_url": "https://allmylinks.com/NightmareRH",
+      "notes": "AllMyLinks bio",
+      "verification": "self-published"
+    },
+    {
+      "name": "Abigail Akindude",
+      "category": "Artist / Twitch streamer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$abigyal",
+      "source_url": "https://abigailakindude.com/Support",
+      "notes": "Official support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Abigail Akindude",
+      "category": "Artist / Twitch streamer",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/abigyal",
+      "source_url": "https://abigailakindude.com/Support",
+      "notes": "Official support page",
+      "verification": "self-published"
+    },
+    {
+      "name": "AnjelusX",
+      "category": "Streamer / game journalist",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/anjelusx",
+      "source_url": "https://ko-fi.com/anjelusx",
+      "notes": "Twitch/YouTube/TikTok creator; anjelsyndicate.org",
+      "verification": "self-published"
+    },
+    {
+      "name": "Openminded187",
+      "category": "Twitch streamer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$fjc91",
+      "source_url": "https://www.betterbanned.com/en/streamer/openminded187",
+      "notes": "Cashtag in Twitch bio mirrored on profile aggregator",
+      "verification": "secondary-source"
+    },
+    {
+      "name": "Andregamingyt",
+      "category": "Twitch / gaming creator",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ADTHATDUDE25",
+      "source_url": "https://mastodawn.com/explore/tag/CashApp",
+      "notes": "Self-posted on Mastodon/CashApp tag feed",
+      "verification": "self-published"
+    },
+    {
+      "name": "Zoe Rebekah",
+      "category": "YouTuber / writer",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/zoefrenchman",
+      "source_url": "https://www.youtube.com/watch?v=KD9NlgHrkkE",
+      "notes": "PayPal tips in YouTube video description",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mark McG (You Call That Radio)",
+      "category": "Podcaster / musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/youcallthatradio",
+      "source_url": "https://youcallthatradio.castos.com/episodes/ask-me-anything-w-mark-mcg-reading-out-listeners-questions",
+      "notes": "Show notes tip links",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mark McG (You Call That Radio)",
+      "category": "Podcaster / musician",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/youcallthatradio",
+      "source_url": "https://youcallthatradio.castos.com/episodes/ask-me-anything-w-mark-mcg-reading-out-listeners-questions",
+      "notes": "Show notes tip links",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jocelynni",
+      "category": "Streamer / TikToker",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$jocelynni415",
+      "source_url": "https://linktr.ee/Jocelynni",
+      "notes": "Linktree lists Pay $jocelynni415 on Cash App (PayPal/Venmo links also present)",
+      "verification": "self-published"
+    },
+    {
+      "name": "Raven's LateNightASMR",
+      "category": "ASMR YouTuber",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/RavensLateNightASMR",
+      "source_url": "https://theasmrindex.com/zh/video/F0fULucSbC0",
+      "notes": "Tip jar in video description; Linktree linked",
+      "verification": "self-published"
+    },
+    {
+      "name": "ihaveahax",
+      "category": "Open-source developer / creator",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/ihaveahax",
+      "source_url": "https://ihaveahax.net/wiki/Donations",
+      "notes": "Official donations wiki",
+      "verification": "self-published"
+    },
+    {
+      "name": "ihaveahax",
+      "category": "Open-source developer / creator",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/ihaveamac",
+      "source_url": "https://ihaveahax.net/wiki/Donations",
+      "notes": "Official donations wiki",
+      "verification": "self-published"
+    },
+    {
+      "name": "ihaveahax",
+      "category": "Open-source developer / creator",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ihaveahax",
+      "source_url": "https://ihaveahax.net/wiki/Donations",
+      "notes": "Official donations wiki",
+      "verification": "self-published"
+    },
+    {
+      "name": "ihaveahax",
+      "category": "Open-source developer / creator",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/ihaveahax",
+      "source_url": "https://ihaveahax.net/wiki/Donations",
+      "notes": "Official donations wiki",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jamie Dlux",
+      "category": "YouTuber / author / musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/jamiedlux",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Third-party Substack listing of Linktree tip links",
+      "verification": "secondary-source"
+    },
+    {
+      "name": "Jamie Dlux",
+      "category": "YouTuber / author / musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/jamie-dlux",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Third-party listing",
+      "verification": "secondary-source"
+    },
+    {
+      "name": "Jamie Dlux",
+      "category": "YouTuber / author / musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$dluxnation",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Third-party listing",
+      "verification": "secondary-source"
+    },
+    {
+      "name": "Addy Adds",
+      "category": "YouTuber / streamer",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/ONEADDYADDS",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Self Substack footer payment links",
+      "verification": "self-published"
+    },
+    {
+      "name": "Addy Adds",
+      "category": "YouTuber / streamer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/ADDYADDS",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Self Substack footer",
+      "verification": "self-published"
+    },
+    {
+      "name": "Addy Adds",
+      "category": "YouTuber / streamer",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$AddyAdds",
+      "source_url": "https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator",
+      "notes": "Self Substack footer",
+      "verification": "self-published"
+    },
+    {
+      "name": "Maravilla (Jenah Maravilla)",
+      "category": "Editor / educator",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/JNH-M",
+      "source_url": "https://maravilla-edits.carrd.co/",
+      "notes": "Self Carrd FAQ donation section",
+      "verification": "self-published"
+    },
+    {
+      "name": "Maravilla (Jenah Maravilla)",
+      "category": "Editor / educator",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/JenahM",
+      "source_url": "https://maravilla-edits.carrd.co/",
+      "notes": "Self Carrd FAQ",
+      "verification": "self-published"
+    },
+    {
+      "name": "Maravilla (Jenah Maravilla)",
+      "category": "Editor / educator",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$J3NAHM",
+      "source_url": "https://maravilla-edits.carrd.co/",
+      "notes": "Self Carrd FAQ",
+      "verification": "self-published"
+    },
+    {
+      "name": "Sharon Lee Davies-Tight",
+      "category": "Artist / author / activist",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/SharonLeeDaviesTight",
+      "source_url": "https://www.paypal.com/paypalme/SharonLeeDaviesTight",
+      "notes": "Public PayPal.me profile bio",
+      "verification": "self-published"
+    },
+    {
+      "name": "Teacher Stefano",
+      "category": "YouTuber / podcaster",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/teacherstefano",
+      "source_url": "https://buymeacoffee.com/teacherstefano",
+      "notes": "Buy Me a Coffee Explore Creators / profile page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Feli from Germany",
+      "category": "YouTuber",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/felifromgermany",
+      "source_url": "https://buymeacoffee.com/felifromgermany",
+      "notes": "Buy Me a Coffee Explore Creators / profile page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Sharleen Joynt",
+      "category": "Writer / TV commentator",
+      "platform": "Buy Me a Coffee",
+      "handle_or_url": "https://buymeacoffee.com/sharleen",
+      "source_url": "https://buymeacoffee.com/sharleen",
+      "notes": "Buy Me a Coffee Explore Creators / profile page",
+      "verification": "self-published"
+    },
+    {
+      "name": "Aomkoyo",
+      "category": "VTuber / streamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/aomkoyo",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page; Furipay identity verified badge",
+      "verification": "directory-verified"
+    },
+    {
+      "name": "MOLLY",
+      "category": "VTuber / artist",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/mollyehe",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page; Furipay identity verified badge",
+      "verification": "directory-verified"
+    },
+    {
+      "name": "SleepingP",
+      "category": "Streamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/sleepingp",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page; Furipay identity verified badge",
+      "verification": "directory-verified"
+    },
+    {
+      "name": "MJXNZ",
+      "category": "Gamer / streamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/mjxnz",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "ZoeSPoinT",
+      "category": "Gamer / musician",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/zoeesther7446",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Wolf WerewolfYT",
+      "category": "VTuber / gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/wolfwerewolf",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page; Furipay identity verified badge",
+      "verification": "directory-verified"
+    },
+    {
+      "name": "chocopop gamer",
+      "category": "Gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/chocopop",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "lxlita",
+      "category": "VTuber / gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/lxl1t4",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "funeehe",
+      "category": "VTuber / gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/funeehe",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page; Furipay identity verified badge",
+      "verification": "directory-verified"
+    },
+    {
+      "name": "azuray",
+      "category": "VTuber / gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/azuray",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Sarzoliss",
+      "category": "Gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/sarzoliss",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "XxaliNilaxX",
+      "category": "Gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/alinila",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "nattapat2871",
+      "category": "Gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/nattapat2871",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Arrivar",
+      "category": "Gamer / streamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/arrivar",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "nongthamtv",
+      "category": "Gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/nongthamtv",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "thomashi ch.",
+      "category": "VTuber / gamer",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/thomashi",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Furipay creator directory tip page",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "815 Mutual Network",
+      "category": "Mutual aid / activist org",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$815MutualAid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid networks Carrd directory",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Edna Griffin Mutual Aid",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/EdnaGriffin-MutualAid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Newark Mutual Aid Fund",
+      "category": "Mutual aid / activist org",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$BrickCityMutualAid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Newark Mutual Aid Fund",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/BrickCityMutualAid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "WHOA Greensboro",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/WHOA-GSO",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Dallas-Fort Worth Mutual Aid",
+      "category": "Mutual aid / activist org",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$dfwmutualaid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Dallas-Fort Worth Mutual Aid",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/dfwmutualaid",
+      "source_url": "https://mutualaid.carrd.co/",
+      "notes": "Listed on mutual aid Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "People's Breakfast Oakland / People's Programs",
+      "category": "Mutual aid / activist org",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$PeoplesPrograms",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Listed on allyship donation Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "People's Breakfast Oakland / People's Programs",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Peoples-Programs",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "People's Breakfast Oakland / People's Programs",
+      "category": "Mutual aid / activist org",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/peoplesprograms",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Oakland Food Workers Fund",
+      "category": "Mutual aid / activist org",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/oaklandworkersfund",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Oakland Food Workers Fund",
+      "category": "Mutual aid / activist org",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/oaklandworkersfund",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Black Earth Farms",
+      "category": "Mutual aid / agroecology collective",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/blackearthfarms",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Black Earth Farms",
+      "category": "Mutual aid / agroecology collective",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$blackearth",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Black Earth Farms",
+      "category": "Mutual aid / agroecology collective",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/blackearthfarms",
+      "source_url": "https://howcanihelp.carrd.co/",
+      "notes": "Allyship Carrd",
+      "verification": "directory-listed"
+    },
+    {
+      "name": "Atticus Reid",
+      "category": "Journalist / YouTuber / musician",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/afxreid",
+      "source_url": "https://ko-fi.com/afxreid",
+      "notes": "Investigative journalist, photographer, videographer, musician",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jerrod Zisser",
+      "category": "Journalist / photographer",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/buymecoffeeplease",
+      "source_url": "https://ko-fi.com/buymecoffeeplease",
+      "notes": "Independent journalist; Marine Corps veteran; politics/protests",
+      "verification": "self-published"
+    },
+    {
+      "name": "Hubi Koch",
+      "category": "Journalist / filmmaker",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/hubikoch",
+      "source_url": "https://ko-fi.com/hubikoch",
+      "notes": "Freelance journalist and filmmaker; Instagram/YouTube/Twitch",
+      "verification": "self-published"
+    },
+    {
+      "name": "Collier CJ Jennings",
+      "category": "Journalist / screenwriter / YouTuber",
+      "platform": "Ko-fi",
+      "handle_or_url": "https://ko-fi.com/cjdoesstuff",
+      "source_url": "https://ko-fi.com/cjdoesstuff",
+      "notes": "Freelance journalist and screenwriter",
+      "verification": "self-published"
+    },
+    {
+      "name": "DJ Amber",
+      "category": "entertainer/drag",
+      "platform": "PayPal",
+      "handle_or_url": "DizzyNoiseRecords@yahoo.com",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/performer tip roster",
+      "verification": "self-published"
+    },
+    {
+      "name": "Cory Shorter",
+      "category": "entertainer/drag",
+      "platform": "PayPal",
+      "handle_or_url": "coryshorter@gmail.com",
+      "source_url": "https://www.jadeinblack.com/tips",
+      "notes": "Listed on venue/performer tip roster",
+      "verification": "self-published"
+    },
+    {
+      "name": "Alex Zee",
+      "category": "comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$alexzeecomedy",
+      "source_url": "https://nakula.ink/news/info-https-alexzeecomedy.com/pages/tip",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Alex Zee",
+      "category": "comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/alexzeecomedy",
+      "source_url": "https://nakula.ink/news/info-https-alexzeecomedy.com/pages/tip",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Malcolm McFly",
+      "category": "comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$iMalcolmmcfly",
+      "source_url": "https://www.malcolmmcfly.com/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Malcolm McFly",
+      "category": "comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/iMalcolmMcFly",
+      "source_url": "https://www.malcolmmcfly.com/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Malcolm McFly",
+      "category": "comedian",
+      "platform": "Zelle",
+      "handle_or_url": "phone listed on site",
+      "source_url": "https://www.malcolmmcfly.com/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Ryan Bourassa",
+      "category": "comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://allmylinks.com/ryankickassa",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Ryan Bourassa",
+      "category": "comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/ryankickassa",
+      "source_url": "https://allmylinks.com/ryankickassa",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Ryan Bourassa",
+      "category": "comedian",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/highryan",
+      "source_url": "https://allmylinks.com/ryankickassa",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Ryan Bourassa",
+      "category": "comedian",
+      "platform": "Patreon",
+      "handle_or_url": "https://www.patreon.com/patreon.com/highryan",
+      "source_url": "https://allmylinks.com/ryankickassa",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Michael Furr",
+      "category": "comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$MichaelCFurr",
+      "source_url": "https://allmylinks.com/michaelfurr",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Michael Furr",
+      "category": "comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/MichaelCFurr",
+      "source_url": "https://allmylinks.com/michaelfurr",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Michael Furr",
+      "category": "comedian",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/michaelcfurr",
+      "source_url": "https://allmylinks.com/michaelfurr",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Reece Cotton (Comedy by Cotton)",
+      "category": "comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ComedybyCotton",
+      "source_url": "https://comedybycotton.wixsite.com/official/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Reece Cotton (Comedy by Cotton)",
+      "category": "comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/ComedybyCotton",
+      "source_url": "https://comedybycotton.wixsite.com/official/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "FOIA Comedy / Curtis Raye",
+      "category": "comedy nonprofit",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$FOIAComedy",
+      "source_url": "https://www.foialove.com/digital",
+      "notes": "Tax-deductible nonprofit EIN 92-0842247",
+      "verification": "self-published"
+    },
+    {
+      "name": "FOIA Comedy / Curtis Raye",
+      "category": "comedy nonprofit",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Curtis-Raye",
+      "source_url": "https://www.foialove.com/digital",
+      "notes": "Tax-deductible nonprofit EIN 92-0842247",
+      "verification": "self-published"
+    },
+    {
+      "name": "FOIA Comedy / Curtis Raye",
+      "category": "comedy nonprofit",
+      "platform": "Zelle",
+      "handle_or_url": "862-266-2998",
+      "source_url": "https://www.foialove.com/digital",
+      "notes": "Tax-deductible nonprofit EIN 92-0842247",
+      "verification": "self-published"
+    },
+    {
+      "name": "Nickeon",
+      "category": "creator/comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$Nickeon",
+      "source_url": "https://www.nickeon.com/tip-jar-donations",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Nickeon",
+      "category": "creator/comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Nickeon",
+      "source_url": "https://www.nickeon.com/tip-jar-donations",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Josh Pineo (Bulldog Uncensored)",
+      "category": "comedian/podcaster",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/BulldogUncensored",
+      "source_url": "https://www.bulldoguncensored.com/support/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Josh Pineo (Bulldog Uncensored)",
+      "category": "comedian/podcaster",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/bulldog62488",
+      "source_url": "https://www.bulldoguncensored.com/support/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mike Bova (Kountry Mike)",
+      "category": "comedian/musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://allmylinks.com/mikebova",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Dan DeCristofaro",
+      "category": "musician/comedian",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$DanDeCristofaro",
+      "source_url": "https://everythingdan.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Dan DeCristofaro",
+      "category": "musician/comedian",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/u/DansTipJar",
+      "source_url": "https://everythingdan.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bob Bennett",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$bobbennettmusic",
+      "source_url": "https://bobbennett.com/digitaltipjar/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bob Bennett",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Bob-Bennett-Music",
+      "source_url": "https://bobbennett.com/digitaltipjar/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bob Bennett",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/bobbennettmusic",
+      "source_url": "https://bobbennett.com/digitaltipjar/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bob Bennett",
+      "category": "musician",
+      "platform": "Zelle",
+      "handle_or_url": "bob@bobbennett.com",
+      "source_url": "https://bobbennett.com/digitaltipjar/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Russell McLaughlin",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://itsruss.com/tip/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Russell McLaughlin",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/itsruss",
+      "source_url": "https://itsruss.com/tip/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Russell McLaughlin",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/itsruss",
+      "source_url": "https://itsruss.com/tip/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Roxie Beane",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$RoxieBeane",
+      "source_url": "https://www.roxiebeane.com/virtual-tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Roxie Beane",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/RoxieBeane",
+      "source_url": "https://www.roxiebeane.com/virtual-tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Roxie Beane",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "roxie@roxiebeane.com",
+      "source_url": "https://www.roxiebeane.com/virtual-tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Brian Berlin",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$briandberlin",
+      "source_url": "https://brianberlin.net/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Brian Berlin",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Brian-Berlin-10",
+      "source_url": "https://brianberlin.net/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Brian Berlin",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "paypal.me (linked on page)",
+      "source_url": "https://brianberlin.net/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Brian Berlin",
+      "category": "musician",
+      "platform": "Patreon",
+      "handle_or_url": "https://www.patreon.com/patreon.com/BrianBerlin",
+      "source_url": "https://brianberlin.net/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Matt Jantz (Cajonalone)",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$mattjantz18",
+      "source_url": "https://www.cajonalone.com/virtual-tipping-options",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Matt Jantz (Cajonalone)",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Matt-Jantz",
+      "source_url": "https://www.cajonalone.com/virtual-tipping-options",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Matt Jantz (Cajonalone)",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/mattyjcajon",
+      "source_url": "https://www.cajonalone.com/virtual-tipping-options",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jean Andre Moore",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$JeanAndreMoore",
+      "source_url": "https://www.jeanandremoore.com/virtual-tip-jar.html",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jean Andre Moore",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/code (QR on page)",
+      "source_url": "https://www.jeanandremoore.com/virtual-tip-jar.html",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Jean Andre Moore",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/jeanandremusic",
+      "source_url": "https://www.jeanandremoore.com/virtual-tip-jar.html",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bryan Gallo",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/bryangallomuzak",
+      "source_url": "https://www.bryangallo.com/tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Bryan Gallo",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/bryangallomuzak",
+      "source_url": "https://www.bryangallo.com/tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "NeilBe",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/neilbe",
+      "source_url": "https://neilbe.com/TipJar.html",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Django Soulo (Django Koenig)",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/DjangoSoulo",
+      "source_url": "https://djangosoulo.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Django Soulo (Django Koenig)",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/djangosoulo",
+      "source_url": "https://djangosoulo.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "The 727s Band",
+      "category": "band",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/the727s",
+      "source_url": "https://the727s.com/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "The 727s Band",
+      "category": "band",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/the727s",
+      "source_url": "https://the727s.com/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "The 727s Band",
+      "category": "band",
+      "platform": "Zelle",
+      "handle_or_url": "the727s@icloud.com",
+      "source_url": "https://the727s.com/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kenna Rose",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$QR",
+      "source_url": "https://www.kennarosemusic.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Kenna Rose",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/u/KennaRoseMusic",
+      "source_url": "https://www.kennarosemusic.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Andrew McKnight",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/AndrewMcKnightMusic",
+      "source_url": "https://andrewmcknight.net/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Andrew McKnight",
+      "category": "musician",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/AndrewMcKnightMusic",
+      "source_url": "https://andrewmcknight.net/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Andrew McKnight",
+      "category": "musician",
+      "platform": "Zelle",
+      "handle_or_url": "info@andrewmcknight.net",
+      "source_url": "https://andrewmcknight.net/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Secret Commonwealth",
+      "category": "band",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$Tipthegnome",
+      "source_url": "https://www.tscband.com/virtual-tip-jar",
+      "notes": "Ask tippers to note FOR TSC",
+      "verification": "self-published"
+    },
+    {
+      "name": "Secret Commonwealth",
+      "category": "band",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/TSCBAND",
+      "source_url": "https://www.tscband.com/virtual-tip-jar",
+      "notes": "Ask tippers to note FOR TSC",
+      "verification": "self-published"
+    },
+    {
+      "name": "Secret Commonwealth",
+      "category": "band",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/TSC1993",
+      "source_url": "https://www.tscband.com/virtual-tip-jar",
+      "notes": "Ask tippers to note FOR TSC",
+      "verification": "self-published"
+    },
+    {
+      "name": "Dana & Sharon Kamide",
+      "category": "musicians",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$danakamide",
+      "source_url": "https://www.danasharon.com/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Dana & Sharon Kamide",
+      "category": "musicians",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/DanaSharonMusic",
+      "source_url": "https://www.danasharon.com/tips/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Daniel Weidlein / BioSoul",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$danielweidlein",
+      "source_url": "https://www.danielweidlein.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Daniel Weidlein / BioSoul",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/biosoulmusic",
+      "source_url": "https://www.danielweidlein.com/tips",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Morgan Harrison",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$sidewindermorgan",
+      "source_url": "https://allmylinks.com/brvhmorgxn",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Morgan Harrison",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Morganhmusic",
+      "source_url": "https://allmylinks.com/brvhmorgxn",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Gary Weilage (Caveman Bard)",
+      "category": "musician",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$listed",
+      "source_url": "https://garyweilage.com/tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Gary Weilage (Caveman Bard)",
+      "category": "musician",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Cavemanbard",
+      "source_url": "https://garyweilage.com/tip-jar",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mike Cono",
+      "category": "entertainer",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/MichaelCono",
+      "source_url": "https://mikecono.com/request-success/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Mike Cono",
+      "category": "entertainer",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/MichaelCono",
+      "source_url": "https://mikecono.com/request-success/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Wally Rashid",
+      "category": "journalist",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://www.wallyrashid.com/about",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Wally Rashid",
+      "category": "journalist",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/u/wallyrashid",
+      "source_url": "https://www.wallyrashid.com/about",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Wally Rashid",
+      "category": "journalist",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/wallyrashid",
+      "source_url": "https://www.wallyrashid.com/about",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Wally Rashid",
+      "category": "journalist",
+      "platform": "Zelle",
+      "handle_or_url": "wrashid@wallyrashid.com",
+      "source_url": "https://www.wallyrashid.com/about",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Chris Nelson (ReOpenChris)",
+      "category": "journalist",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$ReOpenChris",
+      "source_url": "https://www.reopenchris.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Chris Nelson (ReOpenChris)",
+      "category": "journalist",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/ChrisNelsonFL",
+      "source_url": "https://www.reopenchris.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Chris Nelson (ReOpenChris)",
+      "category": "journalist",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/ReOpenChris",
+      "source_url": "https://www.reopenchris.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Craig Medred",
+      "category": "journalist",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/craig-medred",
+      "source_url": "https://craigmedred.news/donate/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Craig Medred",
+      "category": "journalist",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/craig-medred",
+      "source_url": "https://craigmedred.news/donate/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "John Crump",
+      "category": "journalist/podcaster",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$realjohncrump",
+      "source_url": "https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc",
+      "notes": "Listed in podcast show notes / descriptions",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "John Crump",
+      "category": "journalist/podcaster",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/johncc",
+      "source_url": "https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc",
+      "notes": "Listed in podcast show notes / descriptions",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "John Crump",
+      "category": "journalist/podcaster",
+      "platform": "Patreon",
+      "handle_or_url": "https://www.patreon.com/patreon.com/johncrump",
+      "source_url": "https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc",
+      "notes": "Listed in podcast show notes / descriptions",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$StarshipGazer",
+      "source_url": "https://www.starshipgazer.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/Starship-Gazer",
+      "source_url": "https://www.starshipgazer.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/StarshipGazerdotcom",
+      "source_url": "https://www.starshipgazer.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "platform": "Zelle",
+      "handle_or_url": "spacemanryan@yahoo.com",
+      "source_url": "https://www.starshipgazer.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "platform": "Patreon",
+      "handle_or_url": "https://www.patreon.com/patreon.com/StarshipGazer",
+      "source_url": "https://www.starshipgazer.com/donate",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Eric Rosen",
+      "category": "chess streamer",
+      "platform": "PayPal",
+      "handle_or_url": "https://paypal.me/ericrosenchess",
+      "source_url": "https://imrosen.com/support/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Eric Rosen",
+      "category": "chess streamer",
+      "platform": "Streamlabs",
+      "handle_or_url": "streamlabs.com/imrosen/tip",
+      "source_url": "https://imrosen.com/support/",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "self-published"
+    },
+    {
+      "name": "Sean Penalber",
+      "category": "artist/author",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://allmylinks.com/seanpenalber",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Sean Penalber",
+      "category": "artist/author",
+      "platform": "Venmo",
+      "handle_or_url": "https://venmo.com/u/venmo.com/seanpenalber",
+      "source_url": "https://allmylinks.com/seanpenalber",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Torshaa Podcast",
+      "category": "podcaster",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$TorshaaPodcast",
+      "source_url": "https://cash.app/$TorshaaPodcast",
+      "notes": "Public Cash App profile page",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "liondad_1987",
+      "category": "animal content creator",
+      "platform": "Cash App",
+      "handle_or_url": "https://cash.app/$cash",
+      "source_url": "https://beacons.ai/liondad_1987",
+      "notes": "Merged from parallel open-web scrape",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Aomkoyo",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/aomkoyo",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "MOLLY",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/mollyehe",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "SleepingP",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/sleepingp",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "MJXNZ",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/mjxnz",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "ZoeSPoinT",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/zoeesther7446",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Wolf WerewolfYT",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/wolfwerewolf",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "chocopop gamer",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/chocopop",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "lxlita",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/lxl1t4",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "funeehe",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/funeehe",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "azuray",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/azuray",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Sarzoliss",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/sarzoliss",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "XxaliNilaxX",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/alinila",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "nattapat2871",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/nattapat2871",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "Arrivar",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/arrivar",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "nongthamtv",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/nongthamtv",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    },
+    {
+      "name": "thomashi ch.",
+      "category": "streamer/VTuber",
+      "platform": "Furipay",
+      "handle_or_url": "https://furipay.me/furipay.me/thomashi",
+      "source_url": "https://furipay.me/creators",
+      "notes": "Stripe Connect tip page via Furipay",
+      "verification": "likely-self-published"
+    }
+  ]
+}
