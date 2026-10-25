@@ -1,134 +1,128 @@
 name,category,platforms_handles,source_urls,notes
-Django Soulo,Musician,Venmo: https://venmo.com/u/DjangoSoulo; PayPal: https://paypal.me/djangosoulo,https://djangosoulo.com/donate,Official donate page | Official donate page virtual tip jar
-Kenna Rose,Musician,Venmo: https://venmo.com/u/KennaRoseMusic; PayPal: https://paypal.me/KennaRoseMusic; Cash App: https://cash.app/$QR; Venmo: https://venmo.com/u/venmo.com/u/KennaRoseMusic,https://www.kennarosemusic.com/tips,Merged from parallel open-web scrape | Official tips page | Official tips page with QR codes
+815 Mutual Network,Mutual aid / activist org,Cash: https://cash.app/$815MutualAid,https://mutualaid.carrd.co/,Listed on mutual aid networks Carrd directory
+Abigail Akindude,Artist / Twitch streamer,Cash: https://cash.app/$abigyal; PayPal: https://paypal.me/abigyal,https://abigailakindude.com/Support,Official support page
+Addy Adds,YouTuber / streamer,PayPal: https://paypal.me/ONEADDYADDS; Cash: https://cash.app/$AddyAdds,https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator,Self Substack footer payment links | Self Substack footer
 Alex Meixner Band,Musician / band,PayPal: https://paypal.me/alexmeixnerband; Venmo: https://venmo.com/u/meixnermusic,https://alexmeixner.com/shop/support-the-band/show-your-support/,Official band support page
-Karen Drucker,Musician,PayPal: https://paypal.me/karendrucker; Venmo: https://venmo.com/u/karen-drucker-3,https://www.karendrucker.com/donate/,Official donate page
-Seth Freeman,Musician,Venmo: https://venmo.com/u/Seth-Freeman-21; PayPal: https://paypal.me/sethfreemanmusic; Cash App: https://cash.app/$manfreeseth,https://sethfreemanmusic.com/tips,Official tip jar page | Official tip jar; PayPal handle as listed
-Jason LaPorte,Musician,Venmo: https://venmo.com/u/jasonlaportemusic; Cash App: https://cash.app/$jasonlaportemusic; PayPal: https://paypal.me/jasonlaportemusic,https://www.jasonlaporte.com/support,Official support page; Venmo last4 1189 listed | Username listed for Cash App/Venmo/PayPal as @jasonlaportemusic | Username listed on support page
-Jeremy Arndt,Musician,PayPal: https://paypal.me/jeremyarndt; Venmo: https://venmo.com/u/Heavenly3lues; Cash App: https://cash.app/$Heavenly3lues,https://www.jeremyarndt.com/donate,Listed on official donate page (search snippet) | Listed on official donate page (search snippet; page later 401)
-Gilberto Capistran,Musician,Venmo: https://venmo.com/u/Gilberto-Capistran; Cash App: https://cash.app/$alexcap95,https://gilbertocapistrantips.carrd.co/,Self Carrd tipping page
-DJ Alejandro Conde,DJ / musician,PayPal: https://paypal.me/DJAlejandroConde,https://djalejandroconde.com.ar/donate/,Official donate page
-Tom Webster,Comedian / content creator,Venmo: https://venmo.com/u/Tom-Webster-22; PayPal: https://paypal.me/tomwebster1246,https://tomwebster.com/support-tom/,Listed in search/snippet for support page; live page was under construction at fetch time | Search snippet; live page under construction at fetch
-John Sturk,Magician / musician / comedian,Venmo: https://venmo.com/u/johnsturk; Zelle: via email on tips page; busk.co: https://busk.co/johnsturk/tip,https://www.johnsturk.com/tips.html,Apple Pay / card via busk.co | Official tips page; Venmo digits 9219 listed | Zelle email listed on tips page (redacted in fetch)
-Charli Deter,Content creator,Venmo: https://venmo.com/u/CharliDeter; Cash App: https://cash.app/$charlideter,https://charlideter.com/support,Listed in search snippet; Cash App section may be image-linked | Official support page
-Natalia Paruz (Saw Lady),Street performer / musician,Venmo: https://venmo.com/u/QR displayed at performances (handle not published in NBC article),https://www.nbcnews.com/business/consumer/street-performers-rely-apps-venmo-cash-fades-rcna223138,NBC reports she displays Venmo/PayPal QR codes; exact handle not in article
-Chadd Deitz (Wacky Chad),Stunt comedian / street performer,Venmo: https://venmo.com/u/uses digital tipping (handle not in article),https://www.nbcnews.com/business/consumer/street-performers-rely-apps-venmo-cash-fades-rcna223138,NBC interview; no public handle in article
-Jadein Black,Entertainer / drag,Venmo: https://venmo.com/u/jadeinblack; Cash App: https://cash.app/$jadeinblack; PayPal: https://paypal.me/JadeinBlack,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Maxi Chanel,Entertainer / drag,Venmo: https://venmo.com/u/maxichanel; Cash App: https://cash.app/$maxichanel; PayPal: https://paypal.me/Maxi2c,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Natalie Cole,Entertainer / drag,Venmo: https://venmo.com/u/Nataliecole69; Cash App: https://cash.app/$cole2468,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Anibriated,Entertainer / drag,Cash App: https://cash.app/$anibriated; Venmo: https://venmo.com/u/Michael-Donnelly-84,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Miss Faguette,Entertainer / drag,Venmo: https://venmo.com/u/missfaguette; Cash App: https://cash.app/$alexkfrench; PayPal: https://paypal.me/lilykfrench,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Avalisa Davenport,Entertainer / drag,Cash App: https://cash.app/$avalisaellicott; PayPal: https://paypal.me/avalisagallo,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-DJ KB,DJ,Cash App: https://cash.app/$KyleBPay; PayPal: https://paypal.me/DJKBPAY,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-DJ Amber,DJ,Venmo: https://venmo.com/u/AmberShawn; Cash App: https://cash.app/$DariaGoo; PayPal: DizzyNoiseRecords@yahoo.com,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black) | Listed on venue/performer tip roster
-King Teddy,Entertainer,Cash App: https://cash.app/$Imtheteddy; Venmo: https://venmo.com/u/Teddy-Aguilar,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Vivian Aphrodisia,Entertainer / drag,Venmo: https://venmo.com/u/thebitchviv,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Sabin,Entertainer / drag,Cash App: https://cash.app/$sabindetroit; Venmo: https://venmo.com/u/sabindetroit,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Lana Sevol,Entertainer / drag,Cash App: https://cash.app/$BeejisLana,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Baddie Brooks,Entertainer / drag,Cash App: https://cash.app/$vociferousdom; Venmo: https://venmo.com/u/vociferous_dom; PayPal: https://paypal.me/dombrooks1,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Deja Van Cartier,Entertainer / drag,Venmo: https://venmo.com/u/DejaVanCartier,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-KJ Karen,Entertainer,Venmo: https://venmo.com/u/kjkarenobrien,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Erika Norell,Entertainer / drag,Cash App: https://cash.app/$ErikaNorell; Venmo: https://venmo.com/u/erika-norell,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Emma Sapphire,Entertainer / drag,Venmo: https://venmo.com/u/emmanuel-arcos-1,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Remington Rose,Entertainer / drag,Venmo: https://venmo.com/u/Remington_rose; Cash App: https://cash.app/$evanstehlik,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Cory Shorter,Entertainer,Venmo: https://venmo.com/u/cory-shorter-1; Cash App: https://cash.app/$coryshorter; PayPal: coryshorter@gmail.com,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black) | Listed on venue/performer tip roster
-DJ Ayinde,DJ,Cash App: https://cash.app/$ayindezuri,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Crystal Harding,Entertainer / drag,Venmo: https://venmo.com/u/Mark-Beshow; Cash App: https://cash.app/$Markbeshow,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Redness Everdank,Entertainer / drag,Venmo: https://venmo.com/u/Diviniakat; Cash App: https://cash.app/$diviniakat,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
-Troy Farah,Journalist,Ko-fi: https://ko-fi.com/troyfarah,https://ko-fi.com/troyfarah,"Independent journalist; National Geographic, Guardian, VICE, WIRED"
-Kirsten Han,Journalist / activist,Ko-fi: https://ko-fi.com/kirstenhan,https://ko-fi.com/kirstenhan,"Singaporean independent journalist; We, The Citizens"
-Deanna Fry,Journalist / author,Ko-fi: https://ko-fi.com/deannafry,https://ko-fi.com/deannafry,Emmy and Peabody Award-winning journalist
-David Jesudason,Journalist,Ko-fi: https://ko-fi.com/davidjesudason,https://ko-fi.com/davidjesudason,"British Asian journalist; BBC Culture, Guardian"
-Juno Rylee Schultz,Journalist,Ko-fi: https://ko-fi.com/junostump,https://ko-fi.com/junostump,"Independent journalist; Polygon, IGN, etc."
-Mary Anne Butler (Mab),Journalist / event producer,Ko-fi: https://ko-fi.com/mabtheprofessional,https://ko-fi.com/mabtheprofessional,"Journalist; UGO, Geek Magazine, Bleeding Cool"
-Kaan Goktas,Journalist / activist,Buy Me a Coffee: https://buymeacoffee.com/kgoktas,https://buymeacoffee.com/kgoktas,"Journalist, cypherpunk, blogger, activist"
-Johnny Vedmore,Investigative journalist,PayPal: https://paypal.me/johnnyvedmore; Buy Me a Coffee: https://buymeacoffee.com/johnnyvedmore; Ko-fi: https://ko-fi.com/johnnyvedmore,https://newspaste.com/home/support-newspaste/,NEWSPASTE founder support page | Official support page
-Jeffrey Brodsky,Journalist,Buy Me a Coffee: https://buymeacoffee.com/jeffreybrodsky,https://buymeacoffee.com/jeffreybrodsky,Journalist covering Nord Stream investigation
-Jill Cohen (Beach Report),Journalist / filmmaker,Buy Me a Coffee: https://buymeacoffee.com/jillbeach,https://buymeacoffee.com/jillbeach,"Journalist, writer, editor, photographer, filmmaker"
-Kolja De Vitis,Freelance journalist,Buy Me a Coffee: https://buymeacoffee.com/kodv,https://buymeacoffee.com/kodv,Freelance journalist BMC page
-Andrew Mercado,Streamer / indie journalist,Buy Me a Coffee: https://buymeacoffee.com/andrewmercado,https://buymeacoffee.com/andrewmercado,Mercado Media; Army veteran content creator
-Mona Wikøren (I AM Piqpi),Independent journalist,Buy Me a Coffee: https://buymeacoffee.com/monasr,https://buymeacoffee.com/monasr,Independent journalist / online newspaper
-Joe Hills,YouTuber,PayPal: https://paypal.me/joehills,https://www.paypal.me/joehills,Longstanding public PayPal.me; also referenced on Reddit tip discussions
-nuancehoe (Carah Burrell),YouTuber / comedian / activist,Venmo: https://venmo.com/u/CarahB,https://linktr.ee/nuancehoe,Official Linktree Tip Jar; also YouTube about/donorbox
-SacredAlmighty,YouTuber / Twitch streamer,Cash App: https://cash.app/$nick2almighty,https://allmylinks.com/sacredalmighty,AllMyLinks bio tip link + Streamlabs
-NightmareRH,Streamer / creator,Venmo: https://venmo.com/u/venmo.com/NightmareRH,https://allmylinks.com/NightmareRH,AllMyLinks bio
-Abigail Akindude,Artist / Twitch streamer,Cash App: https://cash.app/$abigyal; PayPal: https://paypal.me/abigyal,https://abigailakindude.com/Support,Official support page
+Alex Zee,comedian,Cash: https://cash.app/$alexzeecomedy; Venmo: https://venmo.com/u/alexzeecomedy,https://nakula.ink/news/info-https-alexzeecomedy.com/pages/tip,Merged from parallel open-web scrape
+Andregamingyt,Twitch / gaming creator,Cash: https://cash.app/$ADTHATDUDE25,https://mastodawn.com/explore/tag/CashApp,Self-posted on Mastodon/CashApp tag feed
+Andrew McKnight,musician,PayPal: https://paypal.me/AndrewMcKnightMusic; Zelle: info@andrewmcknight.net,https://andrewmcknight.net/donate,Merged from parallel open-web scrape
+Andrew Mercado,Streamer / indie journalist,Buy: https://buymeacoffee.com/andrewmercado,https://buymeacoffee.com/andrewmercado,Mercado Media; Army veteran content creator
+Anibriated,Entertainer / drag,Cash: https://cash.app/$anibriated; Venmo: https://venmo.com/u/Michael-Donnelly-84,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
 AnjelusX,Streamer / game journalist,Ko-fi: https://ko-fi.com/anjelusx,https://ko-fi.com/anjelusx,Twitch/YouTube/TikTok creator; anjelsyndicate.org
-Openminded187,Twitch streamer,Cash App: https://cash.app/$fjc91,https://www.betterbanned.com/en/streamer/openminded187,Cashtag in Twitch bio mirrored on profile aggregator
-Andregamingyt,Twitch / gaming creator,Cash App: https://cash.app/$ADTHATDUDE25,https://mastodawn.com/explore/tag/CashApp,Self-posted on Mastodon/CashApp tag feed
-Zoe Rebekah,YouTuber / writer,PayPal: https://paypal.me/zoefrenchman,https://www.youtube.com/watch?v=KD9NlgHrkkE,PayPal tips in YouTube video description
-Mark McG (You Call That Radio),Podcaster / musician,PayPal: https://paypal.me/youcallthatradio; Ko-fi: https://ko-fi.com/youcallthatradio,https://youcallthatradio.castos.com/episodes/ask-me-anything-w-mark-mcg-reading-out-listeners-questions,Show notes tip links
-Jocelynni,Streamer / TikToker,Cash App: https://cash.app/$jocelynni415,https://linktr.ee/Jocelynni,Linktree lists Pay $jocelynni415 on Cash App (PayPal/Venmo links also present)
-Raven's LateNightASMR,ASMR YouTuber,PayPal: https://paypal.me/RavensLateNightASMR,https://theasmrindex.com/zh/video/F0fULucSbC0,Tip jar in video description; Linktree linked
-ihaveahax,Open-source developer / creator,Ko-fi: https://ko-fi.com/ihaveahax; PayPal: https://paypal.me/ihaveamac; Cash App: https://cash.app/$ihaveahax; Venmo: https://venmo.com/u/ihaveahax,https://ihaveahax.net/wiki/Donations,Official donations wiki
-Jamie Dlux,YouTuber / author / musician,PayPal: https://paypal.me/jamiedlux; Venmo: https://venmo.com/u/venmo.com/jamie-dlux; Cash App: https://cash.app/$dluxnation,https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator,Third-party Substack listing of Linktree tip links | Third-party listing
-Addy Adds,YouTuber / streamer,PayPal: https://paypal.me/ONEADDYADDS; Venmo: https://venmo.com/u/venmo.com/ADDYADDS; Cash App: https://cash.app/$AddyAdds,https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator,Self Substack footer | Self Substack footer payment links
-Maravilla (Jenah Maravilla),Editor / educator,Venmo: https://venmo.com/u/JNH-M; PayPal: https://paypal.me/JenahM; Cash App: https://cash.app/$J3NAHM,https://maravilla-edits.carrd.co/,Self Carrd FAQ | Self Carrd FAQ donation section
-Sharon Lee Davies-Tight,Artist / author / activist,PayPal: https://paypal.me/SharonLeeDaviesTight,https://www.paypal.com/paypalme/SharonLeeDaviesTight,Public PayPal.me profile bio
-Teacher Stefano,YouTuber / podcaster,Buy Me a Coffee: https://buymeacoffee.com/teacherstefano,https://buymeacoffee.com/teacherstefano,Buy Me a Coffee Explore Creators / profile page
-Feli from Germany,YouTuber,Buy Me a Coffee: https://buymeacoffee.com/felifromgermany,https://buymeacoffee.com/felifromgermany,Buy Me a Coffee Explore Creators / profile page
-Sharleen Joynt,Writer / TV commentator,Buy Me a Coffee: https://buymeacoffee.com/sharleen,https://buymeacoffee.com/sharleen,Buy Me a Coffee Explore Creators / profile page
-Aomkoyo,VTuber / streamer,Furipay: https://furipay.me/aomkoyo; Furipay: https://furipay.me/furipay.me/aomkoyo,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
-MOLLY,VTuber / artist,Furipay: https://furipay.me/mollyehe; Furipay: https://furipay.me/furipay.me/mollyehe,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
-SleepingP,Streamer,Furipay: https://furipay.me/sleepingp; Furipay: https://furipay.me/furipay.me/sleepingp,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
-MJXNZ,Gamer / streamer,Furipay: https://furipay.me/mjxnz; Furipay: https://furipay.me/furipay.me/mjxnz,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-ZoeSPoinT,Gamer / musician,Furipay: https://furipay.me/zoeesther7446; Furipay: https://furipay.me/furipay.me/zoeesther7446,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-Wolf WerewolfYT,VTuber / gamer,Furipay: https://furipay.me/wolfwerewolf; Furipay: https://furipay.me/furipay.me/wolfwerewolf,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
-chocopop gamer,Gamer,Furipay: https://furipay.me/chocopop; Furipay: https://furipay.me/furipay.me/chocopop,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-lxlita,VTuber / gamer,Furipay: https://furipay.me/lxl1t4; Furipay: https://furipay.me/furipay.me/lxl1t4,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-funeehe,VTuber / gamer,Furipay: https://furipay.me/funeehe; Furipay: https://furipay.me/furipay.me/funeehe,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
-azuray,VTuber / gamer,Furipay: https://furipay.me/azuray; Furipay: https://furipay.me/furipay.me/azuray,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-Sarzoliss,Gamer,Furipay: https://furipay.me/sarzoliss; Furipay: https://furipay.me/furipay.me/sarzoliss,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-XxaliNilaxX,Gamer,Furipay: https://furipay.me/alinila; Furipay: https://furipay.me/furipay.me/alinila,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-nattapat2871,Gamer,Furipay: https://furipay.me/nattapat2871; Furipay: https://furipay.me/furipay.me/nattapat2871,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-Arrivar,Gamer / streamer,Furipay: https://furipay.me/arrivar; Furipay: https://furipay.me/furipay.me/arrivar,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-nongthamtv,Gamer,Furipay: https://furipay.me/nongthamtv; Furipay: https://furipay.me/furipay.me/nongthamtv,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-thomashi ch.,VTuber / gamer,Furipay: https://furipay.me/thomashi; Furipay: https://furipay.me/furipay.me/thomashi,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
-815 Mutual Network,Mutual aid / activist org,Cash App: https://cash.app/$815MutualAid,https://mutualaid.carrd.co/,Listed on mutual aid networks Carrd directory
-Edna Griffin Mutual Aid,Mutual aid / activist org,Venmo: https://venmo.com/u/EdnaGriffin-MutualAid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
-Newark Mutual Aid Fund,Mutual aid / activist org,Cash App: https://cash.app/$BrickCityMutualAid; Venmo: https://venmo.com/u/BrickCityMutualAid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
-WHOA Greensboro,Mutual aid / activist org,Venmo: https://venmo.com/u/WHOA-GSO,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
-Dallas-Fort Worth Mutual Aid,Mutual aid / activist org,Cash App: https://cash.app/$dfwmutualaid; Venmo: https://venmo.com/u/dfwmutualaid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
-People's Breakfast Oakland / People's Programs,Mutual aid / activist org,Cash App: https://cash.app/$PeoplesPrograms; Venmo: https://venmo.com/u/Peoples-Programs; PayPal: https://paypal.me/peoplesprograms,https://howcanihelp.carrd.co/,Allyship Carrd | Listed on allyship donation Carrd
-Oakland Food Workers Fund,Mutual aid / activist org,PayPal: https://paypal.me/oaklandworkersfund; Venmo: https://venmo.com/u/oaklandworkersfund,https://howcanihelp.carrd.co/,Allyship Carrd
-Black Earth Farms,Mutual aid / agroecology collective,Venmo: https://venmo.com/u/blackearthfarms; Cash App: https://cash.app/$blackearth; PayPal: https://paypal.me/blackearthfarms,https://howcanihelp.carrd.co/,Allyship Carrd
+Aomkoyo,streamer/VTuber,Furipay: https://furipay.me/aomkoyo,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
+Arrivar,streamer/VTuber,Furipay: https://furipay.me/arrivar,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
 Atticus Reid,Journalist / YouTuber / musician,Ko-fi: https://ko-fi.com/afxreid,https://ko-fi.com/afxreid,"Investigative journalist, photographer, videographer, musician"
-Jerrod Zisser,Journalist / photographer,Ko-fi: https://ko-fi.com/buymecoffeeplease,https://ko-fi.com/buymecoffeeplease,Independent journalist; Marine Corps veteran; politics/protests
-Hubi Koch,Journalist / filmmaker,Ko-fi: https://ko-fi.com/hubikoch,https://ko-fi.com/hubikoch,Freelance journalist and filmmaker; Instagram/YouTube/Twitch
-Collier CJ Jennings,Journalist / screenwriter / YouTuber,Ko-fi: https://ko-fi.com/cjdoesstuff,https://ko-fi.com/cjdoesstuff,Freelance journalist and screenwriter
-Alex Zee,comedian,Cash App: https://cash.app/$alexzeecomedy; Venmo: https://venmo.com/u/alexzeecomedy,https://nakula.ink/news/info-https-alexzeecomedy.com/pages/tip,Merged from parallel open-web scrape
-Malcolm McFly,comedian,Cash App: https://cash.app/$iMalcolmmcfly; Venmo: https://venmo.com/u/iMalcolmMcFly; Zelle: phone listed on site,https://www.malcolmmcfly.com/,Merged from parallel open-web scrape
-Ryan Bourassa,comedian,Cash App: https://cash.app/$cash; Venmo: https://venmo.com/u/venmo.com/ryankickassa; PayPal: https://paypal.me/highryan; Patreon: https://www.patreon.com/patreon.com/highryan,https://allmylinks.com/ryankickassa,Merged from parallel open-web scrape
-Michael Furr,comedian,Cash App: https://cash.app/$MichaelCFurr; Venmo: https://venmo.com/u/venmo.com/MichaelCFurr; PayPal: https://paypal.me/michaelcfurr,https://allmylinks.com/michaelfurr,Merged from parallel open-web scrape
-Reece Cotton (Comedy by Cotton),comedian,Cash App: https://cash.app/$ComedybyCotton; Venmo: https://venmo.com/u/ComedybyCotton,https://comedybycotton.wixsite.com/official/donate,Merged from parallel open-web scrape
-FOIA Comedy / Curtis Raye,comedy nonprofit,Cash App: https://cash.app/$FOIAComedy; Venmo: https://venmo.com/u/Curtis-Raye; Zelle: 862-266-2998,https://www.foialove.com/digital,Tax-deductible nonprofit EIN 92-0842247
-Nickeon,creator/comedian,Cash App: https://cash.app/$Nickeon; Venmo: https://venmo.com/u/Nickeon,https://www.nickeon.com/tip-jar-donations,Merged from parallel open-web scrape
-Josh Pineo (Bulldog Uncensored),comedian/podcaster,Venmo: https://venmo.com/u/BulldogUncensored; PayPal: https://paypal.me/bulldog62488,https://www.bulldoguncensored.com/support/,Merged from parallel open-web scrape
-Mike Bova (Kountry Mike),comedian/musician,Cash App: https://cash.app/$cash,https://allmylinks.com/mikebova,Merged from parallel open-web scrape
-Dan DeCristofaro,musician/comedian,Cash App: https://cash.app/$DanDeCristofaro; Venmo: https://venmo.com/u/venmo.com/u/DansTipJar,https://everythingdan.com/tips,Merged from parallel open-web scrape
-Bob Bennett,musician,Cash App: https://cash.app/$bobbennettmusic; Venmo: https://venmo.com/u/Bob-Bennett-Music; PayPal: https://paypal.me/bobbennettmusic; Zelle: bob@bobbennett.com,https://bobbennett.com/digitaltipjar/,Merged from parallel open-web scrape
-Russell McLaughlin,musician,Cash App: https://cash.app/$cash; Venmo: https://venmo.com/u/venmo.com/itsruss; PayPal: https://paypal.me/itsruss,https://itsruss.com/tip/,Merged from parallel open-web scrape
-Roxie Beane,musician,Cash App: https://cash.app/$RoxieBeane; Venmo: https://venmo.com/u/RoxieBeane; PayPal: roxie@roxiebeane.com,https://www.roxiebeane.com/virtual-tip-jar,Merged from parallel open-web scrape
-Brian Berlin,musician,Cash App: https://cash.app/$briandberlin; Venmo: https://venmo.com/u/Brian-Berlin-10; PayPal: paypal.me (linked on page); Patreon: https://www.patreon.com/patreon.com/BrianBerlin,https://brianberlin.net/tips/,Merged from parallel open-web scrape
-Matt Jantz (Cajonalone),musician,Cash App: https://cash.app/$mattjantz18; Venmo: https://venmo.com/u/Matt-Jantz; PayPal: https://paypal.me/mattyjcajon,https://www.cajonalone.com/virtual-tipping-options,Merged from parallel open-web scrape
-Jean Andre Moore,musician,Cash App: https://cash.app/$JeanAndreMoore; Venmo: https://venmo.com/u/venmo.com/code (QR on page); PayPal: https://paypal.me/jeanandremusic,https://www.jeanandremoore.com/virtual-tip-jar.html,Merged from parallel open-web scrape
+Avalisa Davenport,Entertainer / drag,Cash: https://cash.app/$avalisaellicott; PayPal: https://paypal.me/avalisagallo,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+azuray,streamer/VTuber,Furipay: https://furipay.me/azuray,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Baddie Brooks,Entertainer / drag,Cash: https://cash.app/$vociferousdom; Venmo: https://venmo.com/u/vociferous_dom; PayPal: https://paypal.me/dombrooks1,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Black Earth Farms,Mutual aid / agroecology collective,Venmo: https://venmo.com/u/blackearthfarms; Cash: https://cash.app/$blackearth; PayPal: https://paypal.me/blackearthfarms,https://howcanihelp.carrd.co/,Allyship Carrd
+Bob Bennett,musician,Cash: https://cash.app/$bobbennettmusic; Venmo: https://venmo.com/u/Bob-Bennett-Music; PayPal: https://paypal.me/bobbennettmusic; Zelle: bob@bobbennett.com,https://bobbennett.com/digitaltipjar/,Merged from parallel open-web scrape
+Brian Berlin,musician,Cash: https://cash.app/$briandberlin; Venmo: https://venmo.com/u/Brian-Berlin-10; PayPal: paypal.me (linked on page); Patreon: https://www.patreon.com/BrianBerlin,https://brianberlin.net/tips/,Merged from parallel open-web scrape
 Bryan Gallo,musician,Venmo: https://venmo.com/u/bryangallomuzak; PayPal: https://paypal.me/bryangallomuzak,https://www.bryangallo.com/tip-jar,Merged from parallel open-web scrape
-NeilBe,musician,Venmo: https://venmo.com/u/neilbe,https://neilbe.com/TipJar.html,Merged from parallel open-web scrape
-Django Soulo (Django Koenig),musician,Venmo: https://venmo.com/u/DjangoSoulo; PayPal: https://paypal.me/djangosoulo,https://djangosoulo.com/donate,Merged from parallel open-web scrape
-The 727s Band,band,Venmo: https://venmo.com/u/the727s; PayPal: https://paypal.me/the727s; Zelle: the727s@icloud.com,https://the727s.com/tips/,Merged from parallel open-web scrape
-Andrew McKnight,musician,Venmo: https://venmo.com/u/venmo.com/AndrewMcKnightMusic; PayPal: https://paypal.me/AndrewMcKnightMusic; Zelle: info@andrewmcknight.net,https://andrewmcknight.net/donate,Merged from parallel open-web scrape
-Secret Commonwealth,band,Cash App: https://cash.app/$Tipthegnome; Venmo: https://venmo.com/u/venmo.com/TSCBAND; PayPal: https://paypal.me/TSC1993,https://www.tscband.com/virtual-tip-jar,Ask tippers to note FOR TSC
-Dana & Sharon Kamide,musicians,Cash App: https://cash.app/$danakamide; Venmo: https://venmo.com/u/DanaSharonMusic,https://www.danasharon.com/tips/,Merged from parallel open-web scrape
-Daniel Weidlein / BioSoul,musician,Cash App: https://cash.app/$danielweidlein; Venmo: https://venmo.com/u/biosoulmusic,https://www.danielweidlein.com/tips,Merged from parallel open-web scrape
-Morgan Harrison,musician,Cash App: https://cash.app/$sidewindermorgan; Venmo: https://venmo.com/u/Morganhmusic,https://allmylinks.com/brvhmorgxn,Merged from parallel open-web scrape
-Gary Weilage (Caveman Bard),musician,Cash App: https://cash.app/$listed; Venmo: https://venmo.com/u/Cavemanbard,https://garyweilage.com/tip-jar,Merged from parallel open-web scrape
-Mike Cono,entertainer,Venmo: https://venmo.com/u/MichaelCono; PayPal: https://paypal.me/MichaelCono,https://mikecono.com/request-success/,Merged from parallel open-web scrape
-Wally Rashid,journalist,Cash App: https://cash.app/$cash; Venmo: https://venmo.com/u/venmo.com/u/wallyrashid; PayPal: https://paypal.me/wallyrashid; Zelle: wrashid@wallyrashid.com,https://www.wallyrashid.com/about,Merged from parallel open-web scrape
-Chris Nelson (ReOpenChris),journalist,Cash App: https://cash.app/$ReOpenChris; Venmo: https://venmo.com/u/ChrisNelsonFL; PayPal: https://paypal.me/ReOpenChris,https://www.reopenchris.com/donate,Merged from parallel open-web scrape
+Charli Deter,Content creator,Venmo: https://venmo.com/u/CharliDeter; Cash: https://cash.app/$charlideter,https://charlideter.com/support,Official support page | Listed in search snippet; Cash App section may be image-linked
+chocopop gamer,streamer/VTuber,Furipay: https://furipay.me/chocopop,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Chris Nelson (ReOpenChris),journalist,Cash: https://cash.app/$ReOpenChris; Venmo: https://venmo.com/u/ChrisNelsonFL; PayPal: https://paypal.me/ReOpenChris,https://www.reopenchris.com/donate,Merged from parallel open-web scrape
+Collier CJ Jennings,Journalist / screenwriter / YouTuber,Ko-fi: https://ko-fi.com/cjdoesstuff,https://ko-fi.com/cjdoesstuff,Freelance journalist and screenwriter
+Cory Shorter,entertainer/drag,Venmo: https://venmo.com/u/cory-shorter-1; Cash: https://cash.app/$coryshorter; PayPal: coryshorter@gmail.com,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black) | Listed on venue/performer tip roster
 Craig Medred,journalist,Venmo: https://venmo.com/u/craig-medred; PayPal: https://paypal.me/craig-medred,https://craigmedred.news/donate/,Merged from parallel open-web scrape
-John Crump,journalist/podcaster,Cash App: https://cash.app/$realjohncrump; PayPal: https://paypal.me/johncc; Patreon: https://www.patreon.com/patreon.com/johncrump,https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc,Listed in podcast show notes / descriptions
-Starship Gazer (Ryan),photojournalist/YouTuber,Cash App: https://cash.app/$StarshipGazer; Venmo: https://venmo.com/u/Starship-Gazer; PayPal: https://paypal.me/StarshipGazerdotcom; Zelle: spacemanryan@yahoo.com; Patreon: https://www.patreon.com/patreon.com/StarshipGazer,https://www.starshipgazer.com/donate,Merged from parallel open-web scrape
+Crystal Harding,Entertainer / drag,Venmo: https://venmo.com/u/Mark-Beshow; Cash: https://cash.app/$Markbeshow,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Dallas-Fort Worth Mutual Aid,Mutual aid / activist org,Cash: https://cash.app/$dfwmutualaid; Venmo: https://venmo.com/u/dfwmutualaid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
+Dan DeCristofaro,musician/comedian,Cash: https://cash.app/$DanDeCristofaro,https://everythingdan.com/tips,Merged from parallel open-web scrape
+Dana & Sharon Kamide,musicians,Cash: https://cash.app/$danakamide; Venmo: https://venmo.com/u/DanaSharonMusic,https://www.danasharon.com/tips/,Merged from parallel open-web scrape
+Daniel Weidlein / BioSoul,musician,Cash: https://cash.app/$danielweidlein; Venmo: https://venmo.com/u/biosoulmusic,https://www.danielweidlein.com/tips,Merged from parallel open-web scrape
+David Jesudason,Journalist,Ko-fi: https://ko-fi.com/davidjesudason,https://ko-fi.com/davidjesudason,"British Asian journalist; BBC Culture, Guardian"
+Deanna Fry,Journalist / author,Ko-fi: https://ko-fi.com/deannafry,https://ko-fi.com/deannafry,Emmy and Peabody Award-winning journalist
+Deja Van Cartier,Entertainer / drag,Venmo: https://venmo.com/u/DejaVanCartier,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+DJ Alejandro Conde,DJ / musician,PayPal: https://paypal.me/DJAlejandroConde,https://djalejandroconde.com.ar/donate/,Official donate page
+DJ Amber,entertainer/drag,Venmo: https://venmo.com/u/AmberShawn; Cash: https://cash.app/$DariaGoo; PayPal: DizzyNoiseRecords@yahoo.com,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black) | Listed on venue/performer tip roster
+DJ Ayinde,DJ,Cash: https://cash.app/$ayindezuri,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+DJ KB,DJ,Cash: https://cash.app/$KyleBPay; PayPal: https://paypal.me/DJKBPAY,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Django Soulo,Musician,Venmo: https://venmo.com/u/DjangoSoulo; PayPal: https://paypal.me/djangosoulo,https://djangosoulo.com/donate,Official donate page virtual tip jar | Official donate page
+Django Soulo (Django Koenig),musician,Venmo: https://venmo.com/u/DjangoSoulo; PayPal: https://paypal.me/djangosoulo,https://djangosoulo.com/donate,Merged from parallel open-web scrape
+Edna Griffin Mutual Aid,Mutual aid / activist org,Venmo: https://venmo.com/u/EdnaGriffin-MutualAid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
+Emma Sapphire,Entertainer / drag,Venmo: https://venmo.com/u/emmanuel-arcos-1,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
 Eric Rosen,chess streamer,PayPal: https://paypal.me/ericrosenchess; Streamlabs: streamlabs.com/imrosen/tip,https://imrosen.com/support/,Merged from parallel open-web scrape
-Sean Penalber,artist/author,Cash App: https://cash.app/$cash; Venmo: https://venmo.com/u/venmo.com/seanpenalber,https://allmylinks.com/seanpenalber,Merged from parallel open-web scrape
-Torshaa Podcast,podcaster,Cash App: https://cash.app/$TorshaaPodcast,https://cash.app/$TorshaaPodcast,Public Cash App profile page
-liondad_1987,animal content creator,Cash App: https://cash.app/$cash,https://beacons.ai/liondad_1987,Merged from parallel open-web scrape
+Erika Norell,Entertainer / drag,Cash: https://cash.app/$ErikaNorell; Venmo: https://venmo.com/u/erika-norell,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Feli from Germany,YouTuber,Buy: https://buymeacoffee.com/felifromgermany,https://buymeacoffee.com/felifromgermany,Buy Me a Coffee Explore Creators / profile page
+FOIA Comedy / Curtis Raye,comedy nonprofit,Cash: https://cash.app/$FOIAComedy; Venmo: https://venmo.com/u/Curtis-Raye; Zelle: 862-266-2998,https://www.foialove.com/digital,Tax-deductible nonprofit EIN 92-0842247
+funeehe,streamer/VTuber,Furipay: https://furipay.me/funeehe,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
+Gary Weilage (Caveman Bard),musician,Venmo: https://venmo.com/u/Cavemanbard,https://garyweilage.com/tip-jar,Merged from parallel open-web scrape
+Gilberto Capistran,Musician,Venmo: https://venmo.com/u/Gilberto-Capistran; Cash: https://cash.app/$alexcap95,https://gilbertocapistrantips.carrd.co/,Self Carrd tipping page
+Hubi Koch,Journalist / filmmaker,Ko-fi: https://ko-fi.com/hubikoch,https://ko-fi.com/hubikoch,Freelance journalist and filmmaker; Instagram/YouTube/Twitch
+ihaveahax,Open-source developer / creator,Ko-fi: https://ko-fi.com/ihaveahax; PayPal: https://paypal.me/ihaveamac; Cash: https://cash.app/$ihaveahax; Venmo: https://venmo.com/u/ihaveahax,https://ihaveahax.net/wiki/Donations,Official donations wiki
+Jadein Black,Entertainer / drag,Venmo: https://venmo.com/u/jadeinblack; Cash: https://cash.app/$jadeinblack; PayPal: https://paypal.me/JadeinBlack,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Jamie Dlux,YouTuber / author / musician,PayPal: https://paypal.me/jamiedlux; Cash: https://cash.app/$dluxnation,https://addyadds.substack.com/p/jamie-dlux-uncensored-author-musician-photographer-graphic-designer-published-poet-creator,Third-party Substack listing of Linktree tip links | Third-party listing
+Jason LaPorte,Musician,Venmo: https://venmo.com/u/jasonlaportemusic; Cash: https://cash.app/$jasonlaportemusic; PayPal: https://paypal.me/jasonlaportemusic,https://www.jasonlaporte.com/support,Official support page; Venmo last4 1189 listed | Username listed for Cash App/Venmo/PayPal as @jasonlaportemusic | Username listed on support page
+Jean Andre Moore,musician,Cash: https://cash.app/$JeanAndreMoore; PayPal: https://paypal.me/jeanandremusic,https://www.jeanandremoore.com/virtual-tip-jar.html,Merged from parallel open-web scrape
+Jeffrey Brodsky,Journalist,Buy: https://buymeacoffee.com/jeffreybrodsky,https://buymeacoffee.com/jeffreybrodsky,Journalist covering Nord Stream investigation
+Jeremy Arndt,Musician,PayPal: https://paypal.me/jeremyarndt; Venmo: https://venmo.com/u/Heavenly3lues; Cash: https://cash.app/$Heavenly3lues,https://www.jeremyarndt.com/donate,Listed on official donate page (search snippet; page later 401) | Listed on official donate page (search snippet)
+Jerrod Zisser,Journalist / photographer,Ko-fi: https://ko-fi.com/buymecoffeeplease,https://ko-fi.com/buymecoffeeplease,Independent journalist; Marine Corps veteran; politics/protests
+Jill Cohen (Beach Report),Journalist / filmmaker,Buy: https://buymeacoffee.com/jillbeach,https://buymeacoffee.com/jillbeach,"Journalist, writer, editor, photographer, filmmaker"
+Jocelynni,Streamer / TikToker,Cash: https://cash.app/$jocelynni415,https://linktr.ee/Jocelynni,Linktree lists Pay $jocelynni415 on Cash App (PayPal/Venmo links also present)
+Joe Hills,YouTuber,PayPal: https://paypal.me/joehills,https://www.paypal.me/joehills,Longstanding public PayPal.me; also referenced on Reddit tip discussions
+John Crump,journalist/podcaster,Cash: https://cash.app/$realjohncrump; PayPal: https://paypal.me/johncc; Patreon: https://www.patreon.com/johncrump,https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc,Listed in podcast show notes / descriptions
+John Sturk,Magician / musician / comedian,Venmo: https://venmo.com/u/johnsturk; Zelle: via email on tips page; busk.co: https://busk.co/johnsturk/tip,https://www.johnsturk.com/tips.html,Official tips page; Venmo digits 9219 listed | Zelle email listed on tips page (redacted in fetch) | Apple Pay / card via busk.co
+Johnny Vedmore,Investigative journalist,PayPal: https://paypal.me/johnnyvedmore; Buy: https://buymeacoffee.com/johnnyvedmore; Ko-fi: https://ko-fi.com/johnnyvedmore,https://newspaste.com/home/support-newspaste/,NEWSPASTE founder support page | Official support page
+Josh Pineo (Bulldog Uncensored),comedian/podcaster,Venmo: https://venmo.com/u/BulldogUncensored; PayPal: https://paypal.me/bulldog62488,https://www.bulldoguncensored.com/support/,Merged from parallel open-web scrape
+Juno Rylee Schultz,Journalist,Ko-fi: https://ko-fi.com/junostump,https://ko-fi.com/junostump,"Independent journalist; Polygon, IGN, etc."
+Kaan Goktas,Journalist / activist,Buy: https://buymeacoffee.com/kgoktas,https://buymeacoffee.com/kgoktas,"Journalist, cypherpunk, blogger, activist"
+Karen Drucker,Musician,PayPal: https://paypal.me/karendrucker; Venmo: https://venmo.com/u/karen-drucker-3,https://www.karendrucker.com/donate/,Official donate page
+Kenna Rose,musician,Venmo: https://venmo.com/u/KennaRoseMusic; PayPal: https://paypal.me/KennaRoseMusic,https://www.kennarosemusic.com/tips,Official tips page with QR codes | Official tips page | Merged from parallel open-web scrape
+King Teddy,Entertainer,Cash: https://cash.app/$Imtheteddy; Venmo: https://venmo.com/u/Teddy-Aguilar,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Kirsten Han,Journalist / activist,Ko-fi: https://ko-fi.com/kirstenhan,https://ko-fi.com/kirstenhan,"Singaporean independent journalist; We, The Citizens"
+KJ Karen,Entertainer,Venmo: https://venmo.com/u/kjkarenobrien,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Kolja De Vitis,Freelance journalist,Buy: https://buymeacoffee.com/kodv,https://buymeacoffee.com/kodv,Freelance journalist BMC page
+Lana Sevol,Entertainer / drag,Cash: https://cash.app/$BeejisLana,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+lxlita,streamer/VTuber,Furipay: https://furipay.me/lxl1t4,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Malcolm McFly,comedian,Cash: https://cash.app/$iMalcolmmcfly; Venmo: https://venmo.com/u/iMalcolmMcFly; Zelle: phone listed on site,https://www.malcolmmcfly.com/,Merged from parallel open-web scrape
+Maravilla (Jenah Maravilla),Editor / educator,Venmo: https://venmo.com/u/JNH-M; PayPal: https://paypal.me/JenahM; Cash: https://cash.app/$J3NAHM,https://maravilla-edits.carrd.co/,Self Carrd FAQ donation section | Self Carrd FAQ
+Mark McG (You Call That Radio),Podcaster / musician,PayPal: https://paypal.me/youcallthatradio; Ko-fi: https://ko-fi.com/youcallthatradio,https://youcallthatradio.castos.com/episodes/ask-me-anything-w-mark-mcg-reading-out-listeners-questions,Show notes tip links
+Mary Anne Butler (Mab),Journalist / event producer,Ko-fi: https://ko-fi.com/mabtheprofessional,https://ko-fi.com/mabtheprofessional,"Journalist; UGO, Geek Magazine, Bleeding Cool"
+Matt Jantz (Cajonalone),musician,Cash: https://cash.app/$mattjantz18; Venmo: https://venmo.com/u/Matt-Jantz; PayPal: https://paypal.me/mattyjcajon,https://www.cajonalone.com/virtual-tipping-options,Merged from parallel open-web scrape
+Maxi Chanel,Entertainer / drag,Venmo: https://venmo.com/u/maxichanel; Cash: https://cash.app/$maxichanel; PayPal: https://paypal.me/Maxi2c,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Michael Furr,comedian,Cash: https://cash.app/$MichaelCFurr; PayPal: https://paypal.me/michaelcfurr,https://allmylinks.com/michaelfurr,Merged from parallel open-web scrape
+Mike Cono,entertainer,Venmo: https://venmo.com/u/MichaelCono; PayPal: https://paypal.me/MichaelCono,https://mikecono.com/request-success/,Merged from parallel open-web scrape
+Miss Faguette,Entertainer / drag,Venmo: https://venmo.com/u/missfaguette; Cash: https://cash.app/$alexkfrench; PayPal: https://paypal.me/lilykfrench,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+MJXNZ,streamer/VTuber,Furipay: https://furipay.me/mjxnz,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+MOLLY,streamer/VTuber,Furipay: https://furipay.me/mollyehe,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
+Mona Wikøren (I AM Piqpi),Independent journalist,Buy: https://buymeacoffee.com/monasr,https://buymeacoffee.com/monasr,Independent journalist / online newspaper
+Morgan Harrison,musician,Cash: https://cash.app/$sidewindermorgan; Venmo: https://venmo.com/u/Morganhmusic,https://allmylinks.com/brvhmorgxn,Merged from parallel open-web scrape
+Natalie Cole,Entertainer / drag,Venmo: https://venmo.com/u/Nataliecole69; Cash: https://cash.app/$cole2468,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+nattapat2871,streamer/VTuber,Furipay: https://furipay.me/nattapat2871,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+NeilBe,musician,Venmo: https://venmo.com/u/neilbe,https://neilbe.com/TipJar.html,Merged from parallel open-web scrape
+Newark Mutual Aid Fund,Mutual aid / activist org,Cash: https://cash.app/$BrickCityMutualAid; Venmo: https://venmo.com/u/BrickCityMutualAid,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
+Nickeon,creator/comedian,Cash: https://cash.app/$Nickeon; Venmo: https://venmo.com/u/Nickeon,https://www.nickeon.com/tip-jar-donations,Merged from parallel open-web scrape
+nongthamtv,streamer/VTuber,Furipay: https://furipay.me/nongthamtv,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+nuancehoe (Carah Burrell),YouTuber / comedian / activist,Venmo: https://venmo.com/u/CarahB,https://linktr.ee/nuancehoe,Official Linktree Tip Jar; also YouTube about/donorbox
+Oakland Food Workers Fund,Mutual aid / activist org,PayPal: https://paypal.me/oaklandworkersfund; Venmo: https://venmo.com/u/oaklandworkersfund,https://howcanihelp.carrd.co/,Allyship Carrd
+Openminded187,Twitch streamer,Cash: https://cash.app/$fjc91,https://www.betterbanned.com/en/streamer/openminded187,Cashtag in Twitch bio mirrored on profile aggregator
+People's Breakfast Oakland / People's Programs,Mutual aid / activist org,Cash: https://cash.app/$PeoplesPrograms; Venmo: https://venmo.com/u/Peoples-Programs; PayPal: https://paypal.me/peoplesprograms,https://howcanihelp.carrd.co/,Listed on allyship donation Carrd | Allyship Carrd
+Raven's LateNightASMR,ASMR YouTuber,PayPal: https://paypal.me/RavensLateNightASMR,https://theasmrindex.com/zh/video/F0fULucSbC0,Tip jar in video description; Linktree linked
+Redness Everdank,Entertainer / drag,Venmo: https://venmo.com/u/Diviniakat; Cash: https://cash.app/$diviniakat,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Reece Cotton (Comedy by Cotton),comedian,Cash: https://cash.app/$ComedybyCotton; Venmo: https://venmo.com/u/ComedybyCotton,https://comedybycotton.wixsite.com/official/donate,Merged from parallel open-web scrape
+Remington Rose,Entertainer / drag,Venmo: https://venmo.com/u/Remington_rose; Cash: https://cash.app/$evanstehlik,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Roxie Beane,musician,Cash: https://cash.app/$RoxieBeane; Venmo: https://venmo.com/u/RoxieBeane; PayPal: roxie@roxiebeane.com,https://www.roxiebeane.com/virtual-tip-jar,Merged from parallel open-web scrape
+Russell McLaughlin,musician,PayPal: https://paypal.me/itsruss,https://itsruss.com/tip/,Merged from parallel open-web scrape
+Ryan Bourassa,comedian,PayPal: https://paypal.me/highryan; Patreon: https://www.patreon.com/highryan,https://allmylinks.com/ryankickassa,Merged from parallel open-web scrape
+Sabin,Entertainer / drag,Cash: https://cash.app/$sabindetroit; Venmo: https://venmo.com/u/sabindetroit,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+SacredAlmighty,YouTuber / Twitch streamer,Cash: https://cash.app/$nick2almighty,https://allmylinks.com/sacredalmighty,AllMyLinks bio tip link + Streamlabs
+Sarzoliss,streamer/VTuber,Furipay: https://furipay.me/sarzoliss,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Secret Commonwealth,band,Cash: https://cash.app/$Tipthegnome; PayPal: https://paypal.me/TSC1993,https://www.tscband.com/virtual-tip-jar,Ask tippers to note FOR TSC
+Seth Freeman,Musician,Venmo: https://venmo.com/u/Seth-Freeman-21; PayPal: https://paypal.me/sethfreemanmusic; Cash: https://cash.app/$manfreeseth,https://sethfreemanmusic.com/tips,Official tip jar page | Official tip jar; PayPal handle as listed
+Sharleen Joynt,Writer / TV commentator,Buy: https://buymeacoffee.com/sharleen,https://buymeacoffee.com/sharleen,Buy Me a Coffee Explore Creators / profile page
+Sharon Lee Davies-Tight,Artist / author / activist,PayPal: https://paypal.me/SharonLeeDaviesTight,https://www.paypal.com/paypalme/SharonLeeDaviesTight,Public PayPal.me profile bio
+SleepingP,streamer/VTuber,Furipay: https://furipay.me/sleepingp,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
+Starship Gazer (Ryan),photojournalist/YouTuber,Cash: https://cash.app/$StarshipGazer; Venmo: https://venmo.com/u/Starship-Gazer; PayPal: https://paypal.me/StarshipGazerdotcom; Zelle: spacemanryan@yahoo.com; Patreon: https://www.patreon.com/StarshipGazer,https://www.starshipgazer.com/donate,Merged from parallel open-web scrape
+Teacher Stefano,YouTuber / podcaster,Buy: https://buymeacoffee.com/teacherstefano,https://buymeacoffee.com/teacherstefano,Buy Me a Coffee Explore Creators / profile page
+The 727s Band,band,Venmo: https://venmo.com/u/the727s; PayPal: https://paypal.me/the727s; Zelle: the727s@icloud.com,https://the727s.com/tips/,Merged from parallel open-web scrape
+thomashi ch.,streamer/VTuber,Furipay: https://furipay.me/thomashi,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Tom Webster,Comedian / content creator,Venmo: https://venmo.com/u/Tom-Webster-22; PayPal: https://paypal.me/tomwebster1246,https://tomwebster.com/support-tom/,Listed in search/snippet for support page; live page was under construction at fetch time | Search snippet; live page under construction at fetch
+Torshaa Podcast,podcaster,Cash: https://cash.app/$TorshaaPodcast,https://cash.app/$TorshaaPodcast,Public Cash App profile page
+Troy Farah,Journalist,Ko-fi: https://ko-fi.com/troyfarah,https://ko-fi.com/troyfarah,"Independent journalist; National Geographic, Guardian, VICE, WIRED"
+Vivian Aphrodisia,Entertainer / drag,Venmo: https://venmo.com/u/thebitchviv,https://www.jadeinblack.com/tips,Listed on venue/entertainer tip page (Jadein Black)
+Wally Rashid,journalist,PayPal: https://paypal.me/wallyrashid; Zelle: wrashid@wallyrashid.com,https://www.wallyrashid.com/about,Merged from parallel open-web scrape
+WHOA Greensboro,Mutual aid / activist org,Venmo: https://venmo.com/u/WHOA-GSO,https://mutualaid.carrd.co/,Listed on mutual aid Carrd
+Wolf WerewolfYT,streamer/VTuber,Furipay: https://furipay.me/wolfwerewolf,https://furipay.me/creators,Furipay creator directory tip page; Furipay identity verified badge | Stripe Connect tip page via Furipay
+XxaliNilaxX,streamer/VTuber,Furipay: https://furipay.me/alinila,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
+Zoe Rebekah,YouTuber / writer,PayPal: https://paypal.me/zoefrenchman,https://www.youtube.com/watch?v=KD9NlgHrkkE,PayPal tips in YouTube video description
+ZoeSPoinT,streamer/VTuber,Furipay: https://furipay.me/zoeesther7446,https://furipay.me/creators,Furipay creator directory tip page | Stripe Connect tip page via Furipay
