@@ -135,6 +135,8 @@
   .site-header,
   .hero-bg,
   .hero-inner > *,
+  .hero-copy > *,
+  .hero-portrait-wrap,
   .scroll-line {
     animation: none !important;
     opacity: 1 !important;
@@ -286,6 +288,22 @@ a.footer-top:hover {
   gap: 1rem;
 }
 
+/* No monogram — navigation is the header */
+.site-header--nav-only .header-inner {
+  justify-content: center;
+}
+
+.site-header--nav-only .nav-toggle {
+  position: absolute;
+  left: max(1.25rem, calc((100% - var(--container)) / 2 + 0.25rem));
+}
+
+@media (min-width: 769px) {
+  .site-header--nav-only .nav-toggle {
+    display: none;
+  }
+}
+
 .logo {
   display: inline-flex;
   align-items: center;
@@ -373,6 +391,11 @@ a.footer-top:hover {
   display: flex;
   align-items: center;
   gap: 0.25rem 2rem;
+}
+
+/* Shorter top bar — three section jumps only */
+.nav-list--compact {
+  gap: 0.25rem 2.75rem;
 }
 
 .nav-list a {
@@ -477,6 +500,455 @@ a.footer-top:hover {
   z-index: 1;
   padding-block: 5rem 6rem;
   max-width: 40rem;
+}
+
+/* Wide hero: copy + portrait side by side on desktop */
+.hero-split {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  padding-block: 5rem 6rem;
+}
+
+@media (min-width: 900px) {
+  .hero-split {
+    grid-template-columns: minmax(0, 1.05fr) minmax(260px, 380px);
+    gap: 3.5rem;
+  }
+}
+
+.hero-copy {
+  max-width: 40rem;
+}
+
+/* Staggered entrance applies to hero-copy children (same pattern as old .hero-inner) */
+.hero-copy > * {
+  opacity: 0;
+  animation: fade-rise 1.05s var(--ease-out) forwards;
+}
+
+.hero-copy > *:nth-child(1) {
+  animation-delay: 0.12s;
+}
+
+.hero-copy > *:nth-child(2) {
+  animation-delay: 0.26s;
+}
+
+.hero-copy > *:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.hero-copy > *:nth-child(4) {
+  animation-delay: 0.52s;
+}
+
+.hero-copy > *:nth-child(4) {
+  animation-delay: 0.52s;
+}
+
+.hero-portrait-wrap {
+  margin: 0;
+  text-align: center;
+  animation: fade-rise 1.1s var(--ease-out) 0.35s forwards;
+  opacity: 0;
+}
+
+.hero-portrait {
+  width: min(100%, 22rem);
+  margin-inline: auto;
+  border-radius: 50%;
+  border: 2px solid var(--border-strong);
+  box-shadow: 0 28px 64px rgba(0, 0, 0, 0.45);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+/* Hero: rectangular portrait (less “template” than a circle) */
+.hero-photo {
+  width: min(100%, 20rem);
+  margin-inline: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 32px 72px rgba(0, 0, 0, 0.42);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+/* Full-body match photo — taller frame, keep player centered */
+.hero-photo--action {
+  width: min(100%, 18.5rem);
+  aspect-ratio: 3 / 4;
+  object-position: center 20%;
+}
+
+.hero-portrait-caption {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.section-lead--tight {
+  margin-bottom: 2rem;
+}
+
+/* About: vertical timeline (school · soccer · projects) */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.75rem;
+  border-left: 2px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 0;
+}
+
+/* Dot on the spine */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.75rem - 6px);
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg-deep);
+  border: 2px solid var(--accent);
+}
+
+.timeline-item--accent::before {
+  background: var(--accent-soft);
+  border-color: var(--accent-highlight);
+}
+
+.timeline-when {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.timeline-heading {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.timeline-body p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9875rem;
+  line-height: 1.7;
+  max-width: 42rem;
+}
+
+/* R8 product block — one place for AutoAlgoAssembler + YouTube */
+.product-panel {
+  display: grid;
+  gap: 1.75rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+}
+
+@media (min-width: 880px) {
+  .product-panel {
+    grid-template-columns: 1.1fr minmax(260px, 360px);
+    align-items: start;
+    gap: 2.25rem;
+  }
+}
+
+.product-panel-title {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 1.85rem);
+  font-weight: 500;
+}
+
+.product-panel-intro p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.product-panel-bullets {
+  margin-top: 1.15rem;
+}
+
+/* Google Play–style preview card for Agora */
+.store-preview {
+  margin-top: 0.5rem;
+}
+
+.store-preview-device {
+  padding: 1.75rem 1.75rem 1.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-strong);
+  background: linear-gradient(165deg, rgba(201, 168, 110, 0.08), rgba(26, 22, 17, 0.95));
+}
+
+.store-preview-top {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.store-preview-icon {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 22%;
+  border: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+.store-preview-title {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+
+.store-preview-dev {
+  margin: 0 0 0.65rem;
+  font-size: 0.8125rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.store-preview-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.store-preview-cta {
+  width: 100%;
+  margin-bottom: 0.85rem;
+}
+
+@media (min-width: 480px) {
+  .store-preview-cta {
+    width: auto;
+  }
+}
+
+.store-preview-url {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  word-break: break-all;
+}
+
+.store-preview-url a {
+  color: var(--text-muted);
+}
+
+/* Quick résumé stats under primary CTAs */
+.hero-stats {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--border-subtle);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.25rem;
+}
+
+@media (min-width: 520px) {
+  .hero-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.hero-stat-value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: var(--accent-highlight);
+  line-height: 1.1;
+}
+
+.hero-stat-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+/* Header quick links (résumé / LinkedIn / YouTube) */
+.header-social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.header-social a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration-thickness: 1px;
+}
+
+@media (min-width: 769px) {
+  .header-inner {
+    flex-wrap: nowrap;
+  }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-social {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    justify-content: center;
+  }
+}
+
+/* Photo grid below hero */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.gallery-card {
+  margin: 0;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  overflow: hidden;
+  transition: border-color 0.35s ease, transform 0.4s var(--ease-out), box-shadow 0.4s ease;
+}
+
+.gallery-card:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-3px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.28);
+}
+
+.gallery-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.gallery-card figcaption {
+  padding: 0.85rem 1rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.gallery-card figcaption a {
+  text-decoration-thickness: 1px;
+}
+
+/* Accent tile when we don't have a product screenshot yet */
+.gallery-card--accent {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.gallery-card--accent .gallery-card-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 2rem 1.25rem;
+  background: linear-gradient(165deg, var(--accent-soft), rgba(55, 42, 32, 0.35));
+  aspect-ratio: 4 / 3;
+}
+
+.gallery-card-kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.gallery-card-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.gallery-card-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Scroll-reveal: gallery cards */
+html.js main > section.section:not(.is-visible) .gallery-card {
+  opacity: 0;
+  transform: translateY(1.1rem);
+}
+
+html.js main > section.section#gallery.is-visible .gallery-card:nth-child(1) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.14s forwards;
+}
+
+html.js main > section.section#gallery.is-visible .gallery-card:nth-child(2) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.22s forwards;
+}
+
+html.js main > section.section#gallery.is-visible .gallery-card:nth-child(3) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.3s forwards;
+}
+
+html.js main > section.section#gallery.is-visible .gallery-card:nth-child(4) {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.38s forwards;
 }
 
 /* Staggered entrance: each direct child fades up after load */
@@ -723,6 +1195,149 @@ a.footer-top:hover {
 
 .experience-list-tight {
   margin-bottom: 0.75rem;
+}
+
+/* Featured YouTube walkthrough — product demo above the R8 experience block */
+.featured-video {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2.25rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-strong);
+  background: linear-gradient(
+    145deg,
+    rgba(201, 168, 110, 0.1),
+    rgba(26, 22, 17, 0.92) 48%
+  );
+  transition: border-color 0.35s ease, transform 0.4s var(--ease-out), box-shadow 0.4s ease;
+}
+
+.featured-video:hover {
+  border-color: var(--accent);
+  box-shadow: 0 24px 56px rgba(0, 0, 0, 0.32);
+}
+
+@media (min-width: 768px) {
+  .featured-video {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 1.75rem 2rem;
+  }
+}
+
+.featured-video-media {
+  position: relative;
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  text-decoration: none;
+}
+
+.featured-video-media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease-out), opacity 0.35s ease;
+}
+
+.featured-video-media:hover img {
+  transform: scale(1.03);
+  opacity: 0.92;
+}
+
+.featured-video-media:hover {
+  text-decoration: none;
+}
+
+/* Pseudo-play control — sits over the thumbnail (link goes to YouTube, not an embedded player) */
+.featured-video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background: rgba(15, 13, 10, 0.72);
+  border: 2px solid var(--accent-highlight);
+  color: var(--accent-highlight);
+  font-size: 1.15rem;
+  padding-left: 0.2rem;
+  pointer-events: none;
+  transition: background 0.25s ease, transform 0.25s var(--ease-out);
+}
+
+.featured-video-media:hover .featured-video-play {
+  background: rgba(201, 168, 110, 0.35);
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.featured-video-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.featured-video-title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 1.85rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.featured-video-desc {
+  margin: 0 0 1.25rem;
+  color: var(--text-muted);
+  font-size: 0.9875rem;
+  line-height: 1.7;
+}
+
+.featured-video-cta {
+  width: fit-content;
+}
+
+html.js main > section.section:not(.is-visible) .featured-video {
+  opacity: 0;
+  transform: translateY(1.1rem);
+}
+
+html.js main > section.section#software.is-visible .product-panel {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.1s forwards;
+}
+
+html.js main > section.section#software.is-visible .store-preview {
+  animation: fade-rise var(--anim-rise) var(--ease-out) 0.22s forwards;
+}
+
+html.js main > section.section#about.is-visible .timeline-item:nth-child(1) {
+  animation: fade-rise 0.85s var(--ease-out) 0.08s forwards;
+}
+
+html.js main > section.section#about.is-visible .timeline-item:nth-child(2) {
+  animation: fade-rise 0.85s var(--ease-out) 0.14s forwards;
+}
+
+html.js main > section.section#about.is-visible .timeline-item:nth-child(3) {
+  animation: fade-rise 0.85s var(--ease-out) 0.2s forwards;
+}
+
+html.js main > section.section#about.is-visible .timeline-item:nth-child(4) {
+  animation: fade-rise 0.85s var(--ease-out) 0.26s forwards;
+}
+
+html.js main > section.section#about.is-visible .timeline-item:nth-child(5) {
+  animation: fade-rise 0.85s var(--ease-out) 0.32s forwards;
 }
 
 .about-grid {
@@ -1047,6 +1662,10 @@ html.js main > section.section:not(.is-visible) .section-title,
 html.js main > section.section:not(.is-visible) .section-lead,
 html.js main > section.section:not(.is-visible) .about-card,
 html.js main > section.section:not(.is-visible) .experience-item,
+html.js main > section.section:not(.is-visible) .gallery-card,
+html.js main > section.section:not(.is-visible) .timeline-item,
+html.js main > section.section:not(.is-visible) .product-panel,
+html.js main > section.section:not(.is-visible) .store-preview,
 html.js main > section.section:not(.is-visible) .contact-links > li {
   opacity: 0;
   transform: translateY(1.1rem);
@@ -1131,6 +1750,14 @@ html.js main > section.section.is-visible .contact-links > li:nth-child(3) {
 
 html.js main > section.section.is-visible .contact-links > li:nth-child(4) {
   animation: fade-rise 0.75s var(--ease-out) 0.36s forwards;
+}
+
+html.js main > section.section.is-visible .contact-links > li:nth-child(5) {
+  animation: fade-rise 0.75s var(--ease-out) 0.42s forwards;
+}
+
+html.js main > section.section.is-visible .contact-links > li:nth-child(6) {
+  animation: fade-rise 0.75s var(--ease-out) 0.48s forwards;
 }
 
 /* Skill chips: cascade in after the parent card or experience block */

@@ -5,9 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Diego Rodriguez — Computer Science student, developer, and entrepreneur. Mobile apps, trading automation, and more." />
+    content="Diego Rodriguez — finance graduate student, developer, and founder of R8 Solutions (AutoAlgoAssembler, Agora)." />
+  <meta name="theme-color" content="#0f0d0a" />
+  <meta property="og:title" content="Diego Rodriguez — Portfolio" />
+  <meta property="og:description"
+    content="Finance graduate student and builder of R8 Solutions — AutoAlgoAssembler for futures algo trading and Agora on Google Play." />
+  <meta property="og:image" content="https://bigdrod1.github.io/bigdrod1/images/diego-soccer.jpg" />
+  <meta property="og:url" content="https://bigdrod1.github.io/bigdrod1/" />
   <title>Diego Rodriguez — Portfolio</title>
-  <!-- Google Analytics 4: replace G-XXXXXXXXXX with your Measurement ID (GA4 → Admin → Data streams → Web). -->
   <link rel="preconnect" href="https://www.googletagmanager.com" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSYLY7V43E"></script>
   <script>
@@ -20,34 +25,27 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Cormorant Garamond = calm editorial headlines; Inter = clean, non-“startup tech” body copy -->
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
-  <!-- Enables scroll-reveal hiding only when JS runs; avoids blank sections if script fails -->
   <script>
     document.documentElement.classList.add("js");
   </script>
 </head>
 
 <body>
-  <header class="site-header" id="top">
+  <header class="site-header site-header--nav-only" id="top">
     <div class="header-inner">
-      <a class="logo" href="#top" aria-label="Home">
-        <!-- Simple monogram instead of code brackets — reads more timeless than “dev logo” -->
-        <span class="logo-mark" aria-hidden="true">DR</span>
-        <span class="logo-text">Diego Rodriguez</span>
-      </a>
       <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
-        <ul class="nav-list">
+        <ul class="nav-list nav-list--compact">
           <li><a href="#about">About</a></li>
-          <li><a href="#finance">Finance</a></li>
-          <li><a href="#software">Software development</a></li>
+          <li><a href="#software">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -56,84 +54,101 @@
   <main>
     <section class="hero">
       <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-inner">
-        <p class="hero-eyebrow"></p>
-        <h1 class="hero-title">Diego Rodriguez</h1>
-        <p class="hero-tagline">
-          I am computer Science student at Bethel University (Mishawaka, IN), graduating in May 2026. I
-          ship mobile apps, build algorithmic trading systems, play college soccer
-          and run a pressure washing business.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Get in touch</a>
+      <div class="container hero-split">
+        <div class="hero-copy">
+          <h1 class="hero-title">Diego Rodriguez</h1>
+          <p class="hero-tagline">
+            M.S. Finance student at Sacred Heart University and B.S. Computer Science graduate (Bethel, 3.8 GPA).
+            I build and sell futures trading software through <strong>R8 Solutions</strong>, document it on
+            <strong>R8 Algo Trading</strong>, and published the <strong>Agora</strong> app under the same brand.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="resume/Resume_Diego_Rodriguez.pdf" target="_blank"
+              rel="noopener noreferrer">Résumé</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/diego-rodriguez-profile/" target="_blank"
+              rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://www.youtube.com/@r8AlgoTrading" target="_blank"
+              rel="noopener noreferrer">YouTube</a>
+          </div>
         </div>
-        <div class="resume-aside">
-          <a class="resume-aside-link" href="resume/Resume_Diego_Rodriguez.pdf" target="_blank"
-            rel="noopener noreferrer" aria-label="Open résumé PDF in a new tab">Resume</a>
-        </div>
+        <figure class="hero-portrait-wrap">
+          <img class="hero-photo hero-photo--action" src="images/diego-soccer.jpg" width="720" height="960"
+            alt="Diego Rodriguez playing college soccer (USI)" loading="eager" decoding="async" />
+        </figure>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section section-alt" id="about">
       <div class="container">
         <h2 class="section-title">About</h2>
-        <!-- <p class="section-lead">
-          I am the oldest of 8 siblings. I am from Edwardsburg, MI. I enjoy 
-        </p> -->
-        <div class="about-grid">
-          <div class="about-card">
-            <h3>Education — Bethel University</h3>
-            <p>
-              Pursuing a B.S. in Computer Science (2025–2026)
-              in Mishawaka, IN. Varsity men’s soccer (NAIA, nationally ranked #3);
-            </p>
-            <ul class="skill-tags" aria-label="Highlights for this experience">
-              <li>Computer Science</li>
-              <li>Student-Athlete</li>
-            </ul>
-          </div>
-          <div class="about-card">
-            <h3>Education — University of Southern Indiana</h3>
-            <p>
-              B.S. in Computer Science and Finance (2022–2024),
-              Evansville, IN. <strong>Dean’s List</strong> all five semesters.
-              Varsity men’s soccer (D1).
-            </p>
-            <ul class="skill-tags" aria-label="Highlights for this experience">
-              <li>Computer science</li>
-              <li>Finance</li>
-              <li>Dean’s List</li>
-              <li>Student-Athlete</li>
-            </ul>
-          </div>
-          <div class="about-card">
-            <h3>Athletics &amp; leadership</h3>
-            <p>
-              Four years of college varsity men’s soccer (D1 and NAIA). NAIA
-              Champions of Character Award at Bethel.
-            </p>
-            <ul class="skill-tags" aria-label="Highlights for this experience">
-              <li>D1 &amp; NAIA Student-Athlete</li>
-              <li>NAIA Champions of Character </li>
-            </ul>
-          </div>
-        </div>
+        <p class="section-lead section-lead--tight">
+          From Edwardsburg, Michigan — oldest of eight siblings. College soccer (D1 and NAIA), finance graduate school,
+          and products shipped under my solo brand R8 Solutions.
+        </p>
+        <ol class="timeline" aria-label="Education, athletics, and projects">
+          <li class="timeline-item">
+            <p class="timeline-when">2026 — present</p>
+            <div class="timeline-body">
+              <h3 class="timeline-heading">Sacred Heart University</h3>
+              <p>M.S. in Finance and Investment Management · Bridgeport, CT</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-when">2025 — 2026</p>
+            <div class="timeline-body">
+              <h3 class="timeline-heading">Bethel University</h3>
+              <p>
+                B.S. Computer Science (3.8 GPA) · Mishawaka, IN · Varsity men's soccer — NAIA program ranked #3
+                nationally · NAIA Champions of Character Award
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-when">2022 — 2024</p>
+            <div class="timeline-body">
+              <h3 class="timeline-heading">University of Southern Indiana</h3>
+              <p>
+                Computer Science and finance coursework · Evansville, IN · Dean's List (five semesters) · Division I
+                varsity men's soccer
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item timeline-item--accent">
+            <p class="timeline-when">2022 — 2025</p>
+            <div class="timeline-body">
+              <h3 class="timeline-heading">R8 Solutions — AutoAlgoAssembler</h3>
+              <p>
+                Futures algorithmic trading software: strategy generation, client delivery, and tutorials on the
+                <a href="https://www.youtube.com/@r8AlgoTrading" target="_blank" rel="noopener noreferrer">R8 Algo
+                  Trading</a> YouTube channel — same business, same product line.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item timeline-item--accent">
+            <p class="timeline-when">Shipped</p>
+            <div class="timeline-body">
+              <h3 class="timeline-heading">Agora (R8 Solutions)</h3>
+              <p>
+                Mobile app researched, built, and published to Google Play — solo from idea through store release.
+                <a href="https://play.google.com/store/apps/details?id=com.r8solutions.agora" target="_blank"
+                  rel="noopener noreferrer">View on Google Play</a>
+              </p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
     <section class="section" id="strengths">
       <div class="container">
         <h2 class="section-title">Strengths</h2>
-        <!-- <p class="section-lead">
-          Qualities I lean on across school, software, finance, and running a business —
-          the through-lines employers and clients tend to notice.
-        </p> -->
         <div class="strengths-grid">
           <div class="about-card">
             <h3>Discipline &amp; reliability</h3>
             <p>
-              Varsity soccer (D1 and NAIA), Dean’s List, and years of farm work taught me to
-              work hard, figure things out, there is always a better way and to take pride in my work at all times.
+              Varsity soccer, Dean's List, and years of farm work taught me consistency, time management, and pride in
+              the details — on the field, in class, and for paying clients.
             </p>
             <ul class="skill-tags" aria-label="Related strengths">
               <li>Consistency</li>
@@ -142,102 +157,104 @@
             </ul>
           </div>
           <div class="about-card">
-            <h3>Self-Motivated Growth</h3>
+            <h3>Self-motivated growth</h3>
             <p>
-              I have never accepted average. I always aim to finish what I start, to the best of my abilities and to
-              make sure I am proud of my work.
+              I self-taught MQL5, NinjaScript, and mobile development from online resources, then turned that into
+              revenue and shipped apps — not just tutorials.
             </p>
             <ul class="skill-tags" aria-label="Related strengths">
-              <li>excellence</li>
-              <li>hard-working</li>
-              <li>goal orientated</li>
+              <li>Excellence</li>
+              <li>Hard-working</li>
+              <li>Goal-oriented</li>
             </ul>
           </div>
           <div class="about-card">
-            <h3>Self-directed learning</h3>
+            <h3>Technical execution</h3>
             <p>
-              Fully self-taught everything useful that I know from YouTube and other online resources. I have
-              demonstrated I can learn fast and use that knowledge to generate tangible results.
+              Strategy generation across 250+ indicators, client-specific algorithm builds, and full-stack mobile
+              delivery — from idea to store listing and support.
             </p>
             <ul class="skill-tags" aria-label="Related strengths">
               <li>MQL5</li>
               <li>NinjaScript</li>
-              <li>Shipping products</li>
-              <li>User feedback</li>
+              <li>Python</li>
+              <li>Flutter</li>
             </ul>
           </div>
           <div class="about-card">
             <h3>Communication</h3>
             <p>
-              From door-to-door sales to custom strategy builds and delievery, I have completed several projects from
-              start to finish: I know how to market, set and deliever expectations, manage transactions and retain happy
-              clients for high-ticket products/services.
+              Door-to-door sales, advisor-team workflows, and custom strategy builds — I set expectations, manage
+              transactions, and keep clients informed start to finish.
             </p>
             <ul class="skill-tags" aria-label="Related strengths">
-              <li>End-to-end ownership and communication</li>
-              <li>Sales execution</li>
               <li>Client delivery</li>
+              <li>Sales execution</li>
+              <li>Bilingual (Spanish)</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Same layout as Finance: section title + experience-list / experience-item -->
-    <section class="section section-alt" id="business" aria-label="Business">
+    <section class="section section-alt" id="experience" aria-label="Professional experience">
       <div class="container">
-        <h2 class="section-title">Business</h2>
+        <h2 class="section-title">Experience</h2>
         <ul class="experience-list">
           <li class="experience-item">
             <div class="experience-meta">
+              <h3>Solo quant developer — R8 Solutions</h3>
+              <p class="experience-role">AutoAlgoAssembler · Edwardsburg, MI</p>
+              <p class="experience-dates">2022–2025</p>
+            </div>
+            <ul class="experience-bullets">
+              <li>
+                Built and sold <strong>AutoAlgoAssembler</strong> under <strong>R8 Solutions</strong>; marketing,
+                support, and walkthroughs on
+                <a href="https://www.youtube.com/@r8AlgoTrading" target="_blank" rel="noopener noreferrer">R8 Algo
+                  Trading</a> (details in Software).
+              </li>
+              <li>
+                Self-taught <strong>MQL5</strong> and <strong>NinjaScript</strong> for futures markets; ~5 paying
+                clients; multiple four-figure revenue.
+              </li>
+              <li>Custom services translating discretionary rules into automated strategies.</li>
+            </ul>
+          </li>
+          <li class="experience-item">
+            <div class="experience-meta">
+              <h3>Edward Jones — Financial Advisors</h3>
+              <p class="experience-role">Internship · Middlebury, IN</p>
+              <p class="experience-dates">Summer 2025</p>
+            </div>
+            <ul class="experience-bullets">
+              <li>Performed data entry and validation to support accurate client record management.</li>
+              <li>Assisted in updating internal software systems used by financial advisors.</li>
+              <li>Researched investment strategies and summarized findings for senior management.</li>
+            </ul>
+          </li>
+          <li class="experience-item">
+            <div class="experience-meta">
               <h3>Rodriguez Pressure Washing LLC</h3>
-              <p class="experience-role">Founder</p>
-              <p class="experience-dates">Summers 2023 – present · Edwardsburg, MI</p>
+              <p class="experience-role">Founder · Edwardsburg, MI</p>
+              <p class="experience-dates">Summers 2023–present</p>
             </div>
             <ul class="experience-bullets">
               <li>
                 <a href="https://www.facebook.com/profile.php?id=61559552971558" target="_blank"
-                  rel="noopener noreferrer">Rodriguez Pressure Washing on Facebook</a>
+                  rel="noopener noreferrer">Facebook</a>
               </li>
-              <li>
-                Founded and ran <strong>all business operations</strong> — scheduling,
-                equipment, and every customer touchpoint.
-              </li>
-              <li>
-                Marketed <strong>door-to-door</strong> to <strong>1,000+</strong> homes
-                in the local area.
-              </li>
-              <li>
-                Purchased and maintained equipment for safe, reliable service.
-              </li>
-              <li>
-                Technical expertise and precision while working on multi-million dollar properties.
-              </li>
-
-            </ul>
-            <ul class="skill-tags" aria-label="Skills for this role">
-              <li>Marketing</li>
-              <li>Customer relationships</li>
-              <li>Management</li>
-              <li>Operations</li>
+              <li>Founded and managed scheduling, equipment, and customer service end to end.</li>
+              <li>Door-to-door outreach to <strong>1,000+</strong> homes in the local area.</li>
             </ul>
           </li>
         </ul>
       </div>
     </section>
 
-    <!-- Finance: advisory internship, research, and ops inside a wealth-management context -->
-    <section class="section section-alt" id="finance">
+    <section class="section" id="finance">
       <div class="container">
         <h2 class="section-title">Finance</h2>
-
-
-        <!-- <p class="section-lead">
-            Hands-on exposure to advisor workflows, careful data handling, and
-            investment research. I am interested in how rigorous process and
-            clear communication support client trust — the same habits I bring to
-            engineering.
-          </p> -->
         <ul class="experience-list">
           <li class="experience-item">
             <div class="experience-meta">
@@ -247,142 +264,92 @@
             </div>
             <ul class="experience-bullets">
               <li>
-
-                <a href="papers/topbuild-report.pdf" target="_blank" rel="noopener noreferrer">TopBuild (TLD) Equity
-                  Valuation Report</a>
+                <a href="papers/topbuild-report.pdf" target="_blank" rel="noopener noreferrer">TopBuild (BLD) equity
+                  valuation report</a>
               </li>
               <li>
-                Working through <strong>Aswath Damodaran’s</strong> valuation course with a focus on intrinsic valuation
-                and discounted cash flow modeling.
+                Working through <strong>Aswath Damodaran's</strong> valuation material — intrinsic value and DCF
+                modeling.
               </li>
-              <li>
-                Using gained knowledge to make and act on investment decisions.
-              </li>
-            </ul>
-            <ul class="skill-tags" aria-label="Skills for this work">
-              <li>Value investing</li>
-              <li>Valuation</li>
-              <li>Equity research</li>
-              <li>Financial modeling</li>
+              <li>Applying research to allocation and watchlist decisions.</li>
             </ul>
           </li>
-          <li class="experience-item">
-            <div class="experience-meta">
-              <h3>Herbster Wealth Management - Edward Jones</h3>
-              <p class="experience-role">Internship</p>
-              <p class="experience-dates">Summer 2025 · Middlebury, IN</p>
-            </div>
-            <ul class="experience-bullets">
-              <li>
-                Performed data entry and validation across
-                advisor workflows
-              </li>
-              <li>
-                Assisted in updating internal software systems
-                so teams could rely on current tools and processes.
-              </li>
-              <li>
-                <strong>Researched investment ideas</strong> and
-                summarized results for senior management
-              </li>
-            </ul>
-            <ul class="skill-tags" aria-label="Skills for this role">
-              <li>Data validation</li>
-              <li>Operations</li>
-              <li>Investment research</li>
-              <li>Internal tools</li>
-            </ul>
-          </li>
-
         </ul>
       </div>
     </section>
 
-    <!-- Software: product work, indie dev, and the languages you ship in -->
-    <section class="section" id="software">
+    <section class="section section-alt" id="software">
       <div class="container">
-        <h2 class="section-title">Software development</h2>
-        <!-- <p class="section-lead">
-          Self-taught in programming languages specifically for algorithmic trading (MQL5, NinjaScript),
-          published a mobile app, and shipped tools real clients pay for.
-        </p> -->
+        <h2 class="section-title">Software</h2>
+        <p class="section-lead section-lead--tight">
+          <strong>R8 Solutions</strong> is my solo brand. <strong>AutoAlgoAssembler</strong> is the futures trading
+          product; I publish how-to content on the <strong>R8 Algo Trading</strong> YouTube channel
+          (<a href="https://www.youtube.com/@r8AlgoTrading" target="_blank" rel="noopener noreferrer">@r8AlgoTrading</a>).
+          Agora is a separate R8 Solutions app on Google Play.
+        </p>
 
-        <ul class="experience-list experience-list-tight">
-          <li class="experience-item">
-            <div class="experience-meta">
-              <h3>R8 Algo Trading -- Freelance</h3>
-              <p class="experience-role">
-                Developer · futures platforms &amp; client delivery
-              </p>
-              <p class="experience-dates">
-                2023 – present ·
-                <a href="https://www.youtube.com/@r8AlgoTrading" target="_blank" rel="noopener noreferrer">YouTube
-                  @r8AlgoTrading</a>
-              </p>
+        <article class="product-panel" id="r8-solutions" aria-labelledby="r8-solutions-title">
+          <div class="product-panel-intro">
+            <h3 class="product-panel-title" id="r8-solutions-title">R8 Solutions · AutoAlgoAssembler</h3>
+            <p>
+              AutoAlgoAssembler is automated strategy-generation software for futures contracts. It backtests across
+              <strong>250+</strong> technical indicators, runs out-of-sample validation, and packages strategies for
+              traders on platforms like NinjaTrader and MetaTrader. I sell the software, build custom algorithms for
+              clients, and teach the full workflow on R8 Algo Trading — the channel is the public face of the same R8
+              Solutions work.
+            </p>
+            <ul class="experience-bullets product-panel-bullets">
+              <li>
+                <a href="https://www.youtube.com/watch?v=15HRGVLySZI" target="_blank" rel="noopener noreferrer">AutoAlgoAssembler
+                  V4 full tutorial</a> — start here if you want to see how the tool works.
+              </li>
+              <li>
+                Channel:
+                <a href="https://www.youtube.com/@r8AlgoTrading" target="_blank" rel="noopener noreferrer">R8 Algo
+                  Trading on YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <a class="featured-video-media" href="https://www.youtube.com/watch?v=15HRGVLySZI" target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Watch AutoAlgoAssembler V4 full tutorial on YouTube">
+            <img src="https://img.youtube.com/vi/15HRGVLySZI/hqdefault.jpg" width="480" height="360"
+              alt="YouTube: AutoAlgoAssembler V4 full tutorial" loading="lazy" decoding="async" />
+            <span class="featured-video-play" aria-hidden="true">▶</span>
+          </a>
+        </article>
+
+        <article class="store-preview" id="agora">
+          <div class="store-preview-device">
+            <div class="store-preview-top">
+              <img class="store-preview-icon" src="images/agora-icon.png" width="128" height="128" alt="Agora app icon"
+                loading="lazy" />
+              <div class="store-preview-meta">
+                <h3 class="store-preview-title">Agora</h3>
+                <p class="store-preview-dev">R8 Solutions · Google Play</p>
+                <p class="store-preview-desc">
+                  Android app I designed, built in Flutter, and published solo. Live listing on Google Play — tap below
+                  to open the store page.
+                </p>
+              </div>
             </div>
-            <ul class="experience-bullets">
-              <li>
-                Solo built a futures contracts <strong>strategy generation</strong>
-                software.It works by backtesting over 250+ technical indicators, then running multiple out of sample tests.Personally
-                packaged and sold multiple product instances.
-              </li>
-              <li>
-                Provided individual strategy building services. Met with clients, understood how they traded and
-                converted their subjective, unique strategy into a deterministic trading algorithm.
-              </li>
-            </ul>
-            <ul class="skill-tags" aria-label="Skills for this role">
-              <li>MQL5</li>
-              <li>NinjaScript</li>
-              <li>Python</li>
-              <li>C#</li>
-              <li>Trading automation</li>
-              <li>Client delivery</li>
-            </ul>
-          </li>
-          <li class="experience-item">
-            <div class="experience-meta">
-              <h3>Agora - Mobile App</h3>
-              <p class="experience-role">Solo-shipped on Google Play</p>
-              <p class="experience-dates">
-                <a href="https://play.google.com/store/apps/details?id=com.r8solutions.agora" target="_blank"
-                  rel="noopener noreferrer">Play Store listing</a>
-              </p>
-            </div>
-            <ul class="experience-bullets">
-              <li>
-                Researched, learned and executed from app idea to final product.
-              </li>
-              <li>
-                100+ GitHub commits, 164 files changed, 8250 insertions(+)
-              </li>
-              <li>
-                Solo-published to Google Play Store
-              </li>
-              <li>
-                Currently on back-burner as need more capital to scale.
-              </li>
-            </ul>
-            <ul class="skill-tags" aria-label="Skills for this project">
-              <li>Dart/Flutter</li>
-              <li>Android</li>
-              <li>Mobile development</li>
-              <li>Google Play</li>
-            </ul>
-          </li>
-        </ul>
+            <a class="btn btn-primary store-preview-cta"
+              href="https://play.google.com/store/apps/details?id=com.r8solutions.agora" target="_blank"
+              rel="noopener noreferrer">
+              Open Agora on Google Play
+            </a>
+            <p class="store-preview-url">
+              <a href="https://play.google.com/store/apps/details?id=com.r8solutions.agora" target="_blank"
+                rel="noopener noreferrer">play.google.com/store/apps/details?id=com.r8solutions.agora</a>
+            </p>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="section section-cta" id="contact">
       <div class="container cta-inner">
         <h2 class="section-title">Contact</h2>
-
-        <div class="resume-aside resume-aside--contact">
-          <a class="resume-aside-link" href="resume/Resume_Diego_Rodriguez.pdf" target="_blank"
-            rel="noopener noreferrer" aria-label="Open résumé PDF in a new tab">Resume</a>
-        </div>
-
         <ul class="contact-links">
           <li>
             <a href="mailto:diego9rodrig@gmail.com" class="contact-pill">Email</a>
@@ -391,12 +358,16 @@
             <a href="tel:+15743837074" class="contact-pill">(574) 383-7074</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/diego-rodriguez-281668246/" class="contact-pill" target="_blank"
+            <a href="resume/Resume_Diego_Rodriguez.pdf" class="contact-pill" target="_blank"
+              rel="noopener noreferrer">Résumé</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/diego-rodriguez-profile/" class="contact-pill" target="_blank"
               rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li>
             <a href="https://www.youtube.com/@r8AlgoTrading" class="contact-pill" target="_blank"
-              rel="noopener noreferrer">YouTube</a>
+              rel="noopener noreferrer">R8 Algo Trading</a>
           </li>
         </ul>
       </div>
@@ -405,9 +376,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>
-        © <span id="year"></span> Diego Rodriguez · Edwardsburg, MI.
-      </p>
+      <p>© <span id="year"></span> Diego Rodriguez · Edwardsburg, MI</p>
+      <a class="footer-top" href="#top" aria-label="Back to top">↑</a>
     </div>
   </footer>
 
