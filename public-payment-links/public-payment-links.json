@@ -1,0 +1,1411 @@
+{
+  "title": "Publicly published tip/donation payment links",
+  "scraped_at_utc": "2026-10-25",
+  "count": 131,
+  "method": "Web search + page fetch of self-published tip/donate pages and tip-platform directories. Apify monthly limit exceeded.",
+  "caveats": [
+    "NOT a celebrity Cash App giveaway list \u2014 those are scams.",
+    "Cash App and Venmo do not publish public verified celebrity directories.",
+    "Handles can change; imposters are common. Verify on the person's official site/socials before sending money.",
+    "Instagram/X deep scrapes require login/API; this pass used public web pages only.",
+    "Platform entries (Furipay/Tipfall/Tiplor) are tip pages, not necessarily Cash App/Venmo handles."
+  ],
+  "entries": [
+    {
+      "name": "Jadein Black",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@jadeinblack",
+        "cashapp": "$jadeinblack",
+        "paypal": "paypal.me/JadeinBlack"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Maxi Chanel",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@maxichanel",
+        "cashapp": "$maxichanel",
+        "paypal": "paypal.me/Maxi2c"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Natalie Cole",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@Nataliecole69",
+        "cashapp": "$cole2468"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Anibriated",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$anibriated",
+        "venmo": "@Michael-Donnelly-84"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Miss Faguette",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@missfaguette",
+        "cashapp": "$alexkfrench",
+        "paypal": "@lilykfrench"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Avalisa Davenport",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$avalisaellicott",
+        "paypal": "@avalisagallo"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "DJ KB",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$KyleBPay",
+        "paypal": "DJKBPAY"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "DJ Amber",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@AmberShawn",
+        "cashapp": "$DariaGoo",
+        "paypal": "DizzyNoiseRecords@yahoo.com"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "King Teddy",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$Imtheteddy",
+        "venmo": "@Teddy-Aguilar"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Vivian Aphrodisia",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@thebitchviv"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Sabin",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$sabindetroit",
+        "venmo": "@sabindetroit"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Lana Sevol",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$BeejisLana"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Baddie Brooks",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$vociferousdom",
+        "venmo": "@vociferous_dom",
+        "paypal": "dombrooks1"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Deja Van Cartier",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@DejaVanCartier"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "KJ Karen",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@kjkarenobrien"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Erika Norell",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$ErikaNorell",
+        "venmo": "@erika-norell"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Emma Sapphire",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@emmanuel-arcos-1"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Remington Rose",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@Remington_rose",
+        "cashapp": "$evanstehlik"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Cory Shorter",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@cory-shorter-1",
+        "cashapp": "$coryshorter",
+        "paypal": "coryshorter@gmail.com"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "DJ Ayinde",
+      "category": "entertainer/drag",
+      "methods": {
+        "cashapp": "$ayindezuri"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Crystal Harding",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@Mark-Beshow",
+        "cashapp": "$Markbeshow"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Redness Everdank",
+      "category": "entertainer/drag",
+      "methods": {
+        "venmo": "@Diviniakat",
+        "cashapp": "$diviniakat"
+      },
+      "source_url": "https://www.jadeinblack.com/tips",
+      "confidence": "high",
+      "notes": "Listed on venue/performer tip roster"
+    },
+    {
+      "name": "Alex Zee",
+      "category": "comedian",
+      "methods": {
+        "cashapp": "$alexzeecomedy",
+        "venmo": "@alexzeecomedy"
+      },
+      "source_url": "https://nakula.ink/news/info-https-alexzeecomedy.com/pages/tip",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Malcolm McFly",
+      "category": "comedian",
+      "methods": {
+        "venmo": "@iMalcolmMcFly",
+        "cashapp": "$iMalcolmmcfly",
+        "zelle": "phone listed on site"
+      },
+      "source_url": "https://www.malcolmmcfly.com/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Ryan Bourassa",
+      "category": "comedian",
+      "methods": {
+        "paypal": "paypal.me/highryan",
+        "venmo": "venmo.com/ryankickassa",
+        "cashapp": "cash.me/app/LCHXGBB",
+        "patreon": "patreon.com/highryan"
+      },
+      "source_url": "https://allmylinks.com/ryankickassa",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Michael Furr",
+      "category": "comedian",
+      "methods": {
+        "cashapp": "$MichaelCFurr",
+        "paypal": "paypal.me/michaelcfurr",
+        "venmo": "venmo.com/MichaelCFurr"
+      },
+      "source_url": "https://allmylinks.com/michaelfurr",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Reece Cotton (Comedy by Cotton)",
+      "category": "comedian",
+      "methods": {
+        "venmo": "@ComedybyCotton",
+        "cashapp": "$ComedybyCotton"
+      },
+      "source_url": "https://comedybycotton.wixsite.com/official/donate",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "FOIA Comedy / Curtis Raye",
+      "category": "comedy nonprofit",
+      "methods": {
+        "zelle": "862-266-2998",
+        "venmo": "Curtis-Raye",
+        "cashapp": "$FOIAComedy"
+      },
+      "source_url": "https://www.foialove.com/digital",
+      "confidence": "high",
+      "notes": "Tax-deductible nonprofit EIN 92-0842247"
+    },
+    {
+      "name": "Nickeon",
+      "category": "creator/comedian",
+      "methods": {
+        "venmo": "@Nickeon",
+        "cashapp": "$Nickeon"
+      },
+      "source_url": "https://www.nickeon.com/tip-jar-donations",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Josh Pineo (Bulldog Uncensored)",
+      "category": "comedian/podcaster",
+      "methods": {
+        "paypal": "paypal.me/bulldog62488",
+        "venmo": "@BulldogUncensored"
+      },
+      "source_url": "https://www.bulldoguncensored.com/support/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Mike Bova (Kountry Mike)",
+      "category": "comedian/musician",
+      "methods": {
+        "cashapp": "cash.app/nacomedy"
+      },
+      "source_url": "https://allmylinks.com/mikebova",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Dan DeCristofaro",
+      "category": "musician/comedian",
+      "methods": {
+        "venmo": "venmo.com/u/DansTipJar",
+        "cashapp": "$DanDeCristofaro"
+      },
+      "source_url": "https://everythingdan.com/tips",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Bob Bennett",
+      "category": "musician",
+      "methods": {
+        "paypal": "paypal.me/bobbennettmusic",
+        "venmo": "@Bob-Bennett-Music",
+        "cashapp": "$bobbennettmusic",
+        "zelle": "bob@bobbennett.com",
+        "apple_cash": "bobbennettmusic@mac.com"
+      },
+      "source_url": "https://bobbennett.com/digitaltipjar/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Russell McLaughlin",
+      "category": "musician",
+      "methods": {
+        "venmo": "venmo.com/itsruss",
+        "paypal": "paypal.me/itsruss",
+        "cashapp": "cash.app/$itsruss",
+        "square": "square.link/u/cwXGDzRl"
+      },
+      "source_url": "https://itsruss.com/tip/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Roxie Beane",
+      "category": "musician",
+      "methods": {
+        "venmo": "@RoxieBeane",
+        "cashapp": "$RoxieBeane",
+        "paypal": "roxie@roxiebeane.com"
+      },
+      "source_url": "https://www.roxiebeane.com/virtual-tip-jar",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Brian Berlin",
+      "category": "musician",
+      "methods": {
+        "cashapp": "$briandberlin",
+        "venmo": "@Brian-Berlin-10",
+        "paypal": "paypal.me (linked on page)",
+        "patreon": "patreon.com/BrianBerlin"
+      },
+      "source_url": "https://brianberlin.net/tips/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Matt Jantz (Cajonalone)",
+      "category": "musician",
+      "methods": {
+        "venmo": "@Matt-Jantz",
+        "paypal": "paypal.me/mattyjcajon",
+        "cashapp": "$mattjantz18"
+      },
+      "source_url": "https://www.cajonalone.com/virtual-tipping-options",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Jean Andre Moore",
+      "category": "musician",
+      "methods": {
+        "cashapp": "$JeanAndreMoore",
+        "paypal": "paypal.me/jeanandremusic",
+        "venmo": "venmo.com/code (QR on page)"
+      },
+      "source_url": "https://www.jeanandremoore.com/virtual-tip-jar.html",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Bryan Gallo",
+      "category": "musician",
+      "methods": {
+        "venmo": "@bryangallomuzak",
+        "paypal": "paypal.me/bryangallomuzak"
+      },
+      "source_url": "https://www.bryangallo.com/tip-jar",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "NeilBe",
+      "category": "musician",
+      "methods": {
+        "venmo": "@neilbe"
+      },
+      "source_url": "https://neilbe.com/TipJar.html",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Django Soulo (Django Koenig)",
+      "category": "musician",
+      "methods": {
+        "venmo": "@DjangoSoulo",
+        "paypal": "paypal.me/djangosoulo",
+        "gofundme": "gofundme.com/DjangoSoulo"
+      },
+      "source_url": "https://djangosoulo.com/donate",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "The 727s Band",
+      "category": "band",
+      "methods": {
+        "venmo": "@the727s",
+        "paypal": "paypal.me/the727s",
+        "zelle": "the727s@icloud.com"
+      },
+      "source_url": "https://the727s.com/tips/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Kenna Rose",
+      "category": "musician",
+      "methods": {
+        "venmo": "venmo.com/u/KennaRoseMusic",
+        "paypal": "paypal.me/KennaRoseMusic",
+        "cashapp": "QR on page"
+      },
+      "source_url": "https://www.kennarosemusic.com/tips",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Andrew McKnight",
+      "category": "musician",
+      "methods": {
+        "venmo": "venmo.com/AndrewMcKnightMusic",
+        "paypal": "paypal.me/AndrewMcKnightMusic",
+        "zelle": "info@andrewmcknight.net"
+      },
+      "source_url": "https://andrewmcknight.net/donate",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Secret Commonwealth",
+      "category": "band",
+      "methods": {
+        "venmo": "venmo.com/TSCBAND",
+        "paypal": "paypal.me/TSC1993",
+        "cashapp": "$Tipthegnome"
+      },
+      "source_url": "https://www.tscband.com/virtual-tip-jar",
+      "confidence": "high",
+      "notes": "Ask tippers to note FOR TSC"
+    },
+    {
+      "name": "Seth Freeman",
+      "category": "musician",
+      "methods": {
+        "venmo": "@Seth-Freeman-21",
+        "paypal": "@sethfreemanmusic",
+        "cashapp": "$manfreeseth"
+      },
+      "source_url": "https://sethfreemanmusic.com/tips",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Dana & Sharon Kamide",
+      "category": "musicians",
+      "methods": {
+        "venmo": "@DanaSharonMusic",
+        "cashapp": "$danakamide"
+      },
+      "source_url": "https://www.danasharon.com/tips/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Daniel Weidlein / BioSoul",
+      "category": "musician",
+      "methods": {
+        "cashapp": "$danielweidlein",
+        "venmo": "@biosoulmusic"
+      },
+      "source_url": "https://www.danielweidlein.com/tips",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Morgan Harrison",
+      "category": "musician",
+      "methods": {
+        "venmo": "Morganhmusic",
+        "cashapp": "$sidewindermorgan"
+      },
+      "source_url": "https://allmylinks.com/brvhmorgxn",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Gary Weilage (Caveman Bard)",
+      "category": "musician",
+      "methods": {
+        "venmo": "@Cavemanbard",
+        "cashapp": "listed on tip page"
+      },
+      "source_url": "https://garyweilage.com/tip-jar",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Mike Cono",
+      "category": "entertainer",
+      "methods": {
+        "venmo": "@MichaelCono",
+        "paypal": "paypal.me/MichaelCono"
+      },
+      "source_url": "https://mikecono.com/request-success/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Wally Rashid",
+      "category": "journalist",
+      "methods": {
+        "zelle": "wrashid@wallyrashid.com",
+        "revolut": "revolut.me/w_rashid",
+        "paypal": "paypal.me/wallyrashid",
+        "venmo": "venmo.com/u/wallyrashid",
+        "cashapp": "cash.app/$wallyrashid"
+      },
+      "source_url": "https://www.wallyrashid.com/about",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Chris Nelson (ReOpenChris)",
+      "category": "journalist",
+      "methods": {
+        "paypal": "@ReOpenChris",
+        "cashapp": "$ReOpenChris",
+        "venmo": "@ChrisNelsonFL"
+      },
+      "source_url": "https://www.reopenchris.com/donate",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Craig Medred",
+      "category": "journalist",
+      "methods": {
+        "paypal": "@craig-medred",
+        "venmo": "@craig-medred"
+      },
+      "source_url": "https://craigmedred.news/donate/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "John Crump",
+      "category": "journalist/podcaster",
+      "methods": {
+        "cashapp": "$realjohncrump",
+        "paypal": "paypal.me/johncc",
+        "streamelements": "mercury.streamelements.com/tip/johncrumpnews",
+        "patreon": "patreon.com/johncrump"
+      },
+      "source_url": "https://open.spotify.com/show/4r0IrYY5EwDKeQ2CZuPioc",
+      "confidence": "medium",
+      "notes": "Listed in podcast show notes / descriptions"
+    },
+    {
+      "name": "Starship Gazer (Ryan)",
+      "category": "photojournalist/YouTuber",
+      "methods": {
+        "paypal": "paypal.me/StarshipGazerdotcom",
+        "cashapp": "$StarshipGazer",
+        "venmo": "@Starship-Gazer",
+        "zelle": "spacemanryan@yahoo.com",
+        "patreon": "patreon.com/StarshipGazer"
+      },
+      "source_url": "https://www.starshipgazer.com/donate",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Eric Rosen",
+      "category": "chess streamer",
+      "methods": {
+        "paypal": "paypal.me/ericrosenchess",
+        "streamlabs": "streamlabs.com/imrosen/tip"
+      },
+      "source_url": "https://imrosen.com/support/",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "name": "Sean Penalber",
+      "category": "artist/author",
+      "methods": {
+        "venmo": "venmo.com/seanpenalber",
+        "cashapp": "cash.app/$SeanPenalber"
+      },
+      "source_url": "https://allmylinks.com/seanpenalber",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Torshaa Podcast",
+      "category": "podcaster",
+      "methods": {
+        "cashapp": "$TorshaaPodcast"
+      },
+      "source_url": "https://cash.app/$TorshaaPodcast",
+      "confidence": "medium",
+      "notes": "Public Cash App profile page"
+    },
+    {
+      "name": "liondad_1987",
+      "category": "animal content creator",
+      "methods": {
+        "cashapp": "cash.app/$ (listed on Beacons)"
+      },
+      "source_url": "https://beacons.ai/liondad_1987",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "name": "Aomkoyo",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/aomkoyo"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "MOLLY",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/mollyehe"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "SleepingP",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/sleepingp"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "MJXNZ",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/mjxnz"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "ZoeSPoinT",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/zoeesther7446"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "Wolf WerewolfYT",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/wolfwerewolf"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "chocopop gamer",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/chocopop"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "lxlita",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/lxl1t4"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "funeehe",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/funeehe"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "azuray",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/azuray"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "Sarzoliss",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/sarzoliss"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "XxaliNilaxX",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/alinila"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "nattapat2871",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/nattapat2871"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "Arrivar",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/arrivar"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "nongthamtv",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/nongthamtv"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "thomashi ch.",
+      "category": "streamer/VTuber",
+      "methods": {
+        "furipay": "furipay.me/thomashi"
+      },
+      "source_url": "https://furipay.me/creators",
+      "confidence": "platform",
+      "notes": "Stripe Connect tip page via Furipay"
+    },
+    {
+      "name": "Bougassaa",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Bougassaa)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "bnltv",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search bnltv)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Wassimostv",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Wassimostv)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "TMSAHFF",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search TMSAHFF)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "CMARTy",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search CMARTy)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "MrJayPlays",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search MrJayPlays)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "VOLI",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search VOLI)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "CES4Rrs",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search CES4Rrs)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "d0wwN",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search d0wwN)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Psyco_M",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Psyco_M)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Miken",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Miken)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "JYNX7rs",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search JYNX7rs)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "kazawi",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search kazawi)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "needyhenry",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search needyhenry)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Wess_AWM",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Wess_AWM)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "NevroxTv",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search NevroxTv)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Amine_Limem",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Amine_Limem)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Tineuu",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Tineuu)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "MahdiMachfarOTB",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search MahdiMachfarOTB)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "MASSOUNY",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search MASSOUNY)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "chli7a",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search chli7a)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "MASSOUNI666",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search MASSOUNI666)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "blessedpunisher",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search blessedpunisher)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "AmineGomez",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search AmineGomez)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "ARA_GON",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search ARA_GON)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "NeroMafia",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search NeroMafia)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "ChaaBa7",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search ChaaBa7)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "JoseppeTN",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search JoseppeTN)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "trimathy",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search trimathy)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Callari",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search Callari)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "octopause",
+      "category": "streamer",
+      "methods": {
+        "tipfall": "tipfall.com (search octopause)"
+      },
+      "source_url": "https://tipfall.com/",
+      "confidence": "platform",
+      "notes": "Card/PayPal/crypto tips via Tipfall"
+    },
+    {
+      "name": "Ty Croll",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@tycrollmusic"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Jack McAvoy",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@jackmcavoy"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Corey Low",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@coreylow138"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "DJ Annette Lavonne",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@annette"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Chris Scian",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@chrisscianmusic"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "The Alter Kakers",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@thealterkakers"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Gael Force",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@gael-force"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Michelle Laine",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@michellelainemusic"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "terylene duo",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@terylene-duo"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Martha Gallagher",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@marthagallagher"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "DJ Wren",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@dj_wren"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Geetar John",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@geetar_john"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Halifax Caesar",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@halifaxcaesar"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Doug Horner / Space Cadets",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@doughornersolo"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Marc McClure",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/@marcmcclure"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Hosted By Samara and Jenn",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Oxford Hill",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Tom Conway",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Frankie Dee & Sugar Rush",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "TonyO's Music",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Love Unchained",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Root Down Trio",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Oyster River Band",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    },
+    {
+      "name": "Shiny Objects",
+      "category": "live musician/DJ",
+      "methods": {
+        "tiplor": "tiplor.com/artists.php"
+      },
+      "source_url": "https://tiplor.com/artists.php",
+      "confidence": "platform",
+      "notes": "Card tips via Tiplor/Stripe"
+    }
+  ]
+}
