@@ -1,72 +1,65 @@
 # One contact per firm — Fairfield County HF / PE / FO / Trust
 
 **Center:** Sacred Heart University, Fairfield, CT  
-**Radius:** ~30-minute drive (Fairfield, Westport, Norwalk, Darien, Stamford, Greenwich, Cos Cob, Southport, Old Greenwich)  
-**Rules for this revision:**
-- **1 firm = 1 row** (no duplicate firms)
-- **1 unique email per row** (no repeated addresses)
-- Contact is the **firm head** or the **published hiring / recruiting inbox** when that is the right outreach path
-- Emails are public only (firm sites, Form ADV, careers pages). Nothing invented.
-
-**Files:** `fairfield-ct-fund-managers-leads.csv` (same 50 rows)
+**Radius:** ~30-minute drive  
+**Rules:** 1 firm per row · 1 unique email per row · head person or published hiring/firm inbox  
+**Source file:** `fairfield-unique-firms.json` (includes `email_source_url` for each row)
 
 | # | Firm | Head / hiring contact | Title | Address | Phone | Email | Type |
 |---|------|----------------------|-------|---------|-------|-------|------|
-| 1 | AQR Capital Management | Clifford S. Asness | Founder / Managing Principal | One Greenwich Plaza, Greenwich, CT 06830 | (203) 742-3600 | info@aqr.com | HF |
-| 2 | Point72 Asset Management | Steven A. Cohen | Chairman, CEO & Co-CIO | 72 Cummings Point Road, Stamford, CT 06902 | (203) 890-2000 | inquiries@point72.com | HF |
-| 3 | Viking Global Investors | O. Andreas Halvorsen | Co-Founder / Principal Owner | 600 Washington Blvd, 11th Fl, Stamford, CT 06901 | (203) 863-5000 | inquiries@vikingglobal.com | HF |
-| 4 | Tudor Investment Corporation | Paul Tudor Jones II | Founder | 200 Elm Street, Stamford, CT 06901 | (203) 863-6700 | info@tudor.com | HF |
-| 5 | Verition Fund Management | Nicholas Maounis | Founder (hiring inbox) | 1 American Lane, Greenwich, CT 06831 | (203) 742-7700 | HR@veritionfund.com | HF |
-| 6 | Lone Pine Capital | Stephen F. Mandel Jr. | Founder / Executive Chairman | Two Greenwich Plaza, Suite 220, Greenwich, CT 06830 | (203) 618-1400 | info@lpcap.com | HF |
-| 7 | Silver Point Capital | Ed Mulé | Founder | Two Greenwich Plaza, 1st Fl, Greenwich, CT 06830 | (203) 542-4200 | info@silverpointcapital.com | HF |
-| 8 | Ellington Management Group | Michael W. Vranos | Founder & CEO | 53 Forest Ave, 3rd Fl, Old Greenwich, CT 06870 | (203) 698-1200 | investor@ellington.com | HF |
-| 9 | Axiom Investors | Andrew Jacobson | CEO / CIO & Founder | 33 Benedict Place, Greenwich, CT 06830 | (203) 422-8000 | ajacobson@axiom-investors.com | HF |
-| 10 | One River Asset Management | Eric Peters | Founder & CIO (hiring inbox) | 2200 Atlantic St Ste 310, Stamford, CT 06902 | (203) 489-1440 | applications@oneriveram.com | HF |
-| 11 | Gramercy Funds Management | Firm recruiting contact | Hiring / Careers | 20 Dayton Avenue, Greenwich, CT 06830 | (203) 552-1900 | careers@gramercy.com | HF |
-| 12 | Bronson Point Management | John Faircloth | COO / CFO / CCO | 1960 Bronson Road, Fairfield, CT 06824 | (203) 292-2800 | jfaircloth@bronsonpoint.com | HF |
-| 13 | L Catterton | J. Michael Chu | Global Co-CEO / Co-Founder | 599 West Putnam Ave, Greenwich, CT 06830 | (203) 629-4901 | info@lcatterton.com | PE |
-| 14 | Brynwood Partners | Hendrik J. Hartong III | Chairman & CEO | 8 Sound Shore Drive #265, Greenwich, CT 06830 | (203) 622-1790 | info@brynwoodpartners.com | PE |
-| 15 | Great Point Partners | David Hagen | Head of BD & Investor Relations | 165 Mason Street, 3rd Fl, Greenwich, CT 06830 | (203) 971-3300 | dhagen@gppfunds.com | PE |
-| 16 | Brighton Park Capital | Mark Dzialga | Founder & Managing Partner (hiring) | 330 Railroad Ave Suite 200, Greenwich, CT 06830 | (203) 542-0750 | careers@brightonparkcap.com | PE |
-| 17 | Sandbrook Capital | German Cueva | Co-Founder and Partner | 677 Washington Blvd Fl 8, Stamford, CT 06901 | (475) 268-1450 | gc@sandbrook.com | PE |
-| 18 | Compass Partners Capital | James Waters | Co-Founder & Managing Partner | 680 Washington Boulevard, Stamford, CT 06901 | (212) 702-8650 | info@compasspartners.com | PE |
-| 19 | Black Diamond Capital Management | Stephen H. Deckoff | Founder & Managing Principal | 2187 Atlantic Street, 9th Fl, Stamford, CT 06902 | (203) 552-0888 | info@bdcm.com | PE / HF |
-| 20 | Performance Equity Management (Sagard) | Jeffrey Reals | Partner / Managing Director | 5 Greenwich Office Park, 3rd Fl, Greenwich, CT 06831 | (203) 742-2400 | info@peqm.com | PE |
-| 21 | Grandview Partners | Rajesh (Raj) Menon | CEO & Founding Partner | 1 East Putnam Ave, 3rd Fl, Greenwich, CT 06830 | (203) 682-7466 | investorrelations@grandviewpartners.com | PE / RE |
-| 22 | Longwall Family Office | Doug Hedley | Portfolio Manager | 8 Wright Street Suite 107, Westport, CT 06880 | (203) 209-2785 | dhedley@longwallfamilyoffice.com | Family Office |
-| 23 | Shumway Capital | Chris Shumway | Founder / Managing Partner | 28 Havemeyer Place, Greenwich, CT 06830 | (203) 485-8550 | info@shumwaycapital.com | Family Office |
-| 24 | Basso Capital Management | Dwight Nelson | Founding Partner | 1266 East Main Street, 4th Fl, Stamford, CT 06902 | (203) 352-6100 | ms@bassocap.com | HF / FO |
-| 25 | Connecticut Realty Trust | Bard Kligerman | CEO | 1140 Post Road, Fairfield, CT 06824 | (203) 659-0300 | bard@ctrealtytrust.com | Trust |
-| 26 | Carter Morse & Goodrich | Michael Carter | Managing Partner | 99 Harbor Road, Southport, CT 06890 | (203) 203-0070 | mcarter@cartermorse.com | PE / IB |
-| 27 | Landing Point Advisors | Daniel Besse | Principal | 79b Sanford Street, Fairfield, CT 06824 | (475) 330-2627 | dbesse@landingpointadvisors.com | Advisor |
-| 28 | Kensico Capital Management | Michael Lowenstein | Co-Founder / Principal Owner | 55 Railroad Avenue, 2nd Fl, Greenwich, CT 06830 | (203) 862-5800 | info@kensicocapital.com | HF |
-| 29 | Greenbriar Equity Group | Reginald L. Jones III | Managing Partner | One Greenwich Plaza Suite 110, Greenwich, CT 06830 | (203) 302-2500 | info@greenbriarequity.com | PE |
-| 30 | Astatine Investment Partners | Firm recruiting contact | Hiring / Careers | 50 Old Field Point Rd, Greenwich, CT 06830 | (203) 930-3800 | careers@astatineip.com | PE |
-| 31 | Paloma Partners | Donald Sussman | Founder | 2 American Lane, Greenwich, CT 06831 | (203) 861-3236 | info@paloma.com | HF |
-| 32 | Brookside Equity Partners | Brian Piacentino | Hiring contact (investment team) | One Stamford Forum, 201 Tresser Blvd Suite 320, Stamford, CT 06901 | (203) 595-4520 | bpiacentino@brooksideequity.com | PE |
-| 33 | Point 41 Capital Partners | Firm head office contact | Managing team contact | 1 River Road, Cos Cob, CT 06807 | N/A | info@point41capital.com | PE |
-| 34 | JAT Capital Management | John A. Thaler | Founder & Portfolio Manager (hiring) | 24 Field Point Road, 2nd Fl, Greenwich, CT 06830 | N/A | hr@jatcapital.com | HF |
-| 35 | Starwood Capital Group | Barry Sternlicht | Chairman & CEO | 591 West Putnam Avenue, Greenwich, CT 06830 | (203) 422-7700 | StarwoodInvestorRelations@starwood.com | PE / RE |
-| 36 | Heartwood Partners | John Willert | Managing Director / BD | 301 Merritt 7, Norwalk, CT 06851 | (203) 625-0770 | JWillert@heartwoodpartners.com | PE |
-| 37 | TRGP Capital | Firm recruiting contact | Hiring / Careers | 677 Washington Boulevard, 8th Fl, Stamford, CT 06901 | (212) 527-9600 | careers@trgcap.com | PE |
-| 38 | Drum Capital Management | Firm recruiting contact | Hiring / Careers | 262 Harbor Drive, 3rd Fl, Stamford, CT 06902 | (203) 391-7540 | HR@drumcapital.com | PE / Credit |
-| 39 | Hudson Bay Capital Management | Firm recruiting contact | Hiring / Careers | 290 Harbor Drive, 3rd Fl, Stamford, CT 06902 | (475) 900-9550 | careers@hudsonbaycapital.com | HF |
-| 40 | Glade Brook Capital Partners | Paul J. Hudson | Founder & CIO | 80 Field Point Road, Greenwich, CT 06830 | (203) 861-3000 | info@gladebrookcapital.com | PE / Growth |
-| 41 | A&M Capital Partners | Michael Odrich | Managing Partner & Founder | 1 Pickwick Plaza, 3rd Fl, Greenwich, CT 06830 | (203) 742-5880 | info@a-mcapital.com | PE |
-| 42 | Hondius Capital Management | Shawn Matthews | Founder & CIO (hiring) | 85 Washington St Suite 1F, South Norwalk, CT 06854 | (203) 930-2200 | careers@hondopartners.com | HF |
-| 43 | Alta Fox Capital Management | Connor Haley | Founder (hiring inbox) | Stamford, CT office | N/A | recruiting@altafoxcapital.com | HF |
-| 44 | Trove | Talent Acquisition | Hiring / Talent Acquisition | Stamford, CT office | (866) 931-3297 | TalentAcquisition@trove.net | Family Office |
-| 45 | Atlantic Street Capital | Peter Shabecoff | Managing Partner / Founder | 35 Mason Street, Greenwich, CT 06830 | (203) 428-3150 | peter@atlanticstreetcapital.com | PE |
-| 46 | Bridgewater Associates | Ben Bayers | Investment Recruiting | One Nyala Farms Road, Westport, CT 06880 | (203) 226-3030 | ben.bayers@bwater.com | HF |
-| 47 | Fortress Investment Group | Firm investor contact | Fund Investors (Greenwich office) | 411 West Putnam Ave Suite 105, Greenwich, CT 06830 | (203) 442-2442 | investors@fortress.com | PE / HF |
-| 48 | North Castle Partners | Chip Baird | Founder & Managing Partner | 383 Main Avenue, 8th Fl, Norwalk, CT 06851 | (203) 862-3200 | baird@northcastlepartners.com | PE |
-| 49 | Decisive Point | Thomas Hendrix | Managing Partner (hiring) | Greenwich CT / NY offices | N/A | careers@decisivepoint.com | VC |
-| 50 | Sound Point Capital Management | Greg Cresci | HR and Career Inquiries | Greenwich CT office (HQ NYC) | (212) 895-2277 | gcresci@soundpointcap.com | HF / Credit |
+| 1 | AQR Capital Management | Clifford S. Asness | Founder / Managing Principal | One Greenwich Plaza, Greenwich, CT 06830 | (203) 742-3600 | info@aqr.com | Hedge Fund |
+| 2 | Point72 Asset Management | Steven A. Cohen | Chairman, CEO & Co-CIO | 72 Cummings Point Road, Stamford, CT 06902 | (203) 890-2000 | inquiries@point72.com | Hedge Fund |
+| 3 | Viking Global Investors | O. Andreas Halvorsen | Co-Founder / Principal Owner | 600 Washington Boulevard, 11th Floor, Stamford, CT 06901 | (203) 863-5000 | inquiries@vikingglobal.com | Hedge Fund |
+| 4 | Tudor Investment Corporation | Paul Tudor Jones II | Founder | 200 Elm Street, Stamford, CT 06901 | (203) 863-6700 | info@tudor.com | Hedge Fund |
+| 5 | Verition Fund Management | Nicholas Maounis | Founder (hiring inbox) | 1 American Lane, Greenwich, CT 06831 | (203) 742-7700 | HR@veritionfund.com | Hedge Fund |
+| 6 | Lone Pine Capital | Stephen F. Mandel Jr. | Founder / Executive Chairman | Two Greenwich Plaza, Suite 220, Greenwich, CT 06830 | (203) 618-1400 | info@lpcap.com | Hedge Fund |
+| 7 | Silver Point Capital | Ed Mulé | Founder | Two Greenwich Plaza, 1st Floor, Greenwich, CT 06830 | (203) 542-4200 | info@silverpointcapital.com | Hedge Fund |
+| 8 | Ellington Management Group | Michael W. Vranos | Founder & CEO | 53 Forest Avenue, 3rd Floor, Old Greenwich, CT 06870 | (203) 698-1200 | investor@ellington.com | Hedge Fund |
+| 9 | Axiom Investors | Andrew Jacobson | CEO / CIO & Founder | 33 Benedict Place, Greenwich, CT 06830 | (203) 422-8000 | info@axiom-investors.com | Hedge Fund |
+| 10 | Gramercy Funds Management | Robert Koenigsberger | Founder, Managing Partner & CIO | 20 Dayton Avenue, Greenwich, CT 06830 | (203) 552-1900 | inquiries@gramercy.com | Hedge Fund |
+| 11 | Bronson Point Management | Paul D. Farrell | Managing Member | 1960 Bronson Road, Fairfield, CT 06824 | (203) 292-2800 | ir@bronsonpoint.com | Hedge Fund |
+| 12 | L Catterton | J. Michael Chu | Global Co-CEO / Co-Founder | 599 West Putnam Avenue, Greenwich, CT 06830 | (203) 629-4901 | info@lcatterton.com | Private Equity |
+| 13 | Brynwood Partners | Hendrik J. Hartong III | Chairman & CEO | 8 Sound Shore Drive, Suite 265, Greenwich, CT 06830 | (203) 622-1790 | info@brynwoodpartners.com | Private Equity |
+| 14 | Great Point Partners | Jeffrey R. Jay, M.D. | Founder / Managing Partner | 165 Mason Street, 3rd Floor, Greenwich, CT 06830 | (203) 971-3300 | jjay@gppfunds.com | Private Equity |
+| 15 | Brighton Park Capital | Mark F. Dzialga | Founder & Managing Partner | 330 Railroad Avenue, Suite 200, Greenwich, CT 06830 | (203) 542-0750 | hello@bpc.com | Private Equity |
+| 16 | Sandbrook Capital | German Cueva | Co-Founder and Partner | 677 Washington Boulevard, 8th Floor, Stamford, CT 06901 | (475) 268-1450 | contact@sandbrook.com | Private Equity |
+| 17 | Compass Partners Capital | James Waters | Co-Founder & Managing Partner | 680 Washington Boulevard, Stamford, CT 06901 | (212) 702-8650 | info@compasspartners.com | Private Equity |
+| 18 | Grandview Partners | Rajesh (Raj) Menon | CEO & Founding Partner | 1 East Putnam Avenue, 3rd Floor, Greenwich, CT 06830 | (203) 682-7466 | investorrelations@grandviewpartners.com | Private Equity / Real Estate |
+| 19 | Longwall Family Office | Doug Hedley | Portfolio Manager | 8 Wright Street, Suite 107, Westport, CT 06880 | (203) 209-2785 | dhedley@longwallfamilyoffice.com | Family Office |
+| 20 | Shumway Capital | Chris Shumway | Founder / Managing Partner | 28 Havemeyer Place, Greenwich, CT 06830 | (203) 485-8550 | info@shumwaycapital.com | Family Office |
+| 21 | Basso Capital Management | Dwight Nelson | Founding Partner | 1266 East Main Street, 4th Floor, Stamford, CT 06902 | (203) 352-6100 | legalnotices@bassocap.com | Hedge Fund / Family Office |
+| 22 | Connecticut Realty Trust | Bard Kligerman | CEO | 1140 Post Road, Fairfield, CT 06824 | (203) 659-0300 | info@ctrealtytrust.com | Trust |
+| 23 | Carter Morse & Goodrich | Michael Carter | Managing Partner | 99 Harbor Road, Southport, CT 06890 | (203) 203-0070 | mcarter@cartermorse.com | Private Equity / Investment Banking |
+| 24 | Landing Point Advisors | Daniel Besse | Co-Founder / Managing Partner | 79b Sanford Street, Fairfield, CT 06824 | (475) 330-2627 | dbesse@landingpointadvisors.com | Advisor |
+| 25 | Paloma Partners | S. Donald Sussman | Founder | Two American Lane, Greenwich, CT 06831 | (203) 861-3236 | info@paloma.com | Hedge Fund |
+| 26 | Stone Point Capital | Charles A. Davis | Chairman & Co-CEO | 20 Horseneck Lane, Greenwich, CT 06830 | (203) 862-2900 | brooder@stonepoint.com | Private Equity |
+| 27 | KarpReilly | Billy Logan | Managing Partner | 102 Greenwich Avenue, 2nd Floor, Greenwich, CT 06830 | (203) 504-9900 | info@karpreilly.com | Private Equity |
+| 28 | Gabelli Private Equity Partners | Marc Gabelli | Managing Partner | 191 Mason Street, Greenwich, CT 06830 | (203) 926-9200 | alternatives@gabelli.com | Private Equity |
+| 29 | Ambina Partners | Greg Share | Chairman / Founder | 66 Field Point Road, Greenwich, CT 06830 | N/A | info@ambina.com | Private Equity |
+| 30 | Kensico Capital Management | Michael Lowenstein | Co-Founder / Principal Owner | 55 Railroad Avenue, 2nd Floor, Greenwich, CT 06830 | (203) 862-5800 | info@kensicocapital.com | Hedge Fund |
+| 31 | Fairlead Asset Management | Katie Stockton | Founder / Fund Manager | 4 Greenwich Office Park, Greenwich, CT 06831 | (203) 872-6500 | info@fairleadstrategies.com | Hedge Fund / Asset Manager |
+| 32 | CenterBook Partners | David Stemerman | Co-Founder, CEO & CIO | 55 Railroad Avenue, Greenwich, CT 06830 | (203) 485-5200 | info@centerbook.com | Hedge Fund |
+| 33 | Astatine Investment Partners | James Metcalfe | Managing Partner & CEO | 50 Old Field Point Road, Greenwich, CT 06830 | (203) 930-3800 | investors@astatineip.com | Private Equity / Infrastructure |
+| 34 | Greenbriar Equity Group | Reginald L. Jones III | Chairman & Founding Partner | One Greenwich Plaza, Suite 110, Greenwich, CT 06830 | (203) 302-2500 | info@greenbriarequity.com | Private Equity |
+| 35 | Mill Road Capital | Thomas Lynch | Founder | 334 Pemberwick Road, 2nd Floor, Greenwich, CT 06831 | (203) 987-3500 | investorrelations@millroadcapital.com | Private Equity |
+| 36 | 11 Capital Partners | Jason Douglas McDougall | CIO / Managing Member | 17 Old Kings Highway South, Suite 260, Darien, CT 06820 | (646) 453-7876 | info@11capitalpartners.com | Hedge Fund |
+| 37 | EAST Capital Partners | David G. Archibald | Co-Founder | 1051 Boston Post Road, Darien, CT 06820 | (917) 399-7454 | darchibald@eastcp.com | Private Equity / Real Estate |
+| 38 | Harbour Point Capital | Bob Juneja | Co-Founder and Partner | 320 Boston Post Road, Suite 180-256, Darien, CT 06820 | (646) 681-4600 | info@harbourpointcapital.com | Private Equity |
+| 39 | Heartwood Partners | John Willert | Business Development | 301 Merritt 7, Norwalk, CT 06851 | (203) 625-0770 | JWillert@heartwoodpartners.com | Private Equity |
+| 40 | JAT Capital Management | John A. Thaler | Founder and Portfolio Manager | 24 Field Point Road, 2nd Floor, Greenwich, CT 06830 | N/A | ir@jatcapital.com | Hedge Fund |
+| 41 | Piney Lake Capital Management | Michael B. Lazar | CEO & CIO | 4 Greenwich Office Park, Greenwich, CT 06831 | (203) 307-5900 | info@piney-lake.com | Hedge Fund / Credit |
+| 42 | Acasta Partners | Mike Humphries | Founder & CIO | 777 West Putnam Avenue, Suite 300, Greenwich, CT 06830 | +44 20 7070 2500 | info@acasta.com | Hedge Fund |
+| 43 | Wexford Capital | Charles Davidson | Founding Partner | 777 West Putnam Avenue, First Floor, Greenwich, CT 06830 | (203) 862-7000 | ir@wexford.com | Hedge Fund / Private Equity |
+| 44 | Trexquant Investment | Tyger Park | Chief Executive Officer | 300 First Stamford Place, Fifth Floor West, Stamford, CT 06902 | (203) 817-0551 | info@trexquant.com | Hedge Fund |
+| 45 | Isos Capital Management (Isos7 Sports) | George Barrios | Founder & Co-Managing Partner | 55 Post Road West, Suite 200, Westport, CT 06880 | (212) 355-4449 | careers@isoscap.com | Private Equity |
+| 46 | Bluff Point Associates | Thomas E. McInerney | Co-Founder | 355 Riverside Avenue, 2nd Floor, Westport, CT 06880 | (203) 557-9450 | info@bluffpt.com | Private Equity |
+| 47 | Glade Brook Capital Partners | Paul Hudson | Founder & CIO | 80 Field Point Road, Greenwich, CT 06830 | (203) 861-3000 | info@gladebrookcapital.com | Private Equity / Growth Equity |
+| 48 | Highland Peak Capital | Graham Morris | Managing Member / Founder | 53 Forest Avenue, Suite 104, Old Greenwich, CT 06870 | (203) 516-3710 | info@highlandpeakcapital.com | Hedge Fund |
+| 49 | Talaria Capital Management | Christopher Shaffer | Co-Founder & Managing Partner | Greenwich, CT | N/A | info@talariacapitalmgmt.com | Hedge Fund |
+| 50 | Dunham Lane Capital Partners | Anthony L. Olivieri | Co-Founder & Managing Partner | 777 West Putnam Avenue, Suite 300, Greenwich, CT 06830 | (914) 607-6950 | info@DunhamLaneCapital.com | Hedge Fund / Asset Manager |
 
-## How to read the “hiring” rows
+## Notes
 
-Many large funds do **not** publish the CEO’s personal email. When the firm publishes a **careers / HR / recruiting** address, that is the correct first email for hiring outreach (rows marked hiring). The name column still lists the firm head so you know who runs the shop.
-
-## Beginner tip
-
-`info@` / `inquiries@` / `careers@` are shared inboxes. Keep the subject line specific (role + firm + your 1-line pitch) so the right person opens it.
+- Prefer `careers@` / `HR@` / recruiting inboxes for job outreach when listed.
+- Ambina Partners website prints `info@www.ambina.com` (typo); this list uses `info@ambina.com`.
+- Stone Point row uses ADV-published CCO email (`brooder@stonepoint.com`) with Chairman listed as firm head.
