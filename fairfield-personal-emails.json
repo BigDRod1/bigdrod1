@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Jeffrey R. Jay, M.D.",
+    "title": "Founder / Managing Partner",
+    "firm": "Great Point Partners",
+    "office_address": "165 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 971-3300",
+    "email": "jjay@gppfunds.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Rohan Saikia",
+    "title": "Managing Director",
+    "firm": "Great Point Partners",
+    "office_address": "165 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 971-3302",
+    "email": "rsaikia@gppfunds.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "David Hagen",
+    "title": "Head of Business Development & IR",
+    "firm": "Great Point Partners",
+    "office_address": "165 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 971-3327",
+    "email": "dhagen@gppfunds.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Ron M. Panzier",
+    "title": "COO & CFO",
+    "firm": "Great Point Partners",
+    "office_address": "165 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 971-3307",
+    "email": "rpanzier@gppfunds.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Andrew Jacobson",
+    "title": "CEO / CIO & Founder",
+    "firm": "Axiom Investors",
+    "office_address": "33 Benedict Place, Greenwich, CT 06830",
+    "phone": "(203) 422-8000",
+    "email": "ajacobson@axiom-investors.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Edward Azimi",
+    "title": "Chief Operating Officer",
+    "firm": "Axiom Investors",
+    "office_address": "33 Benedict Place, Greenwich, CT 06830",
+    "phone": "(203) 422-8000",
+    "email": "eazimi@axiom-investors.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Monica Romano",
+    "title": "Partner & CFO",
+    "firm": "Brighton Park Capital",
+    "office_address": "330 Railroad Avenue, Suite 200, Greenwich, CT 06830",
+    "phone": "(203) 542-0750",
+    "email": "monica@bpc.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "German Cueva",
+    "title": "Co-Founder and Partner",
+    "firm": "Sandbrook Capital",
+    "office_address": "677 Washington Boulevard, 8th Floor, Stamford, CT 06901",
+    "phone": "(475) 268-1450",
+    "email": "gc@sandbrook.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Carl Williams",
+    "title": "Co-Founder and Partner",
+    "firm": "Sandbrook Capital",
+    "office_address": "677 Washington Boulevard, 8th Floor, Stamford, CT 06901",
+    "phone": "(475) 268-1450",
+    "email": "cw@sandbrook.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Alfredo Marti",
+    "title": "Co-Founder",
+    "firm": "Sandbrook Capital",
+    "office_address": "677 Washington Boulevard, 8th Floor, Stamford, CT 06901",
+    "phone": "(475) 268-1450",
+    "email": "am@sandbrook.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Doug Hedley",
+    "title": "Portfolio Manager",
+    "firm": "Longwall Family Office",
+    "office_address": "8 Wright Street, Suite 107, Westport, CT 06880",
+    "phone": "(203) 209-2785",
+    "email": "dhedley@longwallfamilyoffice.com",
+    "firm_type": "Family Office"
+  },
+  {
+    "name": "John Faircloth",
+    "title": "COO / CFO / CCO",
+    "firm": "Bronson Point Management",
+    "office_address": "1960 Bronson Road, Fairfield, CT 06824",
+    "phone": "(203) 292-2800",
+    "email": "jfaircloth@bronsonpoint.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Michael Carter",
+    "title": "Managing Partner",
+    "firm": "Carter Morse & Goodrich",
+    "office_address": "99 Harbor Road, Southport, CT 06890",
+    "phone": "(203) 203-0070",
+    "email": "mcarter@cartermorse.com",
+    "firm_type": "PE / IB"
+  },
+  {
+    "name": "Ramsey Goodrich",
+    "title": "Partner",
+    "firm": "Carter Morse & Goodrich",
+    "office_address": "99 Harbor Road, Southport, CT 06890",
+    "phone": "(203) 203-0070",
+    "email": "rgoodrich@cartermorse.com",
+    "firm_type": "PE / IB"
+  },
+  {
+    "name": "Frank Morse",
+    "title": "Partner",
+    "firm": "Carter Morse & Goodrich",
+    "office_address": "99 Harbor Road, Southport, CT 06890",
+    "phone": "(203) 203-0070",
+    "email": "fmorse@cartermorse.com",
+    "firm_type": "PE / IB"
+  },
+  {
+    "name": "Daniel Besse",
+    "title": "Principal",
+    "firm": "Landing Point Advisors",
+    "office_address": "79b Sanford Street, Fairfield, CT 06824",
+    "phone": "(475) 330-2627",
+    "email": "dbesse@landingpointadvisors.com",
+    "firm_type": "Advisor"
+  },
+  {
+    "name": "Michael Blank",
+    "title": "Principal (CFA)",
+    "firm": "Landing Point Advisors",
+    "office_address": "79b Sanford Street, Fairfield, CT 06824",
+    "phone": "(475) 330-2627",
+    "email": "mblank@landingpointadvisors.com",
+    "firm_type": "Advisor"
+  },
+  {
+    "name": "Walter Rich",
+    "title": "Principal",
+    "firm": "Landing Point Advisors",
+    "office_address": "79b Sanford Street, Fairfield, CT 06824",
+    "phone": "(475) 330-2627",
+    "email": "wrich@landingpointadvisors.com",
+    "firm_type": "Advisor"
+  },
+  {
+    "name": "Bard Kligerman",
+    "title": "CEO",
+    "firm": "Connecticut Realty Trust",
+    "office_address": "1140 Post Road, Fairfield, CT 06824",
+    "phone": "(203) 659-0300",
+    "email": "bard@ctrealtytrust.com",
+    "firm_type": "Trust"
+  },
+  {
+    "name": "Ryan McRandal",
+    "title": "Deputy CIO / Portfolio Manager",
+    "firm": "One River Asset Management",
+    "office_address": "2200 Atlantic Street, Suite 310, Stamford, CT 06902",
+    "phone": "(203) 489-1440",
+    "email": "ryan.mcrandal@oneriveram.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Stephen Prajna",
+    "title": "Deputy CIO",
+    "firm": "One River Asset Management",
+    "office_address": "2200 Atlantic Street, Suite 310, Stamford, CT 06902",
+    "phone": "(203) 489-1440",
+    "email": "stephen.prajna@oneriveram.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Lacie Smith",
+    "title": "Partner, Head of Investor Relations",
+    "firm": "Gramercy Funds Management",
+    "office_address": "20 Dayton Avenue, Greenwich, CT 06830",
+    "phone": "(203) 552-1900",
+    "email": "lsmith@gramercy.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Demetrios Dounis",
+    "title": "Managing Partner",
+    "firm": "Heartwood Partners",
+    "office_address": "301 Merritt 7, Norwalk, CT 06851",
+    "phone": "(203) 625-0770",
+    "email": "ddounis@heartwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "John Willert",
+    "title": "Partner",
+    "firm": "Heartwood Partners",
+    "office_address": "301 Merritt 7, Norwalk, CT 06851",
+    "phone": "(203) 625-0770",
+    "email": "jwillert@heartwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "John Newman",
+    "title": "Managing Director",
+    "firm": "Heartwood Partners",
+    "office_address": "301 Merritt 7, Norwalk, CT 06851",
+    "phone": "(203) 625-0770",
+    "email": "jnewman@heartwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Peter Shabecoff",
+    "title": "Managing Partner / Founder",
+    "firm": "Atlantic Street Capital",
+    "office_address": "35 Mason Street, Greenwich, CT 06830",
+    "phone": "(203) 428-3150",
+    "email": "peter@atlanticstreetcapital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Andy Wilkins",
+    "title": "Managing Partner",
+    "firm": "Atlantic Street Capital",
+    "office_address": "35 Mason Street, Greenwich, CT 06830",
+    "phone": "(203) 428-3151",
+    "email": "andy@atlanticstreetcapital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Paul Sun",
+    "title": "Partner",
+    "firm": "Atlantic Street Capital",
+    "office_address": "35 Mason Street, Greenwich, CT 06830",
+    "phone": "(332) 217-0672",
+    "email": "paul@atlanticstreetcapital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Brad Schwartz",
+    "title": "Chief Financial Officer",
+    "firm": "Atlantic Street Capital",
+    "office_address": "35 Mason Street, Greenwich, CT 06830",
+    "phone": "(212) 372-7000",
+    "email": "brad@atlanticstreetcapital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Brian Piacentino",
+    "title": "Investment Team Contact",
+    "firm": "Brookside Equity Partners",
+    "office_address": "One Stamford Forum, 201 Tresser Boulevard, Suite 320, Stamford, CT 06901",
+    "phone": "(203) 595-4520",
+    "email": "bpiacentino@brooksideequity.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Jeff Feigenbaum",
+    "title": "Managing Director",
+    "firm": "Point 41 Capital Partners",
+    "office_address": "1 River Road, Cos Cob, CT 06807",
+    "phone": "(424) 465-4988",
+    "email": "jfeigenbaum@point41capital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Chris Lawrence",
+    "title": "Managing Partner",
+    "firm": "Labyrinth Capital Partners",
+    "office_address": "37 Arch Street, Suite 1C, Greenwich, CT 06830",
+    "phone": "N/A",
+    "email": "clawrence@labyrinthcap.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Charles Santoro",
+    "title": "Managing Partner / Co-Founder",
+    "firm": "Sterling Investment Partners",
+    "office_address": "145 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 226-8711",
+    "email": "santoro@sterlinglp.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Bill Macey",
+    "title": "Managing Partner / Co-Founder",
+    "firm": "Sterling Investment Partners",
+    "office_address": "145 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 226-8711",
+    "email": "macey@sterlinglp.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "James Soldano",
+    "title": "Partner",
+    "firm": "Sterling Investment Partners",
+    "office_address": "145 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 226-8711",
+    "email": "soldano@sterlinglp.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Federico Balestra",
+    "title": "Managing Partner",
+    "firm": "Crossbow Capital Partners",
+    "office_address": "64 Locust Street, Greenwich, CT 06830",
+    "phone": "(646) 660-5392",
+    "email": "federico@crossbowcapitalpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Stefano Fava",
+    "title": "Managing Partner",
+    "firm": "Crossbow Capital Partners",
+    "office_address": "64 Locust Street, Greenwich, CT 06830",
+    "phone": "(646) 660-5392",
+    "email": "stefano@crossbowcapitalpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Ian B. MacTaggart",
+    "title": "Vice Chairman & CFO",
+    "firm": "Brynwood Partners",
+    "office_address": "8 Sound Shore Drive, Suite 265, Greenwich, CT 06830",
+    "phone": "(203) 622-8223",
+    "email": "imactaggart@brynwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "David A. Eagle",
+    "title": "Senior Managing Director",
+    "firm": "Brynwood Partners",
+    "office_address": "8 Sound Shore Drive, Suite 265, Greenwich, CT 06830",
+    "phone": "(203) 302-2306",
+    "email": "deagle@brynwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Wyley C. Scherr",
+    "title": "Managing Director",
+    "firm": "Brynwood Partners",
+    "office_address": "8 Sound Shore Drive, Suite 265, Greenwich, CT 06830",
+    "phone": "(203) 302-2304",
+    "email": "wscherr@brynwoodpartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Angelo Martorell",
+    "title": "Founder & Managing Partner",
+    "firm": "Martorell Capital Partners",
+    "office_address": "48 Maple Avenue, Greenwich, CT 06830",
+    "phone": "(619) 708-2752",
+    "email": "angelo@martorellcap.com",
+    "firm_type": "Asset Manager"
+  },
+  {
+    "name": "Andrew Tsinikas",
+    "title": "Founder & Managing Partner",
+    "firm": "Sandstone Capital Partners",
+    "office_address": "200 Pemberwick Road, 2nd Floor, Greenwich, CT 06831",
+    "phone": "(678) 772-5383",
+    "email": "andrew.tsinikas@sandstonecp.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Brad Coleman",
+    "title": "Founder / Managing Partner",
+    "firm": "Realspring Capital",
+    "office_address": "54 Wilton Road, Westport, CT 06880",
+    "phone": "(203) 341-3737",
+    "email": "Brad@realspringcapital.com",
+    "firm_type": "Real Estate PE"
+  },
+  {
+    "name": "Matthew McCann",
+    "title": "Director, Investments",
+    "firm": "Realspring Capital",
+    "office_address": "54 Wilton Road, Westport, CT 06880",
+    "phone": "(203) 341-3737",
+    "email": "Matt@realspringcapital.com",
+    "firm_type": "Real Estate PE"
+  },
+  {
+    "name": "Melissa Wilson",
+    "title": "Investor Contact",
+    "firm": "Mill Road Capital",
+    "office_address": "334 Pemberwick Road, 2nd Floor, Greenwich, CT 06831",
+    "phone": "(203) 987-3500",
+    "email": "mwilson@millroadcapital.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Joseph Bucci",
+    "title": "CFO / CCO",
+    "firm": "Piney Lake Capital Management",
+    "office_address": "4 Greenwich Office Park, Greenwich, CT 06831",
+    "phone": "(203) 307-5900",
+    "email": "jab@piney-lake.com",
+    "firm_type": "Hedge Fund / Credit"
+  },
+  {
+    "name": "Chip Baird",
+    "title": "Founder & Managing Partner",
+    "firm": "North Castle Partners",
+    "office_address": "383 Main Avenue, 8th Floor, Norwalk, CT 06851",
+    "phone": "(203) 862-3200",
+    "email": "baird@northcastlepartners.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Brian Rooder",
+    "title": "CCO & Counsel",
+    "firm": "Stone Point Capital",
+    "office_address": "20 Horseneck Lane, Greenwich, CT 06830",
+    "phone": "(203) 862-2900",
+    "email": "brooder@stonepoint.com",
+    "firm_type": "Private Equity"
+  },
+  {
+    "name": "Ben Bayers",
+    "title": "Investment Recruiting",
+    "firm": "Bridgewater Associates",
+    "office_address": "One Nyala Farms Road, Westport, CT 06880",
+    "phone": "(203) 226-3030",
+    "email": "ben.bayers@bwater.com",
+    "firm_type": "Hedge Fund"
+  },
+  {
+    "name": "Kevin Palumbo",
+    "title": "Chief Operating Officer",
+    "firm": "JAT Capital Management",
+    "office_address": "24 Field Point Road, 2nd Floor, Greenwich, CT 06830",
+    "phone": "N/A",
+    "email": "kpalumbo@jatcapital.com",
+    "firm_type": "Hedge Fund"
+  }
+]
