@@ -1,0 +1,502 @@
+[
+  {
+    "firm": "AQR Capital Management",
+    "head_name": "Clifford S. Asness",
+    "title": "Founder / Managing Principal",
+    "address": "One Greenwich Plaza, Greenwich, CT 06830",
+    "phone": "(203) 742-3600",
+    "email": "info@aqr.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1038771"
+  },
+  {
+    "firm": "Point72 Asset Management",
+    "head_name": "Steven A. Cohen",
+    "title": "Chairman, CEO & Co-CIO",
+    "address": "72 Cummings Point Road, Stamford, CT 06902",
+    "phone": "(203) 890-2000",
+    "email": "inquiries@point72.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.point72.com/contact/"
+  },
+  {
+    "firm": "Viking Global Investors",
+    "head_name": "O. Andreas Halvorsen",
+    "title": "Co-Founder / Principal Owner",
+    "address": "600 Washington Boulevard, 11th Floor, Stamford, CT 06901",
+    "phone": "(203) 863-5000",
+    "email": "inquiries@vikingglobal.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1038871"
+  },
+  {
+    "firm": "Tudor Investment Corporation",
+    "head_name": "Paul Tudor Jones II",
+    "title": "Founder",
+    "address": "200 Elm Street, Stamford, CT 06901",
+    "phone": "(203) 863-6700",
+    "email": "info@tudor.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.tudor.com/contact"
+  },
+  {
+    "firm": "Verition Fund Management",
+    "head_name": "Nicholas Maounis",
+    "title": "Founder (hiring inbox)",
+    "address": "1 American Lane, Greenwich, CT 06831",
+    "phone": "(203) 742-7700",
+    "email": "HR@veritionfund.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.verition.com/contact-us"
+  },
+  {
+    "firm": "Lone Pine Capital",
+    "head_name": "Stephen F. Mandel Jr.",
+    "title": "Founder / Executive Chairman",
+    "address": "Two Greenwich Plaza, Suite 220, Greenwich, CT 06830",
+    "phone": "(203) 618-1400",
+    "email": "info@lpcap.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.lonepinecapital.com/contact/"
+  },
+  {
+    "firm": "Silver Point Capital",
+    "head_name": "Ed Mul\u00e9",
+    "title": "Founder",
+    "address": "Two Greenwich Plaza, 1st Floor, Greenwich, CT 06830",
+    "phone": "(203) 542-4200",
+    "email": "info@silverpointcapital.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1039171"
+  },
+  {
+    "firm": "Ellington Management Group",
+    "head_name": "Michael W. Vranos",
+    "title": "Founder & CEO",
+    "address": "53 Forest Avenue, 3rd Floor, Old Greenwich, CT 06870",
+    "phone": "(203) 698-1200",
+    "email": "investor@ellington.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.ellington.com/"
+  },
+  {
+    "firm": "Axiom Investors",
+    "head_name": "Andrew Jacobson",
+    "title": "CEO / CIO & Founder",
+    "address": "33 Benedict Place, Greenwich, CT 06830",
+    "phone": "(203) 422-8000",
+    "email": "info@axiom-investors.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://axiominvestors.com/contact/"
+  },
+  {
+    "firm": "Gramercy Funds Management",
+    "head_name": "Robert Koenigsberger",
+    "title": "Founder, Managing Partner & CIO",
+    "address": "20 Dayton Avenue, Greenwich, CT 06830",
+    "phone": "(203) 552-1900",
+    "email": "inquiries@gramercy.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.gramercy.com/2022/06/gramercy-funds-management-adds-kudu-investment-management-as-strategic-investor/"
+  },
+  {
+    "firm": "Bronson Point Management",
+    "head_name": "Paul D. Farrell",
+    "title": "Managing Member",
+    "address": "1960 Bronson Road, Fairfield, CT 06824",
+    "phone": "(203) 292-2800",
+    "email": "ir@bronsonpoint.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://bronsonpoint.com/"
+  },
+  {
+    "firm": "L Catterton",
+    "head_name": "J. Michael Chu",
+    "title": "Global Co-CEO / Co-Founder",
+    "address": "599 West Putnam Avenue, Greenwich, CT 06830",
+    "phone": "(203) 629-4901",
+    "email": "info@lcatterton.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.lcatterton.com/"
+  },
+  {
+    "firm": "Brynwood Partners",
+    "head_name": "Hendrik J. Hartong III",
+    "title": "Chairman & CEO",
+    "address": "8 Sound Shore Drive, Suite 265, Greenwich, CT 06830",
+    "phone": "(203) 622-1790",
+    "email": "info@brynwoodpartners.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.brynwoodpartners.com/"
+  },
+  {
+    "firm": "Great Point Partners",
+    "head_name": "Jeffrey R. Jay, M.D.",
+    "title": "Founder / Managing Partner",
+    "address": "165 Mason Street, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 971-3300",
+    "email": "jjay@gppfunds.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.gppfunds.com/our-people/jeffrey-r-jay-m-d/"
+  },
+  {
+    "firm": "Brighton Park Capital",
+    "head_name": "Mark F. Dzialga",
+    "title": "Founder & Managing Partner",
+    "address": "330 Railroad Avenue, Suite 200, Greenwich, CT 06830",
+    "phone": "(203) 542-0750",
+    "email": "hello@bpc.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.bpc.com/privacy-policy"
+  },
+  {
+    "firm": "Sandbrook Capital",
+    "head_name": "German Cueva",
+    "title": "Co-Founder and Partner",
+    "address": "677 Washington Boulevard, 8th Floor, Stamford, CT 06901",
+    "phone": "(475) 268-1450",
+    "email": "contact@sandbrook.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.sandbrook.com/contact"
+  },
+  {
+    "firm": "Compass Partners Capital",
+    "head_name": "James Waters",
+    "title": "Co-Founder & Managing Partner",
+    "address": "680 Washington Boulevard, Stamford, CT 06901",
+    "phone": "(212) 702-8650",
+    "email": "info@compasspartners.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.compasspartners.com/"
+  },
+  {
+    "firm": "Grandview Partners",
+    "head_name": "Rajesh (Raj) Menon",
+    "title": "CEO & Founding Partner",
+    "address": "1 East Putnam Avenue, 3rd Floor, Greenwich, CT 06830",
+    "phone": "(203) 682-7466",
+    "email": "investorrelations@grandviewpartners.com",
+    "firm_type": "Private Equity / Real Estate",
+    "email_source_url": "https://grandviewpartners.com/contact/"
+  },
+  {
+    "firm": "Longwall Family Office",
+    "head_name": "Doug Hedley",
+    "title": "Portfolio Manager",
+    "address": "8 Wright Street, Suite 107, Westport, CT 06880",
+    "phone": "(203) 209-2785",
+    "email": "dhedley@longwallfamilyoffice.com",
+    "firm_type": "Family Office",
+    "email_source_url": "https://www.longwallfamilyoffice.com/"
+  },
+  {
+    "firm": "Shumway Capital",
+    "head_name": "Chris Shumway",
+    "title": "Founder / Managing Partner",
+    "address": "28 Havemeyer Place, Greenwich, CT 06830",
+    "phone": "(203) 485-8550",
+    "email": "info@shumwaycapital.com",
+    "firm_type": "Family Office",
+    "email_source_url": "https://www.shumwaycapital.com/contact"
+  },
+  {
+    "firm": "Basso Capital Management",
+    "head_name": "Dwight Nelson",
+    "title": "Founding Partner",
+    "address": "1266 East Main Street, 4th Floor, Stamford, CT 06902",
+    "phone": "(203) 352-6100",
+    "email": "legalnotices@bassocap.com",
+    "firm_type": "Hedge Fund / Family Office",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1028710"
+  },
+  {
+    "firm": "Connecticut Realty Trust",
+    "head_name": "Bard Kligerman",
+    "title": "CEO",
+    "address": "1140 Post Road, Fairfield, CT 06824",
+    "phone": "(203) 659-0300",
+    "email": "info@ctrealtytrust.com",
+    "firm_type": "Trust",
+    "email_source_url": "https://www.ctrealtytrust.com/"
+  },
+  {
+    "firm": "Carter Morse & Goodrich",
+    "head_name": "Michael Carter",
+    "title": "Managing Partner",
+    "address": "99 Harbor Road, Southport, CT 06890",
+    "phone": "(203) 203-0070",
+    "email": "mcarter@cartermorse.com",
+    "firm_type": "Private Equity / Investment Banking",
+    "email_source_url": "https://www.cartermorse.com/our-team/michael-carter/"
+  },
+  {
+    "firm": "Landing Point Advisors",
+    "head_name": "Daniel Besse",
+    "title": "Co-Founder / Managing Partner",
+    "address": "79b Sanford Street, Fairfield, CT 06824",
+    "phone": "(475) 330-2627",
+    "email": "dbesse@landingpointadvisors.com",
+    "firm_type": "Advisor",
+    "email_source_url": "https://www.landingpointadvisors.com/team/daniel-besse"
+  },
+  {
+    "firm": "Paloma Partners",
+    "head_name": "S. Donald Sussman",
+    "title": "Founder",
+    "address": "Two American Lane, Greenwich, CT 06831",
+    "phone": "(203) 861-3236",
+    "email": "info@paloma.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.paloma.com/contact"
+  },
+  {
+    "firm": "Stone Point Capital",
+    "head_name": "Charles A. Davis",
+    "title": "Chairman & Co-CEO",
+    "address": "20 Horseneck Lane, Greenwich, CT 06830",
+    "phone": "(203) 862-2900",
+    "email": "brooder@stonepoint.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1037204"
+  },
+  {
+    "firm": "KarpReilly",
+    "head_name": "Billy Logan",
+    "title": "Managing Partner",
+    "address": "102 Greenwich Avenue, 2nd Floor, Greenwich, CT 06830",
+    "phone": "(203) 504-9900",
+    "email": "info@karpreilly.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.karpreilly.com/"
+  },
+  {
+    "firm": "Gabelli Private Equity Partners",
+    "head_name": "Marc Gabelli",
+    "title": "Managing Partner",
+    "address": "191 Mason Street, Greenwich, CT 06830",
+    "phone": "(203) 926-9200",
+    "email": "alternatives@gabelli.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.gabellipe.com/contact_us.html"
+  },
+  {
+    "firm": "Ambina Partners",
+    "head_name": "Greg Share",
+    "title": "Chairman / Founder",
+    "address": "66 Field Point Road, Greenwich, CT 06830",
+    "phone": null,
+    "email": "info@ambina.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://ambina.com/contact/ (site typo info@www.ambina.com; use info@ambina.com)"
+  },
+  {
+    "firm": "Kensico Capital Management",
+    "head_name": "Michael Lowenstein",
+    "title": "Co-Founder / Principal Owner",
+    "address": "55 Railroad Avenue, 2nd Floor, Greenwich, CT 06830",
+    "phone": "(203) 862-5800",
+    "email": "info@kensicocapital.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1027660"
+  },
+  {
+    "firm": "Fairlead Asset Management",
+    "head_name": "Katie Stockton",
+    "title": "Founder / Fund Manager",
+    "address": "4 Greenwich Office Park, Greenwich, CT 06831",
+    "phone": "(203) 872-6500",
+    "email": "info@fairleadstrategies.com",
+    "firm_type": "Hedge Fund / Asset Manager",
+    "email_source_url": "https://www.fairleadfunds.com/"
+  },
+  {
+    "firm": "CenterBook Partners",
+    "head_name": "David Stemerman",
+    "title": "Co-Founder, CEO & CIO",
+    "address": "55 Railroad Avenue, Greenwich, CT 06830",
+    "phone": "(203) 485-5200",
+    "email": "info@centerbook.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.centerbook.com/contact"
+  },
+  {
+    "firm": "Astatine Investment Partners",
+    "head_name": "James Metcalfe",
+    "title": "Managing Partner & CEO",
+    "address": "50 Old Field Point Road, Greenwich, CT 06830",
+    "phone": "(203) 930-3800",
+    "email": "investors@astatineip.com",
+    "firm_type": "Private Equity / Infrastructure",
+    "email_source_url": "https://astatineip.com/contact/"
+  },
+  {
+    "firm": "Greenbriar Equity Group",
+    "head_name": "Reginald L. Jones III",
+    "title": "Chairman & Founding Partner",
+    "address": "One Greenwich Plaza, Suite 110, Greenwich, CT 06830",
+    "phone": "(203) 302-2500",
+    "email": "info@greenbriarequity.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=959595"
+  },
+  {
+    "firm": "Mill Road Capital",
+    "head_name": "Thomas Lynch",
+    "title": "Founder",
+    "address": "334 Pemberwick Road, 2nd Floor, Greenwich, CT 06831",
+    "phone": "(203) 987-3500",
+    "email": "investorrelations@millroadcapital.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://files.adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx?BRCHR_VRSN_ID=1038970"
+  },
+  {
+    "firm": "11 Capital Partners",
+    "head_name": "Jason Douglas McDougall",
+    "title": "CIO / Managing Member",
+    "address": "17 Old Kings Highway South, Suite 260, Darien, CT 06820",
+    "phone": "(646) 453-7876",
+    "email": "info@11capitalpartners.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://www.11capitalpartners.com/"
+  },
+  {
+    "firm": "EAST Capital Partners",
+    "head_name": "David G. Archibald",
+    "title": "Co-Founder",
+    "address": "1051 Boston Post Road, Darien, CT 06820",
+    "phone": "(917) 399-7454",
+    "email": "darchibald@eastcp.com",
+    "firm_type": "Private Equity / Real Estate",
+    "email_source_url": "https://www.eastcp.com/contact"
+  },
+  {
+    "firm": "Harbour Point Capital",
+    "head_name": "Bob Juneja",
+    "title": "Co-Founder and Partner",
+    "address": "320 Boston Post Road, Suite 180-256, Darien, CT 06820",
+    "phone": "(646) 681-4600",
+    "email": "info@harbourpointcapital.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://harbourpointcapital.com/companies/"
+  },
+  {
+    "firm": "Heartwood Partners",
+    "head_name": "John Willert",
+    "title": "Business Development",
+    "address": "301 Merritt 7, Norwalk, CT 06851",
+    "phone": "(203) 625-0770",
+    "email": "JWillert@heartwoodpartners.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://heartwoodpartners.com/contact/"
+  },
+  {
+    "firm": "JAT Capital Management",
+    "head_name": "John A. Thaler",
+    "title": "Founder and Portfolio Manager",
+    "address": "24 Field Point Road, 2nd Floor, Greenwich, CT 06830",
+    "phone": null,
+    "email": "ir@jatcapital.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://jatcapital.com/contact/"
+  },
+  {
+    "firm": "Piney Lake Capital Management",
+    "head_name": "Michael B. Lazar",
+    "title": "CEO & CIO",
+    "address": "4 Greenwich Office Park, Greenwich, CT 06831",
+    "phone": "(203) 307-5900",
+    "email": "info@piney-lake.com",
+    "firm_type": "Hedge Fund / Credit",
+    "email_source_url": "https://www.piney-lake.com/contact"
+  },
+  {
+    "firm": "Acasta Partners",
+    "head_name": "Mike Humphries",
+    "title": "Founder & CIO",
+    "address": "777 West Putnam Avenue, Suite 300, Greenwich, CT 06830",
+    "phone": "+44 20 7070 2500",
+    "email": "info@acasta.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://acasta.com/contact"
+  },
+  {
+    "firm": "Wexford Capital",
+    "head_name": "Charles Davidson",
+    "title": "Founding Partner",
+    "address": "777 West Putnam Avenue, First Floor, Greenwich, CT 06830",
+    "phone": "(203) 862-7000",
+    "email": "ir@wexford.com",
+    "firm_type": "Hedge Fund / Private Equity",
+    "email_source_url": "https://wexford.com/"
+  },
+  {
+    "firm": "Trexquant Investment",
+    "head_name": "Tyger Park",
+    "title": "Chief Executive Officer",
+    "address": "300 First Stamford Place, Fifth Floor West, Stamford, CT 06902",
+    "phone": "(203) 817-0551",
+    "email": "info@trexquant.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://trexquant.com/"
+  },
+  {
+    "firm": "Isos Capital Management (Isos7 Sports)",
+    "head_name": "George Barrios",
+    "title": "Founder & Co-Managing Partner",
+    "address": "55 Post Road West, Suite 200, Westport, CT 06880",
+    "phone": "(212) 355-4449",
+    "email": "careers@isoscap.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://isos7sports.com/people/"
+  },
+  {
+    "firm": "Bluff Point Associates",
+    "head_name": "Thomas E. McInerney",
+    "title": "Co-Founder",
+    "address": "355 Riverside Avenue, 2nd Floor, Westport, CT 06880",
+    "phone": "(203) 557-9450",
+    "email": "info@bluffpt.com",
+    "firm_type": "Private Equity",
+    "email_source_url": "https://www.bluffpt.com/contact"
+  },
+  {
+    "firm": "Glade Brook Capital Partners",
+    "head_name": "Paul Hudson",
+    "title": "Founder & CIO",
+    "address": "80 Field Point Road, Greenwich, CT 06830",
+    "phone": "(203) 861-3000",
+    "email": "info@gladebrookcapital.com",
+    "firm_type": "Private Equity / Growth Equity",
+    "email_source_url": "https://www.gladebrookcapital.com/"
+  },
+  {
+    "firm": "Highland Peak Capital",
+    "head_name": "Graham Morris",
+    "title": "Managing Member / Founder",
+    "address": "53 Forest Avenue, Suite 104, Old Greenwich, CT 06870",
+    "phone": "(203) 516-3710",
+    "email": "info@highlandpeakcapital.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://highlandpeakcapital.com/"
+  },
+  {
+    "firm": "Talaria Capital Management",
+    "head_name": "Christopher Shaffer",
+    "title": "Co-Founder & Managing Partner",
+    "address": "Greenwich, CT",
+    "phone": null,
+    "email": "info@talariacapitalmgmt.com",
+    "firm_type": "Hedge Fund",
+    "email_source_url": "https://talariacapitalmgmt.com/"
+  },
+  {
+    "firm": "Dunham Lane Capital Partners",
+    "head_name": "Anthony L. Olivieri",
+    "title": "Co-Founder & Managing Partner",
+    "address": "777 West Putnam Avenue, Suite 300, Greenwich, CT 06830",
+    "phone": "(914) 607-6950",
+    "email": "info@DunhamLaneCapital.com",
+    "firm_type": "Hedge Fund / Asset Manager",
+    "email_source_url": "http://www.dunhamlanecapital.com/contact.html"
+  }
+]
