@@ -42,12 +42,12 @@
   {
     "firm": "Verition Fund Management",
     "head_name": "Nicholas Maounis",
-    "title": "Founder",
+    "title": "Founder (hiring inbox)",
     "address": "1 American Lane, Greenwich, CT 06831",
     "phone": "(203) 742-7700",
-    "email": "compliancegroup@veritionfund.com",
+    "email": "HR@veritionfund.com",
     "firm_type": "Hedge Fund",
-    "email_source_url": "https://www.verition.com/"
+    "email_source_url": "https://www.verition.com/contact-us"
   },
   {
     "firm": "Lone Pine Capital",
@@ -61,7 +61,7 @@
   },
   {
     "firm": "Silver Point Capital",
-    "head_name": "Ed Mulé",
+    "head_name": "Ed Mul\u00e9",
     "title": "Founder",
     "address": "Two Greenwich Plaza, 1st Floor, Greenwich, CT 06830",
     "phone": "(203) 542-4200",
@@ -285,9 +285,9 @@
     "title": "Chairman / Founder",
     "address": "66 Field Point Road, Greenwich, CT 06830",
     "phone": null,
-    "email": "info@www.ambina.com",
+    "email": "info@ambina.com",
     "firm_type": "Private Equity",
-    "email_source_url": "https://ambina.com/contact/"
+    "email_source_url": "https://ambina.com/contact/ (site typo info@www.ambina.com; use info@ambina.com)"
   },
   {
     "firm": "Kensico Capital Management",
